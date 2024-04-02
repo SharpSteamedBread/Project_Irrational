@@ -12,14 +12,205 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caad9b566d0c5874cb90866cccf2ba41, type: 3}
   m_Name: MainText
   m_EditorClassIdentifier: 
-  Sheet1:
+  DialogText:
   - number: 1
     textContents: "\uC601\uC6D0\uD55C \uAC74 \uC808\uB300 \uC5C6\uC5B4 \uACB0\uAD6D\uC5D0
       \uB10C \uBCC0\uD588\uC9C0 \uC774\uC720\uB3C4 \uC5C6\uC5B4 \uC9C4\uC2EC\uC774
       \uC5C6\uC5B4 \uC0AC\uB791 \uAC19\uC740 \uC18C\uB9AC \uB530\uC708 \uC9D1\uC5B4\uCCD0
       \uC624\uB298\uBC24\uC740 \uC090\uB531\uD558\uAC8C"
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
   - number: 2
     textContents: "\uC2A4\uC2A4\uB85C \uBD88\uB7EC\uC628 \uC7AC\uC559\uC5D0 \uC9D3\uB20C\uB824
       \uD0C4\uC2DD\uC740 \uD558\uB298\uC744 \uAC00\uB9AC\uC6B0\uBA70 \uBA78\uB9DD\uC758
       \uACF5\uD3EC\uAC00 \uC9C0\uBC30\uD558\uB294 \uC774\uACF3 \uD76C\uB9DD\uC740
       \uC774\uBBF8 \uB0A0\uAC1C\uB97C \uC811\uC5C8\uB098"
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 3
+    textContents: "\uBB58 \uACE0\uB97C\uAE4C?"
+    hasSelectEvent: 1
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 3
+    textContents: 
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 3
+    textContents: 
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 3
+    textContents: 
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 4
+    textContents: "\uB2E4\uC774\uC18C\uC5D0\uC11C \uBB3C\uD1B5\uC744 \uC0AC\uC57C
+      \uD55C\uB2E4."
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 5
+    textContents: "\uC0AC\uC804 \uD22C\uD45C\uB294 \uB2E4\uB978 \uC9C0\uC5ED\uC5D0\uC11C\uB3C4
+      \uAC00\uB2A5\uD55C \uAC83 \uAC19\uB2E4."
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 6
+    textContents: "\uD0A4\uCEA1\uC744 \uC804\uBD80 \uBD84\uB9AC\uD558\uC5EC \uCCAD\uC18C\uD558\uC790."
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 7
+    textContents: '-'
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 8
+    textContents: 
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 9
+    textContents: 
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 10
+    textContents: 
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 11
+    textContents: 
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 12
+    textContents: 
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 13
+    textContents: 
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 14
+    textContents: 
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 15
+    textContents: 
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 16
+    textContents: 
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 17
+    textContents: 
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 18
+    textContents: 
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 19
+    textContents: 
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  - number: 20
+    textContents: 
+    hasSelectEvent: 0
+    selectEventNumber: 0
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+  SelectText:
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    selectEventNumber: 1
+    selectText1: "\uBB3C\uD1B5 \uC0AC\uAE30"
+    selectText2: "\uC0AC\uC804 \uD22C\uD45C \uC78A\uC9C0\uB9D0\uAE30"
+    selectText3: "\uD0A4\uBCF4\uB4DC \uCCAD\uC18C\uD558\uAE30"
+    selectText4: '-'

@@ -7,6 +7,9 @@ using TMPro;
 public class ShowText : MonoBehaviour
 {
     public MainText mainText;
+    public int lineCount;
+
+    [Header("텍스트 타이핑")]
 
     [SerializeField] private TextMeshProUGUI objText;
 
@@ -15,16 +18,21 @@ public class ShowText : MonoBehaviour
     private string prevText;
     private string currText;
 
-    private float typingSpeed = 0.1f;
-    private bool isTypingEffect = false;
+    [Header("선택지 출력")]
+    private int selectEvent;
+    private int eventCode = 0;
+
+    public TextMeshProUGUI selectText1;
+    public TextMeshProUGUI selectText2;
+    public TextMeshProUGUI selectText3;
+    public TextMeshProUGUI selectText4;
+
 
     private void Awake()
     {
-        currentDialogIndex = mainText.Sheet1[0].number;
+        currentDialogIndex = mainText.DialogText[0].number;
         Debug.Log(currentDialogIndex);
 
-        //objText.text = mainText.Sheet1[currentDialogIndex -1].textContents;
-        //Debug.Log(objText.text);
 
         objText.text = prevText + " ";
 
@@ -45,7 +53,7 @@ public class ShowText : MonoBehaviour
             Debug.Log(currentDialogIndex);
 
             StartCoroutine(OnTypingText());
-
+            StartCoroutine(CheckSelectEvent());
         }
     }
 
@@ -54,12 +62,30 @@ public class ShowText : MonoBehaviour
     {
         prevText += currText + "\n\n";
 
-        for (int count = 0; count < mainText.Sheet1[currentDialogIndex - 1].textContents.Length; count++)
+        for (int count = 0; count < mainText.DialogText[currentDialogIndex - 1].textContents.Length; count++)
         {
-            currText = mainText.Sheet1[currentDialogIndex - 1].textContents.Substring(0, count+1);
+            currText = mainText.DialogText[currentDialogIndex - 1].textContents.Substring(0, count+1);
             objText.text = prevText + currText;
 
             yield return new WaitForSeconds(0.03f);
         }
+    }
+
+    private IEnumerator CheckSelectEvent()
+    {
+        selectEvent = mainText.DialogText[currentDialogIndex - 1].hasSelectEvent;
+        
+
+        if (selectEvent == 1)
+        {
+            selectText1.text = mainText.SelectText[0].selectText1;
+            selectText2.text = mainText.SelectText[0].selectText2;
+            selectText3.text = mainText.SelectText[0].selectText3;
+            selectText4.text = mainText.SelectText[0].selectText4;
+        }
+
+        yield return new WaitForSeconds(0f);
+
+        eventCode++;
     }
 }
