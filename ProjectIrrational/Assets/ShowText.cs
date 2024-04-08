@@ -13,10 +13,12 @@ public class ShowText : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI objText;
 
-    private int currentDialogIndex = 0;
+    public int currentDialogIndex = 0;
 
     private string prevText;
     private string currText;
+
+    public bool isTyping = true;
 
     [Header("선택지 출력")]
     private int selectEvent;
@@ -33,12 +35,11 @@ public class ShowText : MonoBehaviour
         currentDialogIndex = mainText.DialogText[0].number;
         Debug.Log(currentDialogIndex);
 
-
         objText.text = prevText + " ";
 
         StartCoroutine(OnTypingText());
     }
-
+  
     private void Update()
     {
         UpdateText();
@@ -47,7 +48,7 @@ public class ShowText : MonoBehaviour
     public void UpdateText()
     {
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && isTyping == false)
         {
             currentDialogIndex++;
             Debug.Log(currentDialogIndex);
@@ -55,20 +56,32 @@ public class ShowText : MonoBehaviour
             StartCoroutine(OnTypingText());
             StartCoroutine(CheckSelectEvent());
         }
+
+        if(Input.GetMouseButtonDown(0) && isTyping == true)
+        {
+
+        }
     }
 
 
     private IEnumerator OnTypingText()
     {
+        isTyping = true;
+
         prevText += currText + "\n\n";
 
-        for (int count = 0; count < mainText.DialogText[currentDialogIndex - 1].textContents.Length; count++)
+        if(isTyping == true)
         {
-            currText = mainText.DialogText[currentDialogIndex - 1].textContents.Substring(0, count+1);
-            objText.text = prevText + currText;
+            for (int count = 0; count < mainText.DialogText[currentDialogIndex - 1].textContents.Length; count++)
+            {
+                currText = mainText.DialogText[currentDialogIndex - 1].textContents.Substring(0, count + 1);
+                objText.text = prevText + currText;
 
-            yield return new WaitForSeconds(0.03f);
+                yield return new WaitForSeconds(0.03f);
+            }
         }
+
+        isTyping = false;
     }
 
     private IEnumerator CheckSelectEvent()
