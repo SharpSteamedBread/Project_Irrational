@@ -24,8 +24,10 @@ public class ShowText : MonoBehaviour
 
 
     [Header("선택지 출력")]
-    public int eventCode;
-    private int selectEvent;
+
+    public int currentEventPath = 0;
+    public int eventNumber;             //액셀 파일의 selectEventNumber 변수
+    private int selectEvent;            //액셀 파일의 hasSelectEvent 변수
 
     public TextMeshProUGUI selectText1;
     public TextMeshProUGUI selectText2;
@@ -54,7 +56,6 @@ public class ShowText : MonoBehaviour
     private void Awake()
     {
         currentDialogIndex = mainText.DialogText[0].number;
-        Debug.Log(currentDialogIndex);
 
         objEventImage.GetComponent<Image>();
         animEventImage.GetComponent<Animator>();
@@ -120,8 +121,9 @@ public class ShowText : MonoBehaviour
 
     private IEnumerator CheckSelectEvent()
     {
+        eventNumber = mainText.SelectText[currentEventPath].selectEventNumber;
         selectEvent = mainText.DialogText[currentDialogIndex].hasSelectEvent;
-        
+
 
         if (selectEvent == 1)
         {
@@ -129,9 +131,9 @@ public class ShowText : MonoBehaviour
             objSelectText2.SetActive(true);
             objSelectText3.SetActive(true);
 
-            selectText1.text = mainText.SelectText[eventCode].selectText1;
-            selectText2.text = mainText.SelectText[eventCode].selectText2;
-            selectText3.text = mainText.SelectText[eventCode].selectText3;
+            selectText1.text = mainText.SelectText[eventNumber].selectText1;
+            selectText2.text = mainText.SelectText[eventNumber].selectText2;
+            selectText3.text = mainText.SelectText[eventNumber].selectText3;
 
             animEventImage.Play("ImageFadeUI", -1, 0f);
             objEventImage.sprite = Resources.Load<Sprite>($"{mainText.SelectText[0].eventImage}");
@@ -146,7 +148,7 @@ public class ShowText : MonoBehaviour
     {
         hasSelectedText = 1;
         animEventImage.Play("ImageFadeUI", -1, 0f);
-        eventPath = mainText.SelectText[eventCode].triggerEvent1;
+        eventPath = mainText.SelectText[eventNumber].triggerEvent1;
 
         ChooseRandomNumber();
         objEventImage.sprite = Resources.Load<Sprite>($"{mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult}");
@@ -157,14 +159,14 @@ public class ShowText : MonoBehaviour
         objSelectText2.SetActive(false);
         objSelectText3.SetActive(false);
 
-        eventCode++;
+        currentEventPath++;
     }
 
     public void SelectAndJump2()
     {
         hasSelectedText = 2;
         animEventImage.Play("ImageFadeUI", -1, 0f);
-        eventPath = mainText.SelectText[eventCode].triggerEvent2;
+        eventPath = mainText.SelectText[eventNumber].triggerEvent2;
 
         ChooseRandomNumber();
         objEventImage.sprite = Resources.Load<Sprite>($"{mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult}");
@@ -175,14 +177,14 @@ public class ShowText : MonoBehaviour
         objSelectText2.SetActive(false);
         objSelectText3.SetActive(false);
 
-        eventCode++;
+        currentEventPath++;
     }
 
     public void SelectAndJump3()
     {
         hasSelectedText = 3;
         animEventImage.Play("ImageFadeUI", -1, 0f);
-        eventPath = mainText.SelectText[eventCode].triggerEvent3;
+        eventPath = mainText.SelectText[eventNumber].triggerEvent3;
 
         ChooseRandomNumber();
         objEventImage.sprite = Resources.Load<Sprite>($"{mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult}");
@@ -193,14 +195,14 @@ public class ShowText : MonoBehaviour
         objSelectText2.SetActive(false);
         objSelectText3.SetActive(false);
 
-        eventCode++;
+        currentEventPath++;
     }
 
     public void SelectAndJump4()
     {
         hasSelectedText = 4;
         animEventImage.Play("ImageFadeUI", -1, 0f);
-        eventPath = mainText.SelectText[eventCode].triggerEvent4;
+        eventPath = mainText.SelectText[eventNumber].triggerEvent4;
 
         ChooseRandomNumber();
         objEventImage.sprite = Resources.Load<Sprite>($"{mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult}");
@@ -211,7 +213,7 @@ public class ShowText : MonoBehaviour
         objSelectText2.SetActive(false);
         objSelectText3.SetActive(false);
 
-        eventCode++;
+        currentEventPath++;
     }
 
     private IEnumerator PrintSelectedResult()
@@ -227,9 +229,9 @@ public class ShowText : MonoBehaviour
         switch (hasSelectedText)
         {
             case 1:
-                while (count < mainText.SelectText[eventCode].printResult1.Length)
+                while (count < mainText.SelectText[eventNumber].printResult1.Length)
                 {
-                    currText = mainText.SelectText[eventCode].printResult1.Substring(0, count + 1);
+                    currText = mainText.SelectText[eventNumber].printResult1.Substring(0, count + 1);
                     objText.text = prevText + currText;
 
                     count++;
@@ -239,9 +241,9 @@ public class ShowText : MonoBehaviour
                 break;
 
             case 2:
-                while (count < mainText.SelectText[eventCode].printResult2.Length)
+                while (count < mainText.SelectText[eventNumber].printResult2.Length)
                 {
-                    currText = mainText.SelectText[eventCode].printResult2.Substring(0, count + 1);
+                    currText = mainText.SelectText[eventNumber].printResult2.Substring(0, count + 1);
                     objText.text = prevText + currText;
 
                     count++;
@@ -251,9 +253,9 @@ public class ShowText : MonoBehaviour
                 break;
 
             case 3:
-                while (count < mainText.SelectText[eventCode].printResult3.Length)
+                while (count < mainText.SelectText[eventNumber].printResult3.Length)
                 {
-                    currText = mainText.SelectText[eventCode].printResult3.Substring(0, count + 1);
+                    currText = mainText.SelectText[eventNumber].printResult3.Substring(0, count + 1);
                     objText.text = prevText + currText;
 
                     count++;
@@ -263,9 +265,9 @@ public class ShowText : MonoBehaviour
                 break;
 
             case 4:
-                while (count < mainText.SelectText[eventCode].printResult4.Length)
+                while (count < mainText.SelectText[eventNumber].printResult4.Length)
                 {
-                    currText = mainText.SelectText[eventCode].printResult4.Substring(0, count + 1);
+                    currText = mainText.SelectText[eventNumber].printResult4.Substring(0, count + 1);
                     objText.text = prevText + currText;
 
                     count++;
@@ -303,6 +305,18 @@ public class ShowText : MonoBehaviour
                 randomNumber = Random.Range(0, randomEncounterManager.GetComponent<RandomEvent>().eventEarphone.Length);
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventEarphone[randomNumber];
                 Debug.Log($"배열 인덱스 번호는 {randomNumber}! \n 실제 숫자는 {eventID}");
+                break;
+
+            case "eventTest1":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest1;
+                break;
+
+            case "eventTest2":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest2;
+                break;
+
+            case "eventTest3":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest3;
                 break;
         }
 
