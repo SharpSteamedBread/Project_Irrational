@@ -52,6 +52,9 @@ public class ShowText : MonoBehaviour
     public int eventID;
     public string eventPath;
 
+    [Header("스텟 가감")]
+    public StatManagement statManagement;
+
 
     private void Awake()
     {
@@ -124,8 +127,7 @@ public class ShowText : MonoBehaviour
         eventNumber = mainText.SelectText[currentEventPath].selectEventNumber;
         selectEvent = mainText.DialogText[currentDialogIndex].hasSelectEvent;
 
-
-        if (selectEvent == 1)
+        if (selectEvent == 1)   //선택지 출력
         {
             objSelectText1.SetActive(true);
             objSelectText2.SetActive(true);
@@ -135,9 +137,40 @@ public class ShowText : MonoBehaviour
             selectText2.text = mainText.SelectText[eventNumber].selectText2;
             selectText3.text = mainText.SelectText[eventNumber].selectText3;
 
-            animEventImage.Play("ImageFadeUI", -1, 0f);
-            objEventImage.sprite = Resources.Load<Sprite>($"{mainText.SelectText[0].eventImage}");
+            //null이 아닐 때에만 이미지 불러오기(이미지를 할당하지 않는 이벤트 고려)
+            if(mainText.SelectText[eventNumber].eventImage.ToString() != "null")
+            {
+                animEventImage.Play("ImageFadeUI", -1, 0f);
+                objEventImage.sprite = Resources.Load<Sprite>($"{mainText.SelectText[eventNumber].eventImage}");
+            }
+        }
 
+        else if(selectEvent == 2)   //이미지 출력
+        {
+            //null이 아닐 때에만 이미지 불러오기(이미지를 할당하지 않는 이벤트 고려)
+            if (mainText.DialogText[currentDialogIndex].mainImage.ToString() != "null")
+            {
+                animEventImage.Play("ImageFadeUI", -1, 0f);
+                objEventImage.sprite = Resources.Load<Sprite>($"{mainText.DialogText[currentDialogIndex].mainImage}");
+            }
+        }
+
+        else if(selectEvent == 3)   //스텟 가감
+        {
+            switch(mainText.DialogText[currentDialogIndex].statType)
+            {
+                case "statHeart":
+                    statManagement.CalculateHeart();
+                    break;
+
+                case "statCoin":
+                    statManagement.CalculateCoin();
+                    break;
+
+                case "statMental":
+                    statManagement.CalculateMental();
+                    break;
+            }
         }
 
         yield return new WaitForSeconds(0f);
@@ -147,10 +180,10 @@ public class ShowText : MonoBehaviour
     public void SelectAndJump1()
     {
         hasSelectedText = 1;
-        animEventImage.Play("ImageFadeUI", -1, 0f);
         eventPath = mainText.SelectText[eventNumber].triggerEvent1;
 
         ChooseRandomNumber();
+        animEventImage.Play("ImageFadeUI", -1, 0f);
         objEventImage.sprite = Resources.Load<Sprite>($"{mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult}");
 
         StartCoroutine(ReadEvent());
@@ -165,10 +198,10 @@ public class ShowText : MonoBehaviour
     public void SelectAndJump2()
     {
         hasSelectedText = 2;
-        animEventImage.Play("ImageFadeUI", -1, 0f);
         eventPath = mainText.SelectText[eventNumber].triggerEvent2;
 
         ChooseRandomNumber();
+        animEventImage.Play("ImageFadeUI", -1, 0f);
         objEventImage.sprite = Resources.Load<Sprite>($"{mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult}");
 
         StartCoroutine(ReadEvent());
@@ -183,10 +216,10 @@ public class ShowText : MonoBehaviour
     public void SelectAndJump3()
     {
         hasSelectedText = 3;
-        animEventImage.Play("ImageFadeUI", -1, 0f);
         eventPath = mainText.SelectText[eventNumber].triggerEvent3;
 
         ChooseRandomNumber();
+        animEventImage.Play("ImageFadeUI", -1, 0f);
         objEventImage.sprite = Resources.Load<Sprite>($"{mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult}");
 
         StartCoroutine(ReadEvent());
@@ -201,10 +234,10 @@ public class ShowText : MonoBehaviour
     public void SelectAndJump4()
     {
         hasSelectedText = 4;
-        animEventImage.Play("ImageFadeUI", -1, 0f);
         eventPath = mainText.SelectText[eventNumber].triggerEvent4;
 
         ChooseRandomNumber();
+        animEventImage.Play("ImageFadeUI", -1, 0f);
         objEventImage.sprite = Resources.Load<Sprite>($"{mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult}");
 
         StartCoroutine(ReadEvent());
@@ -214,73 +247,6 @@ public class ShowText : MonoBehaviour
         objSelectText3.SetActive(false);
 
         currentEventPath++;
-    }
-
-    private IEnumerator PrintSelectedResult()
-    {
-        yield return new WaitForSeconds(typingSpeed);
-
-        isTyping = true;
-
-        prevText += currText + "\n\n";
-
-        int count = 0;
-
-        switch (hasSelectedText)
-        {
-            case 1:
-                while (count < mainText.SelectText[eventNumber].printResult1.Length)
-                {
-                    currText = mainText.SelectText[eventNumber].printResult1.Substring(0, count + 1);
-                    objText.text = prevText + currText;
-
-                    count++;
-
-                    yield return new WaitForSeconds(typingSpeed);
-                }
-                break;
-
-            case 2:
-                while (count < mainText.SelectText[eventNumber].printResult2.Length)
-                {
-                    currText = mainText.SelectText[eventNumber].printResult2.Substring(0, count + 1);
-                    objText.text = prevText + currText;
-
-                    count++;
-
-                    yield return new WaitForSeconds(typingSpeed);
-                }
-                break;
-
-            case 3:
-                while (count < mainText.SelectText[eventNumber].printResult3.Length)
-                {
-                    currText = mainText.SelectText[eventNumber].printResult3.Substring(0, count + 1);
-                    objText.text = prevText + currText;
-
-                    count++;
-
-                    yield return new WaitForSeconds(typingSpeed);
-                }
-                break;
-
-            case 4:
-                while (count < mainText.SelectText[eventNumber].printResult4.Length)
-                {
-                    currText = mainText.SelectText[eventNumber].printResult4.Substring(0, count + 1);
-                    objText.text = prevText + currText;
-
-                    count++;
-
-                    yield return new WaitForSeconds(typingSpeed);
-                }
-                break;
-        }
-
-        isTyping = false;
-        hasSelectedText = 0;
-        currentDialogIndex++;
-        typingSpeed = 0.1f;
     }
 
     public void ChooseRandomNumber()
@@ -318,6 +284,14 @@ public class ShowText : MonoBehaviour
             case "eventTest3":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest3;
                 break;
+
+            case "eventTest4":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest4;
+                break;
+
+            case "eventTest5":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest5;
+                break;
         }
 
     }
@@ -346,12 +320,9 @@ public class ShowText : MonoBehaviour
             yield return new WaitForSeconds(typingSpeed);
         }
 
-
-
         isTyping = false;
         hasSelectedText = 0;
-        currentDialogIndex++;
+        //currentDialogIndex++;
         typingSpeed = 0.1f;
-
     }
 }

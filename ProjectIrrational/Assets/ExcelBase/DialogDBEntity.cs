@@ -6,6 +6,9 @@ public class DialogDBEntity
     public string textContents;
 
     public int hasSelectEvent;
+    public string mainImage;
+    public string statType;
+    public int statValue;
 
     public int selectEventNumber;
     public string triggerRandomEvent;

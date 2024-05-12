@@ -8,6 +8,8 @@ public class RandomEvent : MonoBehaviour
     public int eventTest1 = 0;
     public int eventTest2 = 1;
     public int eventTest3 = 2;
+    public int eventTest4 = 3;
+    public int eventTest5 = 4;
 
 
     [Header("½ÇÀü")]
