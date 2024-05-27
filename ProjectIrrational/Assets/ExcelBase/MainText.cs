@@ -9,4 +9,5 @@ public class MainText : ScriptableObject
 	public List<DialogDBEntity> DialogText; // Replace 'EntityType' to an actual type that is serializable.
 	public List<DialogDBEntity> SelectText;
 	public List<DialogDBEntity> RandomEventTest;
+	public List<DialogDBEntity> ItemSheet;
 }

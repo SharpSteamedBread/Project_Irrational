@@ -55,6 +55,12 @@ public class ShowText : MonoBehaviour
     [Header("스텟 가감")]
     public StatManagement statManagement;
 
+    [Header("아이템 제어")]
+    public Transform itemUIParent;
+    public GameObject itemObject;
+
+    [Header("스크롤 제어")]
+    [SerializeField] private ScrollViewController scrollviewController;
 
     private void Awake()
     {
@@ -67,7 +73,12 @@ public class ShowText : MonoBehaviour
 
         StartCoroutine(OnTypingText());
     }
-  
+
+    private void Start()
+    {
+        Canvas.ForceUpdateCanvases();
+    }
+
     private void Update()
     {
         UpdateText();
@@ -107,18 +118,33 @@ public class ShowText : MonoBehaviour
         prevText += currText + "\n\n";
 
         int count = 0;
-        while(count < mainText.DialogText[currentDialogIndex].textContents.Length)
+        while (count < mainText.DialogText[currentDialogIndex].textContents.Length)
         {
             currText = mainText.DialogText[currentDialogIndex].textContents.Substring(0, count + 1);
             objText.text = prevText + currText;
 
             count++;
+            //scrollviewController.AutomaticScroll();
 
             yield return new WaitForSeconds(typingSpeed);
         }
 
         isTyping = false;
-        currentDialogIndex++;
+
+        if (currentDialogIndex == 42 || currentDialogIndex == 50 || currentDialogIndex == 58)
+        {
+            currentDialogIndex = 63;
+        }
+        else if (currentDialogIndex == 73 || currentDialogIndex == 77 || currentDialogIndex == 80)
+        {
+            currentDialogIndex = 81;
+        }
+        else
+        {
+            currentDialogIndex++;
+        }
+
+
         typingSpeed = 0.1f;
     }
 
@@ -170,8 +196,18 @@ public class ShowText : MonoBehaviour
                 case "statMental":
                     statManagement.CalculateMental();
                     break;
+
+                case "null":
+                    Debug.Log("아이템 추가를 기대해줘~");
+                    break;
             }
         }
+
+        else if(selectEvent == 4)   //아이템 획득
+        {
+            Instantiate(itemObject, transform.position, Quaternion.identity, itemUIParent);
+        }
+                
 
         yield return new WaitForSeconds(0f);
 
@@ -183,8 +219,13 @@ public class ShowText : MonoBehaviour
         eventPath = mainText.SelectText[eventNumber].triggerEvent1;
 
         ChooseRandomNumber();
-        animEventImage.Play("ImageFadeUI", -1, 0f);
-        objEventImage.sprite = Resources.Load<Sprite>($"{mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult}");
+
+        //null이 아닐 때에만 이미지 불러오기(이미지를 할당하지 않는 이벤트 고려)
+        if (mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult.ToString() != "null")
+        {
+            animEventImage.Play("ImageFadeUI", -1, 0f);
+            objEventImage.sprite = Resources.Load<Sprite>($"{mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult}");
+        }
 
         StartCoroutine(ReadEvent());
 
@@ -201,8 +242,13 @@ public class ShowText : MonoBehaviour
         eventPath = mainText.SelectText[eventNumber].triggerEvent2;
 
         ChooseRandomNumber();
-        animEventImage.Play("ImageFadeUI", -1, 0f);
-        objEventImage.sprite = Resources.Load<Sprite>($"{mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult}");
+
+        //null이 아닐 때에만 이미지 불러오기(이미지를 할당하지 않는 이벤트 고려)
+        if (mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult.ToString() != "null")
+        {
+            animEventImage.Play("ImageFadeUI", -1, 0f);
+            objEventImage.sprite = Resources.Load<Sprite>($"{mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult}");
+        }
 
         StartCoroutine(ReadEvent());
 
@@ -219,8 +265,13 @@ public class ShowText : MonoBehaviour
         eventPath = mainText.SelectText[eventNumber].triggerEvent3;
 
         ChooseRandomNumber();
-        animEventImage.Play("ImageFadeUI", -1, 0f);
-        objEventImage.sprite = Resources.Load<Sprite>($"{mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult}");
+
+        //null이 아닐 때에만 이미지 불러오기(이미지를 할당하지 않는 이벤트 고려)
+        if (mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult.ToString() != "null")
+        {
+            animEventImage.Play("ImageFadeUI", -1, 0f);
+            objEventImage.sprite = Resources.Load<Sprite>($"{mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult}");
+        }
 
         StartCoroutine(ReadEvent());
 
@@ -237,8 +288,13 @@ public class ShowText : MonoBehaviour
         eventPath = mainText.SelectText[eventNumber].triggerEvent4;
 
         ChooseRandomNumber();
-        animEventImage.Play("ImageFadeUI", -1, 0f);
-        objEventImage.sprite = Resources.Load<Sprite>($"{mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult}");
+
+        //null이 아닐 때에만 이미지 불러오기(이미지를 할당하지 않는 이벤트 고려)
+        if (mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult.ToString() != "null")
+        {
+            animEventImage.Play("ImageFadeUI", -1, 0f);
+            objEventImage.sprite = Resources.Load<Sprite>($"{mainText.RandomEventTest[randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber]].printEventImageResult}");
+        }
 
         StartCoroutine(ReadEvent());
 
@@ -292,6 +348,38 @@ public class ShowText : MonoBehaviour
             case "eventTest5":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest5;
                 break;
+
+            case "eventTest6":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest6;
+                break;
+
+            case "eventTest7":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest7;
+                break;
+
+            case "eventTest8":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest8;
+                break;
+
+            case "eventTest9":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest9;
+                break;
+
+            case "eventTest10":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest10;
+                break;
+
+            case "eventTest11":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest11;
+                break;
+
+            case "eventTest12":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest12;
+                break;
+
+            case "eventTest13":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest13;
+                break;
         }
 
     }
@@ -316,6 +404,7 @@ public class ShowText : MonoBehaviour
             objText.text = prevText + currText;
 
             count++;
+            //scrollviewController.AutomaticScroll();
 
             yield return new WaitForSeconds(typingSpeed);
         }
@@ -323,6 +412,12 @@ public class ShowText : MonoBehaviour
         isTyping = false;
         hasSelectedText = 0;
         //currentDialogIndex++;
+
+        if(mainText.RandomEventTest[eventID].mainDialogJumpTo != 0)
+        {
+            currentDialogIndex = mainText.RandomEventTest[eventID].mainDialogJumpTo;
+        }
+
         typingSpeed = 0.1f;
     }
 }

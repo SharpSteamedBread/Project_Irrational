@@ -9,6 +9,7 @@ public class DialogDBEntity
     public string mainImage;
     public string statType;
     public int statValue;
+    public int getItemCode;
 
     public int selectEventNumber;
     public string triggerRandomEvent;
@@ -37,4 +38,13 @@ public class DialogDBEntity
     public int eventID;
     public string printEventImageResult;
     public string printResult;
+    public int mainDialogJumpTo;
+
+    public int itemCode;
+    public string itemSort;
+    public string itemName;
+    public string itemInfo;
+    public string itemFunc;     //아이템 효과인데 툴팁인지 효과수치인지는 모릅
+    public string itemEvent;
+
 }

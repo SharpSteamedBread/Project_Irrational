@@ -41,11 +41,11 @@ public class StatManagement : MonoBehaviour
         }
         else if (mainText.DialogText[getCurrDialogIndex].statValue < 0)
         {
-            for (int i = 0; i < mainText.DialogText[getCurrDialogIndex].statValue; ++i)
+            for (int i = 0; i < Mathf.Abs(mainText.DialogText[getCurrDialogIndex].statValue); ++i)
             {
                 valueHeart--;
 
-                if (parentMental.transform.childCount > 0)
+                if (parentHeart.transform.childCount > 0)
                 {
                     Transform toDestroyLastPrefab = parentHeart.transform.GetChild(parentHeart.transform.childCount - 1);
                     Destroy(toDestroyLastPrefab.gameObject);
@@ -68,11 +68,12 @@ public class StatManagement : MonoBehaviour
         }
         else if (mainText.DialogText[getCurrDialogIndex].statValue < 0)
         {
-            for (int i = 0; i < mainText.DialogText[getCurrDialogIndex].statValue; ++i)
+            //이거 되냐?
+            for (int i = 0; i < Mathf.Abs(mainText.DialogText[getCurrDialogIndex].statValue); ++i)
             {
                 valueCoin--;
 
-                if (parentMental.transform.childCount > 0)
+                if (parentCoin.transform.childCount > 0)
                 {
                     Transform toDestroyLastPrefab = parentCoin.transform.GetChild(parentCoin.transform.childCount - 1);
                     Destroy(toDestroyLastPrefab.gameObject);

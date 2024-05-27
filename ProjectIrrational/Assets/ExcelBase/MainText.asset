@@ -21,6 +21,7 @@ MonoBehaviour:
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -43,6 +44,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 1
     textContents: "\uADF8\uAC8C \uB0B4\uAC00 \uC774 \uC138\uC0C1\uC5D0\uC11C \uCC98\uC74C\uC73C\uB85C
       \uB9C8\uC8FC\uD558\uB294 \uC7A5\uBA74\uC774\uC5C8\uB2E4."
@@ -50,6 +58,7 @@ MonoBehaviour:
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -72,13 +81,21 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 2
-    textContents: "\uB098\uB294 \uACE0\uAC1C\uB97C \uB4E4\uC5B4\uC11C \uC8FC\uC704\uB97C
-      \uC0B4\uD3C8\uB2E4."
+    textContents: "\uC55E\uC5D0\uC11C\uBD80\uD130 \uAC00\uBCCD\uAC8C \uC67C\uCABD\uACFC
+      \uC624\uB978\uCABD\uC744 \uD6D1\uC5B4\uBCF8\uB2E4."
     hasSelectEvent: 0
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -101,6 +118,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 3
     textContents: "\uBB18\uD558\uAC8C \uC870\uC6A9\uD55C \uC624\uB450\uB9C9\uC774\uC5C8\uC9C0\uB9CC
       \uC5BC\uD54F \uBC16\uC5D0\uC11C \uC0AC\uB78C\uC758 \uBAA9\uC18C\uB9AC\uAC00
@@ -109,6 +133,7 @@ MonoBehaviour:
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -131,6 +156,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 4
     textContents: "\uAE68\uC9C8 \uB4EF\uC774 \uBA38\uB9AC\uAC00 \uC544\uD30C\uC654\uC9C0\uB9CC,
       \uC77C\uB2E8 \uC774 \uACF3\uC774 \uC5B4\uB518\uC9C0 \uC54C\uACE0 \uC2F6\uC5C8\uB2E4."
@@ -138,6 +170,7 @@ MonoBehaviour:
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -160,6 +193,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 5
     textContents: "\uB0A1\uC740 \uBB38\uC744 \uBC00\uBA70 \uC870\uC2EC\uC2A4\uB808
       \uBB38 \uBC16\uC744 \uB098\uC640\uC11C \uBC1C\uAC78\uC74C\uC744 \uC62E\uACBC\uB2E4.
@@ -168,6 +208,7 @@ MonoBehaviour:
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -190,6 +231,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 6
     textContents: "\uB098\uB294 \uAE08\uBC29 \uB0B4\uAC00 \uC788\uB358 \uACF3\uC774
       \uC232 \uC18D\uC758 \uB0A1\uC740 \uC624\uB450\uB9C9\uC774\uB77C\uB294 \uAC83\uC744
@@ -198,6 +246,7 @@ MonoBehaviour:
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -220,6 +269,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 7
     textContents: "\uC65C \uB098\uB294 \uC774\uB7F0 \uACF3\uC5D0 \uC788\uB294 \uAC83\uC77C\uAE4C.
       \uB098\uB294 \uBD84\uBA85\u2026\uC5B4\u2026"
@@ -227,6 +283,7 @@ MonoBehaviour:
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -249,6 +306,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 8
     textContents: "\uB0B4\uAC00 \uC65C \uC774\uACF3\uC5D0 \uC624\uAC8C \uB418\uC5C8\uB294\uC9C0,
       \uC5B4\uB5BB\uAC8C \uC0B4\uC544\uC654\uB294\uC9C0, \uC2EC\uC9C0\uC5B4 \uB0B4
@@ -258,6 +322,7 @@ MonoBehaviour:
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -280,6 +345,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 9
     textContents: "\uC810\uC810 \uC2EC\uAC01\uC131\uC744 \uAE68\uB2EC\uC544 \uAC00\uACE0
       \uC788\uC744 \uB54C\uCBE4, \uC232 \uC18D\uC5D0\uC11C \uD55C\uBB34\uB9AC\uC758
@@ -288,6 +360,7 @@ MonoBehaviour:
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -310,6 +383,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 10
     textContents: "3\uBA85\uC758 \uB0A8\uC790\uC640 1\uBA85\uC758 \uC5EC\uC790, \uADF8
       \uC911\uC5D0\uC11C \uB9AC\uB354\uB85C \uBCF4\uC774\uB294 \uB0A8\uC790\uAC00
@@ -318,6 +398,7 @@ MonoBehaviour:
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -340,6 +421,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 11
     textContents: "\u201C\uC774\uBD10! \uC790\uB124 \uAD1C\uCC2E\uB098? \uBAB8\uC774
       \uC88B\uC9C0 \uC54A\uC544 \uBCF4\uC774\uB294\uAD70 \uADF8\uB798\u2026 \uB3C4\uC640\uC904\uAE4C?\u201D"
@@ -347,6 +435,7 @@ MonoBehaviour:
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -369,6 +458,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 12
     textContents: "\uC0DD\uAE00\uC0DD\uAE00 \uC6C3\uC73C\uBA70 \uB2E4\uAC00\uC624\uB294
       \uC5BC\uAD74\uC5D0\uC11C \uB098\uB294, \uC660\uC9C0 \uBAA8\uB974\uAC8C \uC8FC\uCDA4\uAC70\uB9AC\uBA70
@@ -377,6 +473,7 @@ MonoBehaviour:
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -399,6 +496,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 13
     textContents: "\uC774\uCABD\uC758 \uACBD\uACC4\uC2EC\uC744 \uC54C\uC544\uBCF8
       \uAC78\uAE4C. \uB0A8\uC790\uB294 \uC591 \uC190\uC744 \uD3BC\uCCD0 \uBCF4\uC774\uBA70
@@ -407,6 +511,7 @@ MonoBehaviour:
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -429,6 +534,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 14
     textContents: "\u201C\uC774\uB7F0\uC774\uB7F0 \uB0B4\uAC00 \uB108\uBB34 \uAC11\uC791\uC2A4\uB7EC\uC6E0\uB098\uBCF4\uAD70.
       \uAC71\uC815\uB9D0\uAC8C, \uB09C \uC9C0\uAE08 \uC5B4\uB5A4 \uBB34\uC7A5\uB3C4
@@ -437,6 +549,7 @@ MonoBehaviour:
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -459,6 +572,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 15
     textContents: "\uB0A8\uC790\uB294 \uB0B4\uAC8C \uB2E4\uAC00\uC624\uB354\uB2C8
       \uB098\uC758 \uB9E5\uC744 \uC9DA\uC73C\uBA70 \uAC04\uB2E8\uD788 \uB0B4 \uC0C1\uD0DC\uB97C
@@ -467,6 +587,7 @@ MonoBehaviour:
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -489,6 +610,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 16
     textContents: "\uCE5C\uC808\uD574 \uBCF4\uC774\uB294 \uBAA8\uC2B5\uC774\uC5C8\uC9C0\uB9CC,
       \uB098\uB294 \uBD84\uBA85 \uADF8 \uB0A8\uC790\uAC00 \uCBE7, \uC774\uB77C\uBA70
@@ -499,6 +627,7 @@ MonoBehaviour:
     mainImage: A-4
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -521,6 +650,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 17
     textContents: "\u201C\uADF8\uB0E5 \uC7A0\uAE50\uC758 \uD604\uAE30\uC99D \uAC19\uAD70
       \uADF8\uB798. \uAE08\uBC29 \uAD1C\uCC2E\uC544\uC9C8\uAEBC\uC57C.\u201D"
@@ -528,6 +664,7 @@ MonoBehaviour:
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -550,6 +687,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 18
     textContents: "\uB0A8\uC790\uB294 \uB0B4 \uC5B4\uAE68\uB97C \uB450\uB4DC\uB9AC\uBA70
       \uB098\uB97C \uC548\uC2EC\uC2DC\uD0A4\uACE0\uB294 \uC7A0\uC2DC \uBB34\uB9AC\uB85C
@@ -559,6 +703,7 @@ MonoBehaviour:
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -581,6 +726,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 19
     textContents: "\u201C\uC544\uC27D\uAC8C\uB3C4 \uC6B0\uB9AC\uB294 \uC77C\uC774
       \uC788\uC5B4\uC11C \uC774\uB9CC \uAC00\uBD10\uC57C \uD558\uB294\uB370, \uD639\uC2DC
@@ -589,6 +741,7 @@ MonoBehaviour:
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -611,6 +764,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 20
     textContents: "\u201C\uC790\uB124\uAC00 \uB9D0\uD558\uB294 \u2018\uC774 \uACF3\u2019\uC740
       \uC5EC\uB7EC \uC758\uBBF8\uAC00 \uC788\uAD70\u2026 \uC77C\uB2E8 \uC6B0\uB9AC\uAC00
@@ -625,6 +785,7 @@ MonoBehaviour:
     mainImage: null
     statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -647,6 +808,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 21
     textContents: "\uB0A8\uC790\uB294 \uD589\uC6B4\uC744 \uBE48\uB2E4\uBA70 \uB098\uC5D0\uAC8C
       \uC791\uC740 \uB3D9\uC804 \uD558\uB098\uB97C \uAC74\uB124 \uC8FC\uBA70 \uB5A0\uB0AC\uB2E4."
@@ -654,6 +822,7 @@ MonoBehaviour:
     mainImage: null
     statType: statCoin
     statValue: 1
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -676,12 +845,20 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 22
-    textContents: "\uC5EC\uAE30\uB294 \uCCB4\uB825 \uBC1B\uAE30"
+    textContents: "\uCCB4\uB825\uC774 1 \uC99D\uAC00\uD588\uB2E4."
     hasSelectEvent: 3
     mainImage: null
     statType: statHeart
     statValue: 2
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -704,12 +881,20 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 23
-    textContents: "\uC5EC\uAE30\uB294 \uC815\uC2E0\uB825 \uBC1B\uAE30"
+    textContents: "\uC815\uC2E0\uC774 \uB9D1\uC544\uC9C4 \uAC83 \uAC19\uB2E4."
     hasSelectEvent: 3
     mainImage: null
     statType: statMental
     statValue: 3
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -732,12 +917,21 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 24
-    textContents: "\uC815\uC2E0\uB825 -1"
+    textContents: "\uADF8\uB7EC\uB098 \uBBF8\uC9C0\uC758 \uB450\uB824\uC6C0\uC740
+      \uC544\uC9C1 \uAC00\uC2DC\uC9C0 \uC54A\uC558\uB2E4\u2026"
     hasSelectEvent: 3
     mainImage: null
     statType: statMental
     statValue: -1
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -760,12 +954,21 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 25
-    textContents: 
-    hasSelectEvent: 0
-    mainImage: 
-    statType: 
+    textContents: "\uC5B4\uB518\uAC00\uC5D0\uC11C \uD765\uACA8\uC6B4 \uB178\uB7AB\uC18C\uB9AC\uAC00
+      \uB4E4\uB824\uC654\uB2E4."
+    hasSelectEvent: 2
+    mainImage: A-0
+    statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -788,12 +991,21 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 26
-    textContents: 
+    textContents: "\uB098\uB294 \uD640\uB9B0 \uB4EF\uC774 \uB178\uB7AB\uC18C\uB9AC\uB97C
+      \uB530\uB77C \uBC1C\uAE38\uC744 \uC62E\uACBC\uB2E4."
     hasSelectEvent: 0
-    mainImage: 
-    statType: 
+    mainImage: null
+    statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -816,12 +1028,22 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 27
-    textContents: 
+    textContents: "\uB178\uB7AB\uC18C\uB9AC\uAC00 \uC774\uB048 \uACF3\uC5D0\uB294
+      40\uB300\uB85C \uBCF4\uC774\uB294 \uC544\uC800\uC528\uAC00 \uB3D7\uC790\uB9AC\uB97C
+      \uD3B4\uACE0 \uBB3C\uAC74\uC744 \uD314\uACE0 \uC788\uC5C8\uB2E4."
     hasSelectEvent: 0
-    mainImage: 
-    statType: 
+    mainImage: null
+    statType: null
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -844,6 +1066,2016 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 28
+    textContents: "\uC2DC\uC7A5\uC5D0\uC11C\uB294 \uC27D\uAC8C \uCC3E\uC544\uBCFC
+      \uC218 \uC5C6\uB294 \uD2B9\uC774\uD55C \uBB3C\uAC74\uB4E4\uC774 \uB208\uAE38\uC744
+      \uB04C\uC5C8\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 29
+    textContents: "\u201C\uD5C8\uD5C8, \uC548\uB155\uD558\uC2E0\uAC00. \uCC9C\uCC9C\uD788
+      \uB458\uB7EC\uBCF4\uAC8C\uB098\u201D"
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 30
+    textContents: "\uC0C1\uC778 \uC544\uC800\uC528\uB294 \uC778\uC790\uD55C \uD45C\uC815\uC73C\uB85C
+      \uC6C3\uC73C\uBA70 \uB9D0\uC744 \uAC74\uB138\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 31
+    textContents: "\uB098\uB294 \uCC9C\uCC9C\uD788 \uBB3C\uAC74\uB4E4\uC744 \uC0B4\uD3B4\uBCF4\uC558\uB2E4."
+    hasSelectEvent: 1
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 32
+    textContents: "\uC190\uC5D0\uB294 \uC885\uC774\uC758 \uAC10\uCD09\uC774 \uC0DD\uC0DD\uD558\uAC8C
+      \uB290\uAEF4\uC9C4\uB2E4."
+    hasSelectEvent: 2
+    mainImage: A-2
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 33
+    textContents: "\uADF8\uB7EC\uC790, \uC544\uC800\uC528\uB294 \uD638\uD0D5\uD558\uAC8C
+      \uC6C3\uC73C\uBA70 \uB9D0\uD588\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 34
+    textContents: "\u201C\uD558\uD558,\uC80A\uAD6C\uBA3C. \uC80A\uC5B4\uC80A\uC5B4\u201D"
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 35
+    textContents: "\uB098\uB294 \uC5B4\uB9AC\uB465\uC808\uD55C \uCC44 \uC544\uC800\uC528\uB97C
+      \uCCD0\uB2E4\uBCF4\uC558\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 36
+    textContents: "\uC5BC\uB9C8 \uC9C0\uB098\uC9C0 \uC54A\uC544, \uB0B4 \uC190\uC5D0
+      \uB4E4\uB824\uC788\uB294 \uAC83\uC774 \uC131\uC778 \uC7A1\uC9C0\uB77C\uB294
+      \uAC83\uC744 \uC54C\uC544\uCC58\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 37
+    textContents: "\uADF8\uB7EC\uB098 \uBCC0\uBA85\uD558\uAE30\uC5D0\uB294 \uC2DC\uAC04\uC774
+      \uC9C0\uB098\uBC84\uB838\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 38
+    textContents: "\uB354\uC6B1 \uC77C\uCC0D \uC54C\uC544\uCC44\uC9C0 \uBABB\uD55C
+      \uAC83\uC774 \uC548\uD0C0\uAE4C\uC6E0\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 39
+    textContents: "\uB098\uB294 \uC5B4\uB518\uAC00 \uC4F8 \uC77C\uC774 \uC0DD\uAE38\uAE4C,
+      \uC7A1\uC9C0\uB97C \uAC00\uBC29 \uC18D\uC5D0 \uB123\uC5C8\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 40
+    textContents: "\uB3C8\uC744 1 \uC783\uC5C8\uB2E4..."
+    hasSelectEvent: 3
+    mainImage: null
+    statType: statCoin
+    statValue: -1
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 41
+    textContents: "\uC815\uC2E0\uB825\uC744 1 \uC783\uC5C8\uB2E4..."
+    hasSelectEvent: 3
+    mainImage: null
+    statType: statMental
+    statValue: -1
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 42
+    textContents: "\uC7A1\uC9C0\uB97C \uC5BB\uC5C8\uB2E4!"
+    hasSelectEvent: 4
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 1
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 43
+    textContents: "\uBD95\uB300\uB294 \uAE68\uB057\uD574\uBCF4\uC778\uB2E4."
+    hasSelectEvent: 2
+    mainImage: A-1
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 44
+    textContents: "\u201C\uBB3C\uAC74 \uBCF4\uB294 \uB208\uC774 \uC788\uAD6C\uBA3C,
+      \uC694\uC998 \uAC19\uC740 \uB54C \uAF2D \uD544\uC694\uD558\uC9C0\u201D"
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 45
+    textContents: "\uC544\uC800\uC528\uB294 \uB044\uB355\uC774\uBA70 \uBD95\uB300\uC758
+      \uAC00\uACA9\uC744 \uB9D0\uD574\uC8FC\uC5C8\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 46
+    textContents: "\uC2DC\uC7A5\uBCF4\uB2E4 \uD130\uBB34\uB2C8\uC5C6\uC774 \uBE44\uC2FC
+      \uAC00\uACA9\uC774\uB77C\uACE0 \uC0DD\uAC01\uD588\uC9C0\uB9CC,"
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 47
+    textContents: "\uC8FC\uBCC0\uC5D0 \uBD95\uB300\uB97C \uAD6C\uD560 \uACF3\uC774
+      \uC5C6\uB294 \uAC83\uC744 \uC0DD\uAC01\uD558\uBA74 \uADF8\uB9AC \uBE44\uC2FC
+      \uAC83\uB3C4 \uC544\uB2CC \uAC83 \uAC19\uC558\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 48
+    textContents: "\uB098\uB294 \uC544\uC800\uC528\uAED8 \uC778\uC0AC\uB97C \uAC74\uB124\uACE0
+      \uBAA9\uC801\uC9C0\uB97C \uD5A5\uD574 \uBC1C\uAC78\uC74C\uC744 \uB3CC\uB838\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 49
+    textContents: "\uB3C8\uC744 1 \uC783\uC5C8\uB2E4..."
+    hasSelectEvent: 3
+    mainImage: null
+    statType: statCoin
+    statValue: -1
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 50
+    textContents: "\uBD95\uB300\uB97C \uC5BB\uC5C8\uB2E4!"
+    hasSelectEvent: 4
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 2
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 51
+    textContents: "\u201C\uD760\u2026\uC800\uB7F0 \uAC78 \uD314\uC558\uB358 \uAE30\uC5B5\uC740
+      \uC5C6\uB294\uB370 \uB9D0\uC774\uC57C\u2026\u201D"
+    hasSelectEvent: 2
+    mainImage: A-3
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 52
+    textContents: "\uC544\uC800\uC528\uB294 \uB3CC\uC744 \uD55C\uCC38 \uCCD0\uB2E4\uBCF4\uB354\uB2C8
+      \uACF0\uACF0\uC774 \uC0DD\uAC01\uC5D0 \uBE60\uC84C\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 53
+    textContents: "\u201C\uADF8\uB0E5 \uB3CC\uB369\uC774 \uAC19\uC740\uB370, \uADF8\uB0E5
+      \uAC00\uC838\uAC00\uAC8C\u201D"
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 54
+    textContents: "\uC544\uC800\uC528\uB294 \uBA4B\uCA4D\uAC8C \uBA38\uB9AC\uB97C
+      \uAE01\uC73C\uBA70 \uB9D0\uD588\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 55
+    textContents: "\uB098\uB294 \uC5BC\uB5A8\uACB0\uC5D0 \uC5BB\uAC8C \uB41C \uB3CC\uC744
+      \uC790\uC138\uD788 \uC0B4\uD3B4\uBCF4\uC558\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 56
+    textContents: "\uB0B4\uAC00 \uC54C \uC218 \uC5C6\uB294 \uB8EC \uBB38\uC790\uAC00
+      \uC0C8\uACA8\uC9C4 \uB3CC\uC774 \uC740\uC740\uD55C \uBE5B\uC744 \uB0B4\uACE0
+      \uC788\uC5C8\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 57
+    textContents: "\uB098\uB294 \uB3CC\uC744 \uAC00\uBC29 \uC18D\uC5D0 \uB123\uACE0
+      \uB2E4\uC74C \uBAA9\uC801\uC9C0\uB85C \uBC1C\uAE38\uC744 \uB3CC\uB838\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 58
+    textContents: "\uB8EC \uBB38\uC790\uAC00 \uC0C8\uACA8\uC9C4 \uB3CC\uC744 \uC5BB\uC5C8\uB2E4!"
+    hasSelectEvent: 4
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 3
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 59
+    textContents: "\uC88B\uC740 \uBB3C\uAC74\uB4E4\uC774\uC5C8\uC9C0\uB9CC, \uC9C0\uAE08
+      \uB2F9\uC7A5 \uB0B4\uAC8C \uD544\uC694\uD55C \uBB3C\uAC74\uC740 \uC5C6\uC5C8\uB2E4."
+    hasSelectEvent: 2
+    mainImage: A-4
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 60
+    textContents: "\uC55E\uC73C\uB85C\uC758 \uC5EC\uC815\uC774 \uC5BC\uB9C8\uB098
+      \uB0A8\uC558\uB294\uC9C0 \uC54C \uC218 \uC5C6\uC5C8\uAE30\uC5D0, \uB3C8\uC744
+      \uC544\uB07C\uAE30\uB85C \uD588\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 61
+    textContents: "\u201C\uC544\uC27D\uAD6C\uBA3C. \uB2E4\uC74C\uC5D0 \uB610 \uC624\uAC8C!\u201D"
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 62
+    textContents: "\uC544\uC800\uC528\uB294 \uC544\uC26C\uC6B4 \uB4EF \uC778\uC0AC\uB97C
+      \uAC74\uB138\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 63
+    textContents: "\uB098\uB294 \uAC00\uBCCD\uAC8C \uBAA9\uB840\uB97C \uAC74\uB128
+      \uB4A4 \uB2E4\uC74C \uBAA9\uC801\uC9C0\uB97C \uD5A5\uD574 \uBC1C\uAE38\uC744
+      \uB3CC\uB838\uB2E4."
+    hasSelectEvent: 1
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 64
+    textContents: "\uAE38\uC744 \uAC00\uB358 \uC911 \uAC11\uC790\uAE30 \uC9D9\uC740
+      \uC548\uAC1C\uB97C \uB9CC\uB0AC\uB2E4."
+    hasSelectEvent: 2
+    mainImage: A-3 1
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 65
+    textContents: "\uC548\uAC1C \uC18D\uC5D0\uC11C \uAE38\uC744 \uD5E4\uB9E4\uB2E4
+      \uC815\uC2E0\uC744 \uCC28\uB9AC\uB2C8, \uB208\uC55E\uC5D0\uB294 \uC555\uB3C4\uB2F9\uD560
+      \uB9CC\uD07C\uC758 \uD070 \uB3D9\uAD74\uC774 \uC788\uC5C8\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 66
+    textContents: "\uB3D9\uAD74\uC758 \uC548\uCABD\uC740 \uCE60\uD751\uAC19\uC774
+      \uC5B4\uB450\uC6CC \uC544\uBB34\uAC83\uB3C4 \uBCF4\uC774\uC9C0 \uC54A\uC558\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 67
+    textContents: "\uACE0\uBBFC\uD558\uACE0 \uC788\uB358 \uC21C\uAC04 \uAC00\uBC29
+      \uC18D\uC5D0\uC11C \uB8EC \uBB38\uC790\uAC00 \uC0C8\uACA8\uC838 \uC788\uB358
+      \uB3CC\uC774 \uBC1D\uC740 \uBE5B\uC744 \uB0B4\uBA70 \uAE38\uC744 \uC778\uB3C4\uD588\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 68
+    textContents: "\uB3D9\uAD74\uC758 \uC544\uB798\uCABD\uC73C\uB85C \uBC18\uB4EF\uD55C
+      \uACC4\uB2E8\uC774 \uB098\uB97C \uC774\uB04C\uACE0 \uC788\uC5C8\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 69
+    textContents: "\uACC4\uB2E8\uC744 \uB530\uB77C \uB0B4\uB824\uAC00\uC790 \uD478\uB978
+      \uBE5B\uC774 \uC740\uC740\uD558\uAC8C \uAC10\uB3C4\uB294 \uC7A5\uC18C\uAC00
+      \uB098\uD0C0\uB0AC\uB2E4."
+    hasSelectEvent: 2
+    mainImage: A-1 1
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 70
+    textContents: "\uCC9C\uC7A5\uC5D0\uC11C\uB294 \uD55C \uC904\uAE30 \uD478\uB978
+      \uBE5B\uC774 \uB0B4\uB824\uC624\uACE0 \uC788\uC5C8\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 71
+    textContents: "\uBE5B\uC774 \uD5A5\uD558\uB294 \uACF3\uC5D0\uB294 \uC2EC\uC7A5\uC744
+      \uD53C\uC6CC\uB0B8 \uB098\uBB34\uAC00 \uD55C\uADF8\uB8E8 \uACE0\uACE0\uD558\uAC8C
+      \uC11C\uC788\uC5C8\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 72
+    textContents: "\uADF8 \uAD11\uACBD\uC5D0 \uAC10\uD0C4\uD558\uB358 \uC911, \uB8EC
+      \uBB38\uC790\uAC00 \uC4F0\uC5EC \uC788\uB294 \uB3CC\uC774 \uC2EC\uC7A5 \uC911
+      \uD558\uB098\uC5D0\uAC8C \uB0A0\uC544\uAC00 \uC2EC\uC7A5 \uBC15\uB3D9\uC5D0
+      \uB9DE\uCDB0 \uACF5\uBA85\uD588\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 73
+    textContents: "\uADF8 \uC21C\uAC04, \uC800 \uC2EC\uC7A5\uC774 \uB098\uC758 \uAC83\uC784\uC744
+      \uC9C1\uAC10\uD560 \uC218 \uC788\uC5C8\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 74
+    textContents: "\uACC4\uB2E8\uC744 \uB0B4\uB824\uAC00\uAE30 \uC804 \uC8FC\uBCC0\uC744
+      \uC790\uC138\uD788 \uC0B4\uD3B4\uBCF4\uACE0 \uC2F6\uC5C8\uB2E4."
+    hasSelectEvent: 2
+    mainImage: A-0 1
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 75
+    textContents: "\uB3D9\uAD74\uC744 \uAC00\uB9CC\uD788 \uC0B4\uD3B4\uBCF4\uB2C8
+      \uC54C \uC218 \uC5C6\uB294 \uACE0\uB300\uC758 \uBB38\uC790\uAC00 \uBCBD\uBA74\uC744
+      \uAC00\uB4DD \uCC44\uC6B0\uACE0 \uC788\uC5C8\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 76
+    textContents: "\uBCBD\uBA74\uC758 \uBB38\uC790\uB4E4\uC5D0\uC120 \uB9C8\uCE58
+      \uB3D9\uAD74\uC758 \uC548\uCABD\uC5D0 \uC788\uB294 \uAC83\uC744 \uACBD\uACE0\uD558\uB294
+      \uB4EF, \uD544\uC0AC\uC801\uC73C\uB85C \uBB34\uC5B8\uAC00\uB97C \uC804\uD558\uB824\uB294
+      \uC758\uC9C0\uAC00 \uB290\uAEF4\uC84C\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 77
+    textContents: "\uAC00\uB9CC\uD788 \uBB38\uC790\uB97C \uC0B4\uD3B4\uBCF4\uACE0
+      \uC788\uC790\uB2C8 \uC555\uB3C4\uC801\uC778 \uACF5\uD3EC\uAC00 \uC628\uBAB8\uC744
+      \uD718\uAC10\uC558\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 78
+    textContents: "\uB098\uB294 \uC870\uC6A9\uD788 \uB3D9\uAD74 \uBC16\uC73C\uB85C
+      \uB098\uC654\uB2E4."
+    hasSelectEvent: 2
+    mainImage: A-3 1
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 79
+    textContents: "\uBA38\uB9AC\uAC00 \uC0C8\uD558\uC598\uC9C4\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 80
+    textContents: "\uC774\uACF3\uC5D0\uC11C \uBCF8 \uC7A5\uBA74\uC744 \uBC1C\uAC78\uC74C
+      \uD558\uB098\uD558\uB098\uC5D0 \uB0A8\uACA8\uB450\uACE0 \uB3D9\uAD74\uC744
+      \uB5A0\uB0AC\uB2E4."
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 81
+    textContents: "\uBD84\uB7C9 \uB05D"
+    hasSelectEvent: 0
+    mainImage: null
+    statType: null
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   SelectText:
   - number: 0
     textContents: 
@@ -851,6 +3083,7 @@ MonoBehaviour:
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: "\uACE0\uAC1C\uB97C \uB4E4\uC5B4 \uC8FC\uC704\uB97C \uC0B4\uD540\uB2E4."
@@ -865,7 +3098,7 @@ MonoBehaviour:
     printResult2: 
     printResult3: 
     printResult4: 
-    eventImage: A-1
+    eventImage: null
     printEventImageResult1: 
     printEventImageResult2: 
     printEventImageResult3: 
@@ -873,12 +3106,20 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 1
     triggerRandomEvent: 
     selectText1: "\uBB38 \uBC16\uC744 \uB098\uC120\uB2E4."
@@ -893,7 +3134,7 @@ MonoBehaviour:
     printResult2: 
     printResult3: 
     printResult4: 
-    eventImage: A-2
+    eventImage: null
     printEventImageResult1: 
     printEventImageResult2: 
     printEventImageResult3: 
@@ -901,12 +3142,20 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 2
     triggerRandomEvent: 
     selectText1: "\uAE30\uC5B5\uC774 \uB098\uC9C0 \uC54A\uC558\uB2E4."
@@ -921,7 +3170,7 @@ MonoBehaviour:
     printResult2: 
     printResult3: 
     printResult4: 
-    eventImage: A-3
+    eventImage: null
     printEventImageResult1: 
     printEventImageResult2: 
     printEventImageResult3: 
@@ -929,12 +3178,20 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 3
     triggerRandomEvent: 
     selectText1: "\uD638\uC758\uB97C \uBC1B\uC544\uB4E4\uC600\uB2E4."
@@ -957,12 +3214,20 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 4
     triggerRandomEvent: 
     selectText1: "\uC774 \uACF3\uC740 \uC5B4\uB514\uC8E0?"
@@ -985,27 +3250,35 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 5
     triggerRandomEvent: 
-    selectText1: 
-    selectText2: 
-    selectText3: 
-    selectText4: 
-    triggerEvent1: 
-    triggerEvent2: 
-    triggerEvent3: 
-    triggerEvent4: 
+    selectText1: "\uC7A1\uC9C0\uB97C \uC9D1\uC5B4\uB4E0\uB2E4."
+    selectText2: "\uBD95\uB300\uB97C \uC9D1\uC5B4\uB4E0\uB2E4."
+    selectText3: "\uB8EC \uBB38\uC790\uAC00 \uC801\uD78C \uB3CC\uC744 \uC7A1\uB294\uB2E4."
+    selectText4: "\uC0AC\uC9C0 \uC54A\uB294\uB2E4."
+    triggerEvent1: eventTest6
+    triggerEvent2: eventTest7
+    triggerEvent3: eventTest8
+    triggerEvent4: eventTest9
     printResult1: 
     printResult2: 
     printResult3: 
     printResult4: 
-    eventImage: 
+    eventImage: null
     printEventImageResult1: 
     printEventImageResult2: 
     printEventImageResult3: 
@@ -1013,27 +3286,35 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 6
     triggerRandomEvent: 
-    selectText1: 
-    selectText2: 
-    selectText3: 
+    selectText1: "\uACC4\uB2E8\uC744 \uB530\uB77C \uB0B4\uB824\uAC04\uB2E4."
+    selectText2: "\uC8FC\uBCC0\uC744 \uB354 \uB458\uB7EC\uBCF8\uB2E4."
+    selectText3: "\uB098\uAC04\uB2E4."
     selectText4: 
-    triggerEvent1: 
-    triggerEvent2: 
-    triggerEvent3: 
+    triggerEvent1: eventTest10
+    triggerEvent2: eventTest11
+    triggerEvent3: eventTest12
     triggerEvent4: 
     printResult1: 
     printResult2: 
     printResult3: 
     printResult4: 
-    eventImage: 
+    eventImage: null
     printEventImageResult1: 
     printEventImageResult2: 
     printEventImageResult3: 
@@ -1041,12 +3322,20 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 7
     triggerRandomEvent: 
     selectText1: 
@@ -1069,12 +3358,20 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 8
     triggerRandomEvent: 
     selectText1: 
@@ -1097,12 +3394,20 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 9
     triggerRandomEvent: 
     selectText1: 
@@ -1125,12 +3430,20 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 10
     triggerRandomEvent: 
     selectText1: 
@@ -1153,12 +3466,20 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 11
     triggerRandomEvent: 
     selectText1: 
@@ -1181,12 +3502,20 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 12
     triggerRandomEvent: 
     selectText1: 
@@ -1209,12 +3538,20 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 13
     triggerRandomEvent: 
     selectText1: 
@@ -1237,12 +3574,20 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 14
     triggerRandomEvent: 
     selectText1: 
@@ -1265,6 +3610,13 @@ MonoBehaviour:
     eventID: 0
     printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   RandomEventTest:
   - number: 0
     textContents: 
@@ -1272,6 +3624,7 @@ MonoBehaviour:
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -1292,15 +3645,23 @@ MonoBehaviour:
     printEventImageResult3: 
     printEventImageResult4: 
     eventID: 0
-    printEventImageResult: A-0
+    printEventImageResult: null
     printResult: "\uB098\uB294 \uACE0\uAC1C\uB97C \uB4E4\uC5B4\uC11C \uC8FC\uC704\uB97C
       \uC0B4\uD3C8\uB2E4."
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -1321,14 +3682,22 @@ MonoBehaviour:
     printEventImageResult3: 
     printEventImageResult4: 
     eventID: 1
-    printEventImageResult: A-1
+    printEventImageResult: null
     printResult: "\uB07C\uC775--"
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -1349,14 +3718,22 @@ MonoBehaviour:
     printEventImageResult3: 
     printEventImageResult4: 
     eventID: 2
-    printEventImageResult: A-2
+    printEventImageResult: null
     printResult: "\uAE30\uC5B5\uC774 \uB098\uC9C0 \uC54A\uC558\uB2E4."
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -1377,18 +3754,26 @@ MonoBehaviour:
     printEventImageResult3: 
     printEventImageResult4: 
     eventID: 3
-    printEventImageResult: A-3
+    printEventImageResult: null
     printResult: "\u201C\uADF8\uB798\uADF8\uB798 \uAC71\uC815\uD558\uC9C0 \uB9D0\uAC8C.
       \uADF8\uC800 \uB9CC\uB09C \uC0AC\uB78C\uC774 \uBC18\uAC00\uC6E0\uC744 \uBFD0\uC774\uC57C.
       \uC778\uAC04\uC774\uB77C\uBA74 \uC751\uB2F9 \uD638\uC758\uB97C \uD638\uC758\uB85C
       \uBC1B\uC544\uB4E4\uC77C \uC904\uB3C4 \uC54C\uC544\uC57C\uC9C0. \uADF8\uB7FC
       \uC7A0\uC2DC\u2026\u201D"
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -1409,15 +3794,23 @@ MonoBehaviour:
     printEventImageResult3: 
     printEventImageResult4: 
     eventID: 4
-    printEventImageResult: A-4
+    printEventImageResult: null
     printResult: "\uB098\uB294 \uC870\uC2EC\uC2A4\uB7FD\uAC8C \uC774 \uACF3\uC774
       \uC5B4\uB518\uC9C0 \uBB3C\uC5B4\uBCF4\uC558\uB2E4. "
+    mainDialogJumpTo: 0
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -1438,14 +3831,23 @@ MonoBehaviour:
     printEventImageResult3: 
     printEventImageResult4: 
     eventID: 5
-    printEventImageResult: A-1 1
-    printResult: 
+    printEventImageResult: null
+    printResult: "\uB098\uB294 \uD3C9\uBC94\uD574 \uBCF4\uC774\uB294 \uC7A1\uC9C0\uB97C
+      \uC9D1\uC5B4 \uB4E4\uC5C8\uB2E4."
+    mainDialogJumpTo: 32
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -1466,14 +3868,22 @@ MonoBehaviour:
     printEventImageResult3: 
     printEventImageResult4: 
     eventID: 6
-    printEventImageResult: A-2 1
-    printResult: 
+    printEventImageResult: null
+    printResult: "\uB098\uB294 \uC0C8 \uBD95\uB300\uB97C \uC9D1\uC5B4 \uB4E4\uC5C8\uB2E4."
+    mainDialogJumpTo: 43
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -1494,14 +3904,23 @@ MonoBehaviour:
     printEventImageResult3: 
     printEventImageResult4: 
     eventID: 7
-    printEventImageResult: A-3 1
-    printResult: 
+    printEventImageResult: null
+    printResult: "\uB098\uB294 \uBB18\uD558\uAC8C \uB9E4\uB825\uC788\uB294 \uB3CC\uC744
+      \uC9D1\uC5B4\uB4E4\uC5C8\uB2E4."
+    mainDialogJumpTo: 51
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -1522,14 +3941,23 @@ MonoBehaviour:
     printEventImageResult3: 
     printEventImageResult4: 
     eventID: 8
-    printEventImageResult: B-1
-    printResult: 
+    printEventImageResult: null
+    printResult: "\uB2F9\uC7A5 \uD544\uC694\uD55C \uAC83\uC774 \uC0DD\uAC01\uB098\uC9C0
+      \uC54A\uB294\uB2E4."
+    mainDialogJumpTo: 59
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
   - number: 0
     textContents: 
     hasSelectEvent: 0
     mainImage: 
     statType: 
     statValue: 0
+    getItemCode: 0
     selectEventNumber: 0
     triggerRandomEvent: 
     selectText1: 
@@ -1550,5 +3978,1021 @@ MonoBehaviour:
     printEventImageResult3: 
     printEventImageResult4: 
     eventID: 9
-    printEventImageResult: B-2
+    printEventImageResult: null
+    printResult: "\uACC4\uB2E8\uC744 \uB530\uB77C \uB2E4\uB9AC\uB97C \uC6C0\uC9C1\uC778\uB2E4."
+    mainDialogJumpTo: 64
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 10
+    printEventImageResult: null
+    printResult: "\uACE0\uAC1C\uB97C \uB3CC\uB824 \uC8FC\uBCC0\uC744 \uC0B4\uD3B4\uBCF8\uB2E4."
+    mainDialogJumpTo: 74
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 11
+    printEventImageResult: null
+    printResult: "\uBC16\uC73C\uB85C \uB098\uAC08 \uCC44\uBE44\uB97C \uB9C8\uCE5C\uB2E4."
+    mainDialogJumpTo: 78
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 12
+    printEventImageResult: null
+    printResult: "\uC774\uC81C \uB5A0\uB0A0 \uC2DC\uAC04\uC774\uB2E4."
+    mainDialogJumpTo: 63
+    itemCode: 0
+    itemSort: 
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  ItemSheet:
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
     printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 1
+    itemSort: "\uC7A1\uB3D9\uC0AC\uB2C8"
+    itemName: "\uC7A1\uC9C0"
+    itemInfo: "\uC124\uBA85"
+    itemFunc: "\uD6A8\uACFC"
+    itemEvent: "\uC774\uBCA4\uD2B8"
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 2
+    itemSort: "\uD68C\uBCF5\uC544\uC774\uD15C"
+    itemName: "\uBD95\uB300"
+    itemInfo: "\uC124\uBA85"
+    itemFunc: "\uD6A8\uACFC"
+    itemEvent: "\uC774\uBCA4\uD2B8"
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 3
+    itemSort: "\uC2A4\uD1A0\uB9AC"
+    itemName: "\uB8EC \uBB38\uC790\uAC00 \uC801\uD78C \uB3CC (\uB8EC \uB3CC)"
+    itemInfo: "\uC124\uBA85"
+    itemFunc: "\uD6A8\uACFC"
+    itemEvent: "\uC774\uBCA4\uD2B8"
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 4
+    itemSort: "\uC2A4\uD1A0\uB9AC"
+    itemName: "\uC2EC\uC7A5"
+    itemInfo: "\uC124\uBA85"
+    itemFunc: "\uD6A8\uACFC"
+    itemEvent: "\uC774\uBCA4\uD2B8"
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 5
+    itemSort: "\uB3C4\uAD6C"
+    itemName: "\uB048"
+    itemInfo: "\uC124\uBA85"
+    itemFunc: "\uD6A8\uACFC"
+    itemEvent: "\uC774\uBCA4\uD2B8"
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 6
+    itemSort: "\uB3C4\uAD6C"
+    itemName: "\uC9D0\uC2B9\uC758 \uAC00\uC8FD"
+    itemInfo: "\uC124\uBA85"
+    itemFunc: "\uD6A8\uACFC"
+    itemEvent: "\uC774\uBCA4\uD2B8"
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 7
+    itemSort: "\uB3C4\uAD6C"
+    itemName: "\uB098\uC774\uD504"
+    itemInfo: "\uC124\uBA85"
+    itemFunc: "\uD6A8\uACFC"
+    itemEvent: "\uC774\uBCA4\uD2B8"
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 8
+    itemSort: "\uB3C4\uAD6C"
+    itemName: "\uB77C\uC774\uD130"
+    itemInfo: "\uC124\uBA85"
+    itemFunc: "\uD6A8\uACFC"
+    itemEvent: "\uC774\uBCA4\uD2B8"
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 9
+    itemSort: "\uD68C\uBCF5\uC544\uC774\uD15C"
+    itemName: "\uC0DD\uACE0\uAE30"
+    itemInfo: "\uC124\uBA85"
+    itemFunc: "\uD6A8\uACFC"
+    itemEvent: "\uC774\uBCA4\uD2B8"
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 10
+    itemSort: "\uC7A1\uB3D9\uC0AC\uB2C8"
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 11
+    itemSort: "\uC7A1\uB3D9\uC0AC\uB2C8"
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 12
+    itemSort: "\uC7A1\uB3D9\uC0AC\uB2C8"
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 13
+    itemSort: "\uC7A1\uB3D9\uC0AC\uB2C8"
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 14
+    itemSort: "\uC7A1\uB3D9\uC0AC\uB2C8"
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 15
+    itemSort: "\uC7A1\uB3D9\uC0AC\uB2C8"
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 16
+    itemSort: "\uC7A1\uB3D9\uC0AC\uB2C8"
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 17
+    itemSort: "\uC7A1\uB3D9\uC0AC\uB2C8"
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 18
+    itemSort: "\uC7A1\uB3D9\uC0AC\uB2C8"
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 19
+    itemSort: "\uC7A1\uB3D9\uC0AC\uB2C8"
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 20
+    itemSort: "\uC7A1\uB3D9\uC0AC\uB2C8"
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 21
+    itemSort: "\uC7A1\uB3D9\uC0AC\uB2C8"
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 22
+    itemSort: "\uC7A1\uB3D9\uC0AC\uB2C8"
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 23
+    itemSort: "\uC7A1\uB3D9\uC0AC\uB2C8"
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 24
+    itemSort: "\uC7A1\uB3D9\uC0AC\uB2C8"
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 
+  - number: 0
+    textContents: 
+    hasSelectEvent: 0
+    mainImage: 
+    statType: 
+    statValue: 0
+    getItemCode: 0
+    selectEventNumber: 0
+    triggerRandomEvent: 
+    selectText1: 
+    selectText2: 
+    selectText3: 
+    selectText4: 
+    triggerEvent1: 
+    triggerEvent2: 
+    triggerEvent3: 
+    triggerEvent4: 
+    printResult1: 
+    printResult2: 
+    printResult3: 
+    printResult4: 
+    eventImage: 
+    printEventImageResult1: 
+    printEventImageResult2: 
+    printEventImageResult3: 
+    printEventImageResult4: 
+    eventID: 0
+    printEventImageResult: 
+    printResult: 
+    mainDialogJumpTo: 0
+    itemCode: 25
+    itemSort: "\uC7A1\uB3D9\uC0AC\uB2C8"
+    itemName: 
+    itemInfo: 
+    itemFunc: 
+    itemEvent: 

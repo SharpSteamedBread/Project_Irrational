@@ -10,6 +10,14 @@ public class RandomEvent : MonoBehaviour
     public int eventTest3 = 2;
     public int eventTest4 = 3;
     public int eventTest5 = 4;
+    public int eventTest6 = 5;
+    public int eventTest7 = 6;
+    public int eventTest8 = 7;
+    public int eventTest9 = 8;
+    public int eventTest10 = 9;
+    public int eventTest11 = 10;
+    public int eventTest12 = 11;
+    public int eventTest13 = 12;
 
 
     [Header("½ÇÀü")]
