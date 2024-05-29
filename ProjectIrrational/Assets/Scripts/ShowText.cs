@@ -40,7 +40,6 @@ public class ShowText : MonoBehaviour
     public int hasSelectedText = 0;
 
     [Header("이미지 페이드 연출")]
-
     public Image objEventImage;
     public Animator animEventImage;
 
@@ -92,6 +91,7 @@ public class ShowText : MonoBehaviour
             if(isTyping == true)
             {
                 typingSpeed = 0f;
+                scrollviewController.AutomaticScroll();
             }
 
             else if(isTyping == false)

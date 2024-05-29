@@ -6,11 +6,13 @@ using UnityEngine.UI;
 public class ScrollViewController : MonoBehaviour
 {
     private ScrollRect scrollRect;
-    [SerializeField] private RectTransform objContent;
+    [SerializeField] private RectTransform objContent;  //Content
 
     [SerializeField] private float space = 65f;
 
-    [SerializeField] private RectTransform textBox;
+    [SerializeField] private RectTransform textBox;     //Content 자식 텍스트박스
+    //viewPort
+
 
     private void Awake()
     {
@@ -22,18 +24,24 @@ public class ScrollViewController : MonoBehaviour
         Canvas.ForceUpdateCanvases();
     }
 
-    private void Update()
-    {
-        AutomaticScroll();
-    }
-
     public void AutomaticScroll()
     {
         textBox.anchoredPosition = new Vector2(textBox.anchoredPosition.x, -objContent.rect.height);
 
-        //content 박스 크기 조정
+        //content 박스 height 조정
         objContent.sizeDelta = new Vector2(objContent.sizeDelta.x, textBox.sizeDelta.y);
 
         scrollRect.verticalNormalizedPosition = 0f;
+    }
+
+    public void AutomaticScrollOrigin()
+    {
+        textBox.anchoredPosition = new Vector2(textBox.anchoredPosition.x, -objContent.rect.height);
+
+        //content 박스 height 조정
+        objContent.sizeDelta = new Vector2(objContent.sizeDelta.x, textBox.sizeDelta.y);
+
+        scrollRect.verticalNormalizedPosition = 0f;
+        //scrollRect.normalizedPosition = new Vector2(0, 0);
     }
 }
