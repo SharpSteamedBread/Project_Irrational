@@ -18,6 +18,11 @@ public class RandomEvent : MonoBehaviour
     public int eventTest11 = 10;
     public int eventTest12 = 11;
     public int eventTest13 = 12;
+    public int eventTest14 = 13;
+    public int eventTest15 = 14;
+    public int eventTest16 = 15;
+    public int eventTest17 = 16;
+
 
 
     [Header("½ÇÀü")]

@@ -26,11 +26,6 @@ public class ScrollViewController : MonoBehaviour
 
     public void AutomaticScroll()
     {
-        textBox.anchoredPosition = new Vector2(textBox.anchoredPosition.x, -objContent.rect.height);
-
-        //content 박스 height 조정
-        objContent.sizeDelta = new Vector2(objContent.sizeDelta.x, textBox.sizeDelta.y);
-
         scrollRect.verticalNormalizedPosition = 0f;
     }
 

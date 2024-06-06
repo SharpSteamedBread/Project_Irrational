@@ -131,18 +131,8 @@ public class ShowText : MonoBehaviour
 
         isTyping = false;
 
-        if (currentDialogIndex == 42 || currentDialogIndex == 50 || currentDialogIndex == 58)
-        {
-            currentDialogIndex = 63;
-        }
-        else if (currentDialogIndex == 73 || currentDialogIndex == 77 || currentDialogIndex == 80)
-        {
-            currentDialogIndex = 81;
-        }
-        else
-        {
-            currentDialogIndex++;
-        }
+       
+       currentDialogIndex++;
 
 
         typingSpeed = 0.1f;
@@ -311,24 +301,6 @@ public class ShowText : MonoBehaviour
 
         switch(eventPath)
         {
-            case "testRandomEvent":
-                randomNumber = Random.Range(0, randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent.Length);
-                eventID = randomEncounterManager.GetComponent<RandomEvent>().testRandomEvent[randomNumber];
-                Debug.Log($"배열 인덱스 번호는 {randomNumber}! \n 실제 숫자는 {eventID}");
-                break;
-
-            case "eventBuyFood":
-                randomNumber = Random.Range(0, randomEncounterManager.GetComponent<RandomEvent>().eventBuyFood.Length);
-                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventBuyFood[randomNumber];
-                Debug.Log($"배열 인덱스 번호는 {randomNumber}! \n 실제 숫자는 {eventID}");
-                break;
-
-            case "eventEarphone":
-                randomNumber = Random.Range(0, randomEncounterManager.GetComponent<RandomEvent>().eventEarphone.Length);
-                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventEarphone[randomNumber];
-                Debug.Log($"배열 인덱스 번호는 {randomNumber}! \n 실제 숫자는 {eventID}");
-                break;
-
             case "eventTest1":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest1;
                 break;
@@ -380,11 +352,45 @@ public class ShowText : MonoBehaviour
             case "eventTest13":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest13;
                 break;
+
+            case "eventTest14":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest13;
+                break;
+
+            case "eventTest15":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest13;
+                break;
+
+            case "eventTest16":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest13;
+                break;
+
+            case "eventTest17":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest13;
+                break;
         }
 
     }
 
     public IEnumerator ReadEvent()
+    {
+        Debug.Log($"{mainText.RandomEventTest[eventID].printResult}, 다이얼로그 번호: {mainText.RandomEventTest[eventID].mainDialogJumpTo}");
+
+        yield return new WaitForSeconds(typingSpeed);
+
+        isTyping = false;
+        hasSelectedText = 0;
+        //currentDialogIndex++;
+
+        if(mainText.RandomEventTest[eventID].mainDialogJumpTo != 0)
+        {
+            currentDialogIndex = mainText.RandomEventTest[eventID].mainDialogJumpTo;
+        }
+
+        typingSpeed = 0.1f;
+    }
+
+    public IEnumerator ReadEventOrigin()
     {
         Debug.Log($"{mainText.RandomEventTest[eventID].printResult}");
 
@@ -413,7 +419,7 @@ public class ShowText : MonoBehaviour
         hasSelectedText = 0;
         //currentDialogIndex++;
 
-        if(mainText.RandomEventTest[eventID].mainDialogJumpTo != 0)
+        if (mainText.RandomEventTest[eventID].mainDialogJumpTo != 0)
         {
             currentDialogIndex = mainText.RandomEventTest[eventID].mainDialogJumpTo;
         }
