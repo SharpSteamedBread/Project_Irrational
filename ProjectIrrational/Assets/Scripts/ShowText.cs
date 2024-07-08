@@ -11,9 +11,14 @@ public class ShowText : MonoBehaviour
 
     [Header("텍스트 타이핑")]
 
-    [SerializeField] private TextMeshProUGUI objText;
+    [SerializeField] private TextMeshProUGUI textContent;
+
+    [SerializeField] private GameObject prefabText;
+    [SerializeField] private GameObject objContent;
 
     public int currentDialogIndex = 0;
+
+    public int fontSetting;
 
     private string prevText;
     private string currText;
@@ -61,14 +66,16 @@ public class ShowText : MonoBehaviour
     [Header("스크롤 제어")]
     [SerializeField] private ScrollViewController scrollviewController;
 
+    [Header("폰트")]
+    [SerializeField] private TMP_FontAsset defaultFont;
+    [SerializeField] private TMP_FontAsset fontGrandfather;
+
     private void Awake()
     {
         currentDialogIndex = mainText.DialogText[0].number;
 
         objEventImage.GetComponent<Image>();
         animEventImage.GetComponent<Animator>();
-
-        objText.text = prevText + " ";
 
         StartCoroutine(OnTypingText());
     }
@@ -80,6 +87,7 @@ public class ShowText : MonoBehaviour
 
     private void Update()
     {
+        textContent = prefabText.GetComponent<TextMeshProUGUI>();
         UpdateText();
     }
 
@@ -115,13 +123,15 @@ public class ShowText : MonoBehaviour
 
         isTyping = true;
 
-        prevText += currText + "\n\n";
+        //prevText += currText + "\n\n";
+
+        Instantiate(prefabText, objContent.transform);
 
         int count = 0;
         while (count < mainText.DialogText[currentDialogIndex].textContents.Length)
         {
             currText = mainText.DialogText[currentDialogIndex].textContents.Substring(0, count + 1);
-            objText.text = prevText + currText;
+            textContent.text = currText;
 
             count++;
             //scrollviewController.AutomaticScroll();
@@ -142,6 +152,20 @@ public class ShowText : MonoBehaviour
     {
         eventNumber = mainText.SelectText[currentEventPath].selectEventNumber;
         selectEvent = mainText.DialogText[currentDialogIndex].hasSelectEvent;
+        fontSetting = mainText.DialogText[currentDialogIndex].fontValue;
+
+        Debug.Log($"폰트 세팅: {fontSetting}, 값: {mainText.DialogText[currentDialogIndex].fontValue}");
+
+
+        if (fontSetting == 1)
+        {
+            textContent.font = fontGrandfather;
+        }
+
+        if(fontSetting == 0)
+        {
+            textContent.font = defaultFont;
+        }
 
         if (selectEvent == 1)   //선택지 출력
         {
@@ -383,43 +407,6 @@ public class ShowText : MonoBehaviour
         //currentDialogIndex++;
 
         if(mainText.RandomEventTest[eventID].mainDialogJumpTo != 0)
-        {
-            currentDialogIndex = mainText.RandomEventTest[eventID].mainDialogJumpTo;
-        }
-
-        typingSpeed = 0.1f;
-    }
-
-    public IEnumerator ReadEventOrigin()
-    {
-        Debug.Log($"{mainText.RandomEventTest[eventID].printResult}");
-
-
-        yield return new WaitForSeconds(typingSpeed);
-
-        isTyping = true;
-
-        prevText += currText + "\n\n";
-
-        int count = 0;
-
-
-        while (count < mainText.RandomEventTest[eventID].printResult.Length)
-        {
-            currText = mainText.RandomEventTest[eventID].printResult.Substring(0, count + 1);
-            objText.text = prevText + currText;
-
-            count++;
-            //scrollviewController.AutomaticScroll();
-
-            yield return new WaitForSeconds(typingSpeed);
-        }
-
-        isTyping = false;
-        hasSelectedText = 0;
-        //currentDialogIndex++;
-
-        if (mainText.RandomEventTest[eventID].mainDialogJumpTo != 0)
         {
             currentDialogIndex = mainText.RandomEventTest[eventID].mainDialogJumpTo;
         }

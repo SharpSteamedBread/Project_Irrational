@@ -10,6 +10,7 @@ public class DialogDBEntity
     public string statType;
     public int statValue;
     public int getItemCode;
+    public int fontValue;
 
     public int selectEventNumber;
     public string triggerRandomEvent;
