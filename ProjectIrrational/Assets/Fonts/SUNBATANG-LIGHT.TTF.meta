@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 88b17c64eec873349877c348e5815849
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - SunBatang
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 64b46c1ae665be147aa16a655c871e35, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
