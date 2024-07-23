@@ -11,6 +11,7 @@ public class DialogDBEntity
     public int statValue;
     public int getItemCode;
     public int fontValue;
+    public int selectEventJumpTo;
 
     public int selectEventNumber;
     public string triggerRandomEvent;

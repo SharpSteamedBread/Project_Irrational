@@ -4247,6 +4247,7 @@ MonoBehaviour:
   objSelectText2: {fileID: 391052110}
   objSelectText3: {fileID: 84711742}
   hasSelectedText: 0
+  selectJumpToValue: 0
   objEventImage: {fileID: 1779881659}
   animEventImage: {fileID: 1779881661}
   objSettingUI: {fileID: 1911270289}

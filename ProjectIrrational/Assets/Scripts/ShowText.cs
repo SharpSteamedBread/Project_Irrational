@@ -39,6 +39,8 @@ public class ShowText : MonoBehaviour
 
     public int hasSelectedText = 0;
 
+    public int selectJumpToValue;
+
     [Header("이미지 페이드 연출")]
     public Image objEventImage;
     public Animator animEventImage;
@@ -198,6 +200,27 @@ public class ShowText : MonoBehaviour
             Instantiate(itemObject, transform.position, Quaternion.identity, itemUIParent);
         }
 
+        else if(selectEvent == 5)   // 선택지 이벤트를 점프
+        {
+            selectJumpToValue = mainText.DialogText[currentDialogIndex].selectEventJumpTo;
+            eventNumber = mainText.SelectText[selectJumpToValue].selectEventNumber;
+
+            objSelectText1.SetActive(true);
+            objSelectText2.SetActive(true);
+            objSelectText3.SetActive(true);
+
+            selectText1.text = mainText.SelectText[eventNumber].selectText1;
+            selectText2.text = mainText.SelectText[eventNumber].selectText2;
+            selectText3.text = mainText.SelectText[eventNumber].selectText3;
+
+            //null이 아닐 때에만 이미지 불러오기(이미지를 할당하지 않는 이벤트 고려)
+            if (mainText.SelectText[eventNumber].eventImage.ToString() != "null")
+            {
+                animEventImage.Play("ImageFadeUI", -1, 0f);
+                objEventImage.sprite = Resources.Load<Sprite>($"{mainText.SelectText[eventNumber].eventImage}");
+            }
+        }
+
 
         yield return new WaitForSeconds(0f);
 
@@ -301,71 +324,71 @@ public class ShowText : MonoBehaviour
 
         switch (eventPath)
         {
-            case "eventTest1":
+            case "eventID0":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest1;
                 break;
 
-            case "eventTest2":
+            case "eventID1":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest2;
                 break;
 
-            case "eventTest3":
+            case "eventID2":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest3;
                 break;
 
-            case "eventTest4":
+            case "eventID3":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest4;
                 break;
 
-            case "eventTest5":
+            case "eventID4":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest5;
                 break;
 
-            case "eventTest6":
+            case "eventID5":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest6;
                 break;
 
-            case "eventTest7":
+            case "eventID6":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest7;
                 break;
 
-            case "eventTest8":
+            case "eventID7":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest8;
                 break;
 
-            case "eventTest9":
+            case "eventID8":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest9;
                 break;
 
-            case "eventTest10":
+            case "eventID9":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest10;
                 break;
 
-            case "eventTest11":
+            case "eventID10":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest11;
                 break;
 
-            case "eventTest12":
+            case "eventID11":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest12;
                 break;
 
-            case "eventTest13":
+            case "eventID12":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest13;
                 break;
 
-            case "eventTest14":
+            case "eventID13":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest14;
                 break;
 
-            case "eventTest15":
+            case "eventID14":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest15;
                 break;
 
-            case "eventTest16":
+            case "eventID15":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest16;
                 break;
 
-            case "eventTest17":
+            case "eventID16":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest17;
                 break;
         }
@@ -374,7 +397,7 @@ public class ShowText : MonoBehaviour
 
     public IEnumerator ReadEvent()
     {
-        Debug.Log($"CurrentEventPath: {currentEventPath}, hasSelectedEvent: {hasSelectedText}, EventID: {eventID}, " +
+        Debug.Log($"CurrentEventPath: {currentEventPath}, eventPath: {eventPath}, EventID: {eventID}, " +
             $"{mainText.RandomEventTest[eventID].printResult}, 다이얼로그 번호: {mainText.RandomEventTest[eventID].mainDialogJumpTo}");
 
 
@@ -387,10 +410,7 @@ public class ShowText : MonoBehaviour
         if (mainText.RandomEventTest[eventID].mainDialogJumpTo != 0)
         {
             currentDialogIndex = mainText.RandomEventTest[eventID].mainDialogJumpTo;
-            if(currentDialogIndex >= 28 && eventID == 5)
-            {
-                eventID = 16;
-            }
+
         }
 
         typingSpeed = 0.1f;
