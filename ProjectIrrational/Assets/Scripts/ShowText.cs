@@ -354,19 +354,19 @@ public class ShowText : MonoBehaviour
                 break;
 
             case "eventTest14":
-                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest13;
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest14;
                 break;
 
             case "eventTest15":
-                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest13;
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest15;
                 break;
 
             case "eventTest16":
-                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest13;
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest16;
                 break;
 
             case "eventTest17":
-                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest13;
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest17;
                 break;
         }
 
@@ -374,7 +374,9 @@ public class ShowText : MonoBehaviour
 
     public IEnumerator ReadEvent()
     {
-        Debug.Log($"{mainText.RandomEventTest[eventID].printResult}, 다이얼로그 번호: {mainText.RandomEventTest[eventID].mainDialogJumpTo}");
+        Debug.Log($"CurrentEventPath: {currentEventPath}, hasSelectedEvent: {hasSelectedText}, EventID: {eventID}, " +
+            $"{mainText.RandomEventTest[eventID].printResult}, 다이얼로그 번호: {mainText.RandomEventTest[eventID].mainDialogJumpTo}");
+
 
         yield return new WaitForSeconds(typingSpeed);
 
@@ -385,6 +387,10 @@ public class ShowText : MonoBehaviour
         if (mainText.RandomEventTest[eventID].mainDialogJumpTo != 0)
         {
             currentDialogIndex = mainText.RandomEventTest[eventID].mainDialogJumpTo;
+            if(currentDialogIndex >= 28 && eventID == 5)
+            {
+                eventID = 16;
+            }
         }
 
         typingSpeed = 0.1f;

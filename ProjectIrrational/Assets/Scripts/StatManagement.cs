@@ -68,7 +68,6 @@ public class StatManagement : MonoBehaviour
         }
         else if (mainText.DialogText[getCurrDialogIndex].statValue < 0)
         {
-            //이거 되냐?
             for (int i = 0; i < Mathf.Abs(mainText.DialogText[getCurrDialogIndex].statValue); ++i)
             {
                 valueCoin--;
