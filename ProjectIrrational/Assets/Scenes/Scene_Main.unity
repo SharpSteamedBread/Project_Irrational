@@ -4235,11 +4235,12 @@ MonoBehaviour:
   mainText: {fileID: 11400000, guid: aa25a65bdcd486d4f8aeb8f05ab895b2, type: 2}
   randomEncounterManager: {fileID: 799388880}
   objText: {fileID: 491095638}
-  currentDialogIndex: 0
+  currentDialogIndex: 69
   isTyping: 0
   typingSpeed: 0.03
   currentEventPath: 0
   eventNumber: 0
+  selectEvent: 0
   selectText1: {fileID: 2141375135}
   selectText2: {fileID: 1532006255}
   selectText3: {fileID: 184311567}

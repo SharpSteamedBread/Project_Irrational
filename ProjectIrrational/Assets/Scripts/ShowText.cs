@@ -27,7 +27,7 @@ public class ShowText : MonoBehaviour
 
     public int currentEventPath = 0;
     public int eventNumber;             //액셀 파일의 selectEventNumber 변수
-    private int selectEvent;            //액셀 파일의 hasSelectEvent 변수
+    public int selectEvent;            //액셀 파일의 hasSelectEvent 변수
 
     public TextMeshProUGUI selectText1;
     public TextMeshProUGUI selectText2;
@@ -175,6 +175,8 @@ public class ShowText : MonoBehaviour
 
         else if (selectEvent == 3)   //스텟 가감
         {
+            Debug.Log("일안해?");
+
             switch (mainText.DialogText[currentDialogIndex].statType)
             {
                 case "statHeart":
