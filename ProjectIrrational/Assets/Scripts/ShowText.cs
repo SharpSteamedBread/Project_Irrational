@@ -393,6 +393,32 @@ public class ShowText : MonoBehaviour
             case "eventID16":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest17;
                 break;
+
+            case "eventID17":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest18;
+                break;
+
+            case "eventID18":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest19;
+                break;
+            case "eventID19":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest20;
+                break;
+            case "eventID20":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest21;
+                break;
+            case "eventID21":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest22;
+                break;
+            case "eventID22":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest23;
+                break;
+            case "eventID23":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest24;
+                break;
+            case "eventID24":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest25;
+                break;
         }
 
     }

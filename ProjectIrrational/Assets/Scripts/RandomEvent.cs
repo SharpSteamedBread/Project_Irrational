@@ -23,6 +23,24 @@ public class RandomEvent : MonoBehaviour
     public int eventTest16 = 15;
     public int eventTest17 = 16;
 
+    public int eventTest18 = 17;
+    public int eventTest19 = 18;
+    public int eventTest20 = 19;
+    public int eventTest21 = 20;
+    public int eventTest22 = 21;
+    public int eventTest23 = 22;
+    public int eventTest24 = 23;
+    public int eventTest25 = 24;
+    public int eventTest26 = 25;
+    public int eventTest27 = 26;
+    public int eventTest28 = 27;
+    public int eventTest29 = 28;
+    public int eventTest30 = 29;
+    public int eventTest31 = 30;
+    public int eventTest32 = 31;
+    public int eventTest33 = 32;
+
+
 
 
     [Header("½ÇÀü")]

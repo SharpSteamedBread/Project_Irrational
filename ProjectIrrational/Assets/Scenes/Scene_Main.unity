@@ -2260,6 +2260,7 @@ MonoBehaviour:
   eventTest15: 14
   eventTest16: 15
   eventTest17: 16
+  eventTest18: 17
   eventBuyFood: 020000000300000005000000
   eventEarphone: 070000000800000009000000
 --- !u!4 &799388882
@@ -2861,6 +2862,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1095558162}
     m_Modifications:
+    - target: {fileID: 1615669201647883160, guid: ebb3fc5b394db3647aad44a7eabc2e33, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1615669201647883160, guid: ebb3fc5b394db3647aad44a7eabc2e33, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1615669201647883161, guid: ebb3fc5b394db3647aad44a7eabc2e33, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2949,6 +2958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Image_Coin (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2340219707932782985, guid: ebb3fc5b394db3647aad44a7eabc2e33, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1319753792, guid: 20e29fffdd79feb49bc1336a81aea83c, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebb3fc5b394db3647aad44a7eabc2e33, type: 3}
 --- !u!224 &1020002977 stripped
@@ -3827,7 +3840,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -300}
+  m_AnchoredPosition: {x: 0, y: -423}
   m_SizeDelta: {x: 887, y: 975}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1195777456
@@ -4031,6 +4044,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1095558162}
     m_Modifications:
+    - target: {fileID: 1615669201647883160, guid: ebb3fc5b394db3647aad44a7eabc2e33, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1615669201647883160, guid: ebb3fc5b394db3647aad44a7eabc2e33, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1615669201647883160, guid: ebb3fc5b394db3647aad44a7eabc2e33, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1615669201647883161, guid: ebb3fc5b394db3647aad44a7eabc2e33, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4119,6 +4144,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Image_Coin
       objectReference: {fileID: 0}
+    - target: {fileID: 1615669201647883162, guid: ebb3fc5b394db3647aad44a7eabc2e33, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2340219707932782985, guid: ebb3fc5b394db3647aad44a7eabc2e33, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1319753792, guid: 20e29fffdd79feb49bc1336a81aea83c, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebb3fc5b394db3647aad44a7eabc2e33, type: 3}
 --- !u!224 &1261661097 stripped
@@ -4807,6 +4840,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1095558162}
     m_Modifications:
+    - target: {fileID: 1615669201647883160, guid: ebb3fc5b394db3647aad44a7eabc2e33, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1615669201647883160, guid: ebb3fc5b394db3647aad44a7eabc2e33, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1615669201647883161, guid: ebb3fc5b394db3647aad44a7eabc2e33, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4895,6 +4936,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Image_Coin (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2340219707932782985, guid: ebb3fc5b394db3647aad44a7eabc2e33, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1319753792, guid: 20e29fffdd79feb49bc1336a81aea83c, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebb3fc5b394db3647aad44a7eabc2e33, type: 3}
 --- !u!224 &1470226007 stripped
@@ -6059,8 +6104,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 60, y: -90.00006}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 125, y: -79.757}
+  m_SizeDelta: {x: 105.06, y: 50.486}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1868867356
 MonoBehaviour:
@@ -6138,7 +6183,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aa36e4c42e738da4ba59e45dbc74efc5, type: 3}
+  m_Sprite: {fileID: -126543704, guid: 06bfeedf3fe420f41bd84b7e20ec42b8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6834,8 +6879,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 800, y: -85}
-  m_SizeDelta: {x: 240, y: 40}
+  m_AnchoredPosition: {x: 837.45, y: -83.694}
+  m_SizeDelta: {x: 255.665, y: 42.611}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1966593303
 MonoBehaviour:
