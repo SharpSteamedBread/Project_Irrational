@@ -147,14 +147,37 @@ public class ShowText : MonoBehaviour
 
         if (selectEvent == 1)   //선택지 출력
         {
-            objSelectText1.SetActive(true);
-            objSelectText2.SetActive(true);
-            objSelectText3.SetActive(true);
-
             selectText1.text = mainText.SelectText[eventNumber].selectText1;
             selectText2.text = mainText.SelectText[eventNumber].selectText2;
             selectText3.text = mainText.SelectText[eventNumber].selectText3;
 
+            if(selectText1.text == "-")
+            {
+                objSelectText1.SetActive(false);
+            }
+            else
+            {
+                objSelectText1.SetActive(true);
+            }
+
+            if (selectText2.text == "-")
+            {
+                objSelectText2.SetActive(false);
+            }
+            else
+            {
+                objSelectText2.SetActive(true);
+            }
+
+            if (selectText3.text == "-")
+            {
+                objSelectText3.SetActive(false);
+            }
+            else
+            {
+                objSelectText3.SetActive(true);
+            }
+            
             //null이 아닐 때에만 이미지 불러오기(이미지를 할당하지 않는 이벤트 고려)
             if (mainText.SelectText[eventNumber].eventImage.ToString() != "null")
             {
