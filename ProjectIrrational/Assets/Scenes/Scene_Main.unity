@@ -2261,6 +2261,21 @@ MonoBehaviour:
   eventTest16: 15
   eventTest17: 16
   eventTest18: 17
+  eventTest19: 18
+  eventTest20: 19
+  eventTest21: 20
+  eventTest22: 21
+  eventTest23: 22
+  eventTest24: 23
+  eventTest25: 24
+  eventTest26: 25
+  eventTest27: 26
+  eventTest28: 27
+  eventTest29: 28
+  eventTest30: 29
+  eventTest31: 30
+  eventTest32: 31
+  eventTest33: 32
   eventBuyFood: 020000000300000005000000
   eventEarphone: 070000000800000009000000
 --- !u!4 &799388882
