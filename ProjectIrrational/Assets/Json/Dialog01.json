@@ -1,0 +1,1452 @@
+﻿[
+  {
+    "number": 0,
+    "textContents": "[테스트 1.5 ver]",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 1,
+    "textContents": "작은 침묵에 어두운 문틈 사이로 조그맣게 들어오는 어설픈 빛.",
+    "hasSelectEvent": 2,
+    "mainImage": "10101_A_1",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 2,
+    "textContents": "그게 내가 이 세상에서 처음으로 마주하는 장면이었다.",
+    "hasSelectEvent": 1,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 3,
+    "textContents": "나는 고개를 들어서 주위를 살폈다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 4,
+    "textContents": "묘하게 조용한 오두막이었지만 얼핏 밖에서 사람의 목소리가 들려오는 듯했다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 5,
+    "textContents": "깨질 듯이 머리가 아파왔지만, 일단 이곳이 어딘지 알고 싶었다.",
+    "hasSelectEvent": 1,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 6,
+    "textContents": "끼익--",
+    "hasSelectEvent": 2,
+    "mainImage": "10101_A_3",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 7,
+    "textContents": "낡은 문을 밀며 조심스레 문밖을 나와서 발걸음을 옮겼다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 8,
+    "textContents": "나는 금방 내가 있던 곳이 숲속의 낡은 오두막이라는 것을 깨달았다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 9,
+    "textContents": "왜 나는 이런 곳에 있는 것일까. 나는 분명…어…",
+    "hasSelectEvent": 1,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 10,
+    "textContents": "기억이 나지 않았다.",
+    "hasSelectEvent": 2,
+    "mainImage": "10101_A_4",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 11,
+    "textContents": "내가 왜 이곳에 오게 되었는지, 어떻게 살아왔는지, 심지어 내 이름조차… 무엇 하나 기억나지 않았다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 12,
+    "textContents": "점점 심각성을 깨달아 가고 있을 때쯤, 숲속에서 한 무리의 사람들이 나에게 다가왔다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 13,
+    "textContents": "3명의 남자와 1명의 여자, 그중에서 리더로 보이는 남자가 말을 걸어왔다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 14,
+    "textContents": "“이봐! 자네 괜찮나? 몸이 좋지 않아 보이는군. 그래… 도와줄까?”",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 15,
+    "textContents": "생글생글 웃으며 다가오는 얼굴에 나는 왠지 모르게 주춤거리며 뒤로 한걸음 물러섰다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 16,
+    "textContents": "이쪽의 경계심을 알아본 걸까. 남자는 양손을 펼쳐 보이며 말을 이어갔다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 17,
+    "textContents": "“이런이런 내가 너무 갑작스러웠나 보군. 걱정말게, 난 지금 어떤 무장도 하고 있지 않아.",
+    "hasSelectEvent": 1,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 18,
+    "textContents": "“그래그래 걱정하지 말게. 그저 만난 사람이 반가웠을 뿐이야. 인간이라면 응당 호의를 호의로 받아들일 줄도 알아야지. 그럼, 잠시…”",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 19,
+    "textContents": "남자는 내게 다가오더니 나의 맥을 짚으며 간단히 내 상태를 봐주었다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 20,
+    "textContents": "친절해 보이는 모습이었지만, 나는 분명 아주 잠깐 그 남자가 쯧, 이라며 혀를 차는 모습을 보았다.",
+    "hasSelectEvent": 1,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 21,
+    "textContents": "“그냥 잠깐의 현기증 같군 그래. 금방 괜찮아질꺼야.”",
+    "hasSelectEvent": 2,
+    "mainImage": "10101_C_1",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 22,
+    "textContents": "남자는 내 어깨를 두드리며 나를 안심시키고는 잠시 무리로 돌아가서 이런 저런 얘기를 나누다가 내게 돌아왔다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 23,
+    "textContents": "“아쉽게도 우리는 일이 있어서 이만 가봐야 하는데, 혹시 궁금한 거라도 있나?”",
+    "hasSelectEvent": 1,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 24,
+    "textContents": "나는 조심스럽게 이곳이 어딘지 물어보았다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 25,
+    "textContents": "“자네가 말하는 ‘이곳’은 여러 의미가 있군…",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 26,
+    "textContents": "일단 우리가 있는 이곳은 거울 세계라고 불리는 숲이라네.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 27,
+    "textContents": "그리고 자네가 원하는 답을 듣고 싶다면… 그래 그 할매가 좋겠군.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 28,
+    "textContents": "저쪽의 커다란 나무 보이지? 저쪽으로 쭉 가면 커다란 나무집이 나올 거야.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 29,
+    "textContents": "거기서 도움을 청해보게. 자네가 원하는 답들을 들을 수 있을 거야.”",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 30,
+    "textContents": "남자는 행운을 빈다며 나에게 작은 동전 하나를 건네주며 떠났다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 31,
+    "textContents": "나는 터덜터덜 숲으로 발걸음을 옮겼다.",
+    "hasSelectEvent": 3,
+    "mainImage": "null",
+    "statType": "statCoin",
+    "statValue": 1,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 32,
+    "textContents": "돈을 조금 얻었다...",
+    "hasSelectEvent": 5,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 9,
+    "fontValue": 1
+  },
+  {
+    "number": 33,
+    "textContents": "호의를 거절하자 리더의 뒤에 있던 노란 머리의 남자가 얼굴을 찌푸렸다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 34,
+    "textContents": "“호의를 호의로 받아들이지 못하는군. 하! 대장, 내가 말했지? 뻔한 놈 일 거라니까.”",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 35,
+    "textContents": "“그만! 경계하는 게 당연해. 온 지 얼마 안 되어 보이잖아.”",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 36,
+    "textContents": "“대장의 신중함을 좋아하지만, 그렇게 속이던 놈들이 꽤나 있었잖아. 일단 무장해제 시키고 판단하자고.”",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 37,
+    "textContents": "무리의 눈빛이 단숨에 바뀌었다. 나는 순식간에 바뀐 태도에 당황하며 경계심을 끌어올렸다.",
+    "hasSelectEvent": 5,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 6,
+    "fontValue": 1
+  },
+  {
+    "number": 38,
+    "textContents": "얼굴을 찌푸린 남자가 무리에게 슬쩍 말하는 틈을 타서 나는 재빨리 뒤로 도망치기 시작했다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 39,
+    "textContents": "“저 녀석 잡아!”",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 40,
+    "textContents": "내가 뛰는 것을 보자마자 사람들이 날 쫓아오기 시작했다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 41,
+    "textContents": "그 사람들의 반응을 보며 분명히 깨달았다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 42,
+    "textContents": "지금 잡히면 안 된다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 43,
+    "textContents": "머리가 깨질 듯이 아프고 몸도 무겁게 느껴졌지만, 정신없이 앞을 보고 뛰었다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 44,
+    "textContents": "허억거리는 숨소리가 내 귀를, 몰아치는 불안감이 나를 채웠다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 45,
+    "textContents": "계속 쫓아오고 있는 걸까?",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 46,
+    "textContents": "이 방향으로 도망치는 게 맞는 걸까?",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 47,
+    "textContents": "시간은 얼마나 지난 걸까?",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 48,
+    "textContents": "이곳은 도대체 어디지?",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 49,
+    "textContents": "끊임없이 드는 의문과 의심들이 숨을 가파르게 만들었다.",
+    "hasSelectEvent": 5,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 7,
+    "fontValue": 1
+  },
+  {
+    "number": 50,
+    "textContents": "나는 달리기를 서서히 멈추며 잠시 눈앞에 보이는 나무의 뒤로 숨어서 숨을 골랐다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 51,
+    "textContents": "다행히 쫓아오던 무리의 소리가 들려오지는 않았다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 52,
+    "textContents": "안심하기도 잠시, 나는 이상한 점을 느꼈다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 53,
+    "textContents": "왠지 모를 이질감의 정체를 깨닫는 건 오래 걸리지 않았다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 54,
+    "textContents": "분명 방금까지 쉬지 않고 전속력으로 달려왔는데…심장 소리가 느껴지지 않았다.",
+    "hasSelectEvent": 5,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 8,
+    "fontValue": 1
+  },
+  {
+    "number": 55,
+    "textContents": "떨리는 손으로 나는 나의 맥박을 짚었다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 56,
+    "textContents": "맥박이 전혀 뛰고 있지 않았다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 57,
+    "textContents": "그렇다. 지금 나는… 심장이 없었다.",
+    "hasSelectEvent": 3,
+    "mainImage": "null",
+    "statType": "statMental",
+    "statValue": -1,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 58,
+    "textContents": "정신이 아득해진다...",
+    "hasSelectEvent": 5,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 9,
+    "fontValue": 1
+  },
+  {
+    "number": 59,
+    "textContents": "“우리의 태도가 바뀌니 겁이 들었나?",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 60,
+    "textContents": "호의를 호의로 받지 못한 정당한 대가를 받아야겠다고 느끼는데, 네 생각은 어떻지?”",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 61,
+    "textContents": "억울하다고 말해본다….나는 억울하다고 진심으로 호소했다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 62,
+    "textContents": "그러나 노란 머리의 남자는 여전히 험상궂은 얼굴로 나를 노려보았다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 63,
+    "textContents": "“그런 건 중요하지 않아.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 64,
+    "textContents": "숲속에서 우린 서로 마주쳤고, 우리가 더 강하다는 게 중요하지.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 65,
+    "textContents": "너의 선택에 따라 우리의 선택도 달라질 거다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 66,
+    "textContents": "잘 생각하는 게 좋을 거야.”",
+    "hasSelectEvent": 5,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 10,
+    "fontValue": 1
+  },
+  {
+    "number": 67,
+    "textContents": "나는 주머니 속에 있는 정체 모를 돈을 남자의 앞으로 던졌다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 68,
+    "textContents": "돈을 확인한 남자의 표정이 조금 풀렸다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 69,
+    "textContents": "“그래. 이렇게 호의적이었으면 얼마나 좋아~.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 70,
+    "textContents": "우리처럼 친절한 사람들도 없는데 말이지.”",
+    "hasSelectEvent": 3,
+    "mainImage": "null",
+    "statType": "statCoin",
+    "statValue": -1,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 71,
+    "textContents": "그렇게 말하는 남자의 눈에는 아직 탐욕이 스쳐 가고 있었다.",
+    "hasSelectEvent": 5,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 11,
+    "fontValue": 1
+  },
+  {
+    "number": 72,
+    "textContents": "나는 그 탐욕의 눈에 내가 가진 돈의 전부를 주었다고 말했다.",
+    "hasSelectEvent": 2,
+    "mainImage": "10101_E_2",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 73,
+    "textContents": "그러자 노란 머리 남자의 시선을 리더가 돌아 세웠다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 74,
+    "textContents": "“알고 있네.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 75,
+    "textContents": "다들 처음 왔을 때 이 정도를 가지고 있었으니까… 이제 확신이 드는군.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 76,
+    "textContents": "갑자기 태도를 바꿔 미안하네. 세상이 세상이니 말이야.”",
+    "hasSelectEvent": 5,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 12,
+    "fontValue": 1
+  },
+  {
+    "number": 77,
+    "textContents": "“음…. 아니네.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 78,
+    "textContents": "우리보다는 다른 곳에서 더 정보를 얻는 곳이 좋아 보이는군.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 79,
+    "textContents": "자네가 궁금한 것이 많을 테니…”",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 80,
+    "textContents": "남자는 뒤편 너머의 큰 나무를 가리키며 주막 할매를 찾아가라고 알려주었다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 81,
+    "textContents": "그렇게 무리는 떠나고, 나는 긴장감이 풀리며 털썩 주저앉았다.",
+    "hasSelectEvent": 3,
+    "mainImage": "null",
+    "statType": "statMenatl",
+    "statValue": -1,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 82,
+    "textContents": "갑자기 눈 뜬 이 세상이 조금, 어쩌면 많이 막막해 보였다.",
+    "hasSelectEvent": 5,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 9,
+    "fontValue": 1
+  },
+  {
+    "number": 83,
+    "textContents": "정체를 모르는 무리의 기세에서 나는 가만히 있다간 당할 수도 있겠다는 생각이 들었다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 84,
+    "textContents": "나는 주먹을 들어 경계태세를 취했다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 85,
+    "textContents": "노란 머리의 남자는 나를 흥미롭다는 듯이 바라보았다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 86,
+    "textContents": "“오~ 나쁘지 않은 선택이야.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 87,
+    "textContents": "역시 싸울 줄도 아는 배짱 있는 사람인게 좋지.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 88,
+    "textContents": "근데 그건 알아야할 거야.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 89,
+    "textContents": "지금 여기서 우린 네가 반항하면 죽일거다.”",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 90,
+    "textContents": "순식간에 남자의 기세가 날카로워졌다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 91,
+    "textContents": "나는 당황했다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 92,
+    "textContents": "저 위협이 정말일까?",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 93,
+    "textContents": "보아하니 그들의 일행 중에 그 누구도 그 말에 반대하는 사람이 없었다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 94,
+    "textContents": "저 사람들은 왜 저렇게 살인에 태연한 걸까.",
+    "hasSelectEvent": 5,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 9,
+    "fontValue": 1
+  },
+  {
+    "number": 95,
+    "textContents": "나는 태도를 굽히지 않았다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 96,
+    "textContents": "처음 보는 이 세상에서 사람을 함부로 믿는 건 바보같은 짓이라고 생각했다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 97,
+    "textContents": "노란 머리의 남자는 나를 바라 보더니 한 숨을 내쉬며 다가오기 시작했다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 98,
+    "textContents": "“하… 그래. 네 선택이 어땠는지 보여줄게.”",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 99,
+    "textContents": "나는 인생 처음 느껴보는 살기에 주춤했다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 100,
+    "textContents": "‘정말로 나를 죽인다고?’",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 101,
+    "textContents": "그 공포에 나는 반사적으로 주먹을 휘둘렀다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 102,
+    "textContents": "하지만 상대는 능숙하게 나를 피하고는 내 목을 움켜쥐어 들었다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 103,
+    "textContents": "컥…",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 104,
+    "textContents": "‘숨이…’",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 105,
+    "textContents": "푹.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 106,
+    "textContents": "그리 크지도, 작지도 않은 소리였다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 107,
+    "textContents": "막힘 숨을 안간힘으로 내쉬려하며 흘겨본 내 복부에는 칼 한자루가 꽂혀 있었다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 108,
+    "textContents": "아. 이게 칼로 찔리는 고통이란 거구나.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 109,
+    "textContents": "푹.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 110,
+    "textContents": "한 번 더 찔리자 그제서야 몰려온 고통에 몸부림 쳐봤지만.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 111,
+    "textContents": "바뀌는건 없었다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 112,
+    "textContents": "“걱정마라 꼬맹아. 네가 아무리 죽고 싶어도 죽지 못하는 시간이 올테니까.”",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 113,
+    "textContents": "‘그게 무슨…’",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 114,
+    "textContents": "그렇게 나는 정신을 잃었다.",
+    "hasSelectEvent": 3,
+    "mainImage": "null",
+    "statType": "statHeart",
+    "statValue": -6,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 115,
+    "textContents": "나는 그다지 험난하지는 않은 숲속 길을 지나서 커다란 느티나무에 도착했다.",
+    "hasSelectEvent": 2,
+    "mainImage": "10102_A_0",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 116,
+    "textContents": "시간은 어느새 저물어 밤이 되어 가고 있었다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 117,
+    "textContents": "멀리서도 느끼고 있었지만, 정말 큰 느티나무였다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 118,
+    "textContents": "그리고 느티나무 밑동에서 새어 나오는 빛과 나무문이 묘한 신비감을 가지고 있었다.",
+    "hasSelectEvent": 5,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 15,
+    "fontValue": 1
+  },
+  {
+    "number": 119,
+    "textContents": "똑똑-",
+    "hasSelectEvent": 2,
+    "mainImage": "10102_A_1",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 120,
+    "textContents": "조심스레 다가가서 문을 두드리자 끼익 - 소리를 내며 문이 천천히 열렸다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 121,
+    "textContents": "나는 나무 내부 속의 모습에 내심 놀랐다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 122,
+    "textContents": "그림을 빼다 놓은 나무집의 모습과 가구, 그리고 포근한 분위기가 인상적이었다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 123,
+    "textContents": "그런 풍경에 감탄하며 고개를 돌리며 눈길이 닿은 곳엔 어떤 할머니가 앉아 계셨다.",
+    "hasSelectEvent": 5,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 16,
+    "fontValue": 1
+  },
+  {
+    "number": 124,
+    "textContents": "할머니께 고개를 숙이며 인사를 건넸다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 125,
+    "textContents": "“그래, 기다리고 있었단다, 아가야.”",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 126,
+    "textContents": "나를 알고 있는 것처럼 말하시는 모습에 흠칫하며 당황했다.",
+    "hasSelectEvent": 5,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 17,
+    "fontValue": 1
+  },
+  {
+    "number": 127,
+    "textContents": "나는 조심스레 정체를 물을 수밖에 없었다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 128,
+    "textContents": "“보아하니 내 나라의 후손이구나.”",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 129,
+    "textContents": "할머니의 답은 의외였다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 130,
+    "textContents": "나는 곧 느낀 이상함을 깨달았다.",
+    "hasSelectEvent": 5,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 18,
+    "fontValue": 1
+  },
+  {
+    "number": 131,
+    "textContents": "내 물음에 할머니는 고개를 끄덕이셨다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 132,
+    "textContents": "“그래, 나는 고구려의 시대를 살았던 사람이란다.”",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 133,
+    "textContents": "고구려의 시대라는 말에 나는 헛웃음을 지었다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 134,
+    "textContents": "고구려라니, 그럼, 눈앞의 할머니는 1000년을 넘게 살았다는 말인가.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 135,
+    "textContents": "“조급해 말고 궁금한 것을 물어보려무나.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 136,
+    "textContents": "하지만 나는 한가지 질문에만 답을 해준단다.”",
+    "hasSelectEvent": 5,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 19,
+    "fontValue": 1
+  },
+  {
+    "number": 137,
+    "textContents": "“생각보다 신중한 아이로구나.”",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 138,
+    "textContents": "얼마나 기다렸을까, 할머니가 눈을 뜨며 말했다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 139,
+    "textContents": "“보통 이 세상에 떨어진 이들은 혼란 속에서 성급해지는 것이 대부분이거늘…",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 140,
+    "textContents": "예의가 바른 것인지 속이 음흉한 것인지 궁금하구나.”",
+    "hasSelectEvent": 5,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 20,
+    "fontValue": 1
+  },
+  {
+    "number": 141,
+    "textContents": "“그래, 길길이 날뛰어도 그래 봤자 바뀌는 건 없는데 말이야.”",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 142,
+    "textContents": "할머니의 말씀이 맞았다.",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 143,
+    "textContents": "나도 방금까지 알 수 없는 두려움에 조급 했으니까…",
+    "hasSelectEvent": 0,
+    "mainImage": "null",
+    "statType": "null",
+    "statValue": 0,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  },
+  {
+    "number": 144,
+    "textContents": "“너의 인내심에 존중을 표하마. 그래, 무엇이 궁금해서 왔느냐?",
+    "hasSelectEvent": 3,
+    "mainImage": "null",
+    "statType": "statMental",
+    "statValue": 1,
+    "selectEventJumpTo": 0,
+    "fontValue": 1
+  }
+]

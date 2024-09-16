@@ -24,12 +24,12 @@ public class StatManagement : MonoBehaviour
 
     public void Awake()
     {
-        getCurrDialogIndex = objTextController.GetComponent<ShowText>().currentDialogIndex;
+        getCurrDialogIndex = objTextController.GetComponent<ShowTextJson>().currentDialogIndex;
     }
 
     public void CalculateHeart()
     {
-        getCurrDialogIndex = objTextController.GetComponent<ShowText>().currentDialogIndex;
+        getCurrDialogIndex = objTextController.GetComponent<ShowTextJson>().currentDialogIndex;
 
         if(mainText.DialogText[getCurrDialogIndex].statValue > 0)
         {
@@ -56,7 +56,7 @@ public class StatManagement : MonoBehaviour
 
     public void CalculateCoin()
     {
-        getCurrDialogIndex = objTextController.GetComponent<ShowText>().currentDialogIndex;
+        getCurrDialogIndex = objTextController.GetComponent<ShowTextJson>().currentDialogIndex;
 
         if (mainText.DialogText[getCurrDialogIndex].statValue > 0)
         {
@@ -83,7 +83,7 @@ public class StatManagement : MonoBehaviour
 
     public void CalculateMental()
     {
-        getCurrDialogIndex = objTextController.GetComponent<ShowText>().currentDialogIndex;
+        getCurrDialogIndex = objTextController.GetComponent<ShowTextJson>().currentDialogIndex;
 
         if (mainText.DialogText[getCurrDialogIndex].statValue > 0)
         {

@@ -207,7 +207,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1293971636}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ShowText, Assembly-CSharp
         m_MethodName: SelectAndJump3
         m_Mode: 1
@@ -801,6 +801,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 220748290}
   m_CullTransparentMesh: 1
+--- !u!1 &228437245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 228437247}
+  - component: {fileID: 228437246}
+  m_Layer: 0
+  m_Name: DialogJson
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &228437246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228437245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 932eb90a46b9fd34fa22a6bd623cbdcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialog01File: {fileID: 4900000, guid: 9abc877ed782cf64c94ba81f3e8d697e, type: 3}
+  selectText01File: {fileID: 4900000, guid: 2560bc61f72473647a8dabeb3a2203a4, type: 3}
+  randomEvent01File: {fileID: 4900000, guid: 4f78f9c5ea53c304eb2727e9351ec5d4, type: 3}
+  itemSheetFile: {fileID: 4900000, guid: 082e732f3860f9c46aa5d648322f84e4, type: 3}
+  dialogList01:
+    dialogSection01: []
+  selectText01:
+    selection01: []
+  randomEvent01:
+    randomEvent01: []
+  itemSheet:
+    itemSheet: []
+--- !u!4 &228437247
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228437245}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 77.196465, y: 555.7294, z: -51.428135}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &391052110
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,7 +941,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1293971636}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ShowText, Assembly-CSharp
         m_MethodName: SelectAndJump2
         m_Mode: 1
@@ -1419,7 +1475,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1293971636}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ShowText, Assembly-CSharp
         m_MethodName: SelectAndJump1
         m_Mode: 1
@@ -1705,7 +1761,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1293971636}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ShowText, Assembly-CSharp
         m_MethodName: SelectAndJump4
         m_Mode: 1
@@ -2261,6 +2317,21 @@ MonoBehaviour:
   eventTest16: 15
   eventTest17: 16
   eventTest18: 17
+  eventTest19: 18
+  eventTest20: 19
+  eventTest21: 20
+  eventTest22: 21
+  eventTest23: 22
+  eventTest24: 23
+  eventTest25: 24
+  eventTest26: 25
+  eventTest27: 26
+  eventTest28: 27
+  eventTest29: 28
+  eventTest30: 29
+  eventTest31: 30
+  eventTest32: 31
+  eventTest33: 32
   eventBuyFood: 020000000300000005000000
   eventEarphone: 070000000800000009000000
 --- !u!4 &799388882
@@ -4244,7 +4315,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1293971637}
-  - component: {fileID: 1293971636}
+  - component: {fileID: 1293971639}
   - component: {fileID: 1293971638}
   m_Layer: 0
   m_Name: TextController
@@ -4253,45 +4324,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1293971636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1293971635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57ffd81dca4b7e14aaf42237bab921c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainText: {fileID: 11400000, guid: aa25a65bdcd486d4f8aeb8f05ab895b2, type: 2}
-  randomEncounterManager: {fileID: 799388880}
-  objText: {fileID: 491095638}
-  currentDialogIndex: 69
-  isTyping: 0
-  typingSpeed: 0.03
-  currentEventPath: 0
-  eventNumber: 0
-  selectEvent: 0
-  selectText1: {fileID: 2141375135}
-  selectText2: {fileID: 1532006255}
-  selectText3: {fileID: 184311567}
-  objSelectText1: {fileID: 512129342}
-  objSelectText2: {fileID: 391052110}
-  objSelectText3: {fileID: 84711742}
-  hasSelectedText: 0
-  selectJumpToValue: 0
-  objEventImage: {fileID: 1779881659}
-  animEventImage: {fileID: 1779881661}
-  objSettingUI: {fileID: 1911270289}
-  randomNumber: 0
-  eventID: 0
-  eventPath: 
-  statManagement: {fileID: 1293971638}
-  itemUIParent: {fileID: 505226427}
-  itemObject: {fileID: 4458152381178308769, guid: ab3ea7834cdb41e46a701adb5ba1265e, type: 3}
-  scrollviewController: {fileID: 1925593277}
 --- !u!4 &1293971637
 Transform:
   m_ObjectHideFlags: 0
@@ -4331,6 +4363,51 @@ MonoBehaviour:
   parentMental: {fileID: 1966593301}
   prefabMental: {fileID: 3689043461144714452, guid: 28112c2cd7cd657489c9377eac2ed252, type: 3}
   valueMental: 3
+--- !u!114 &1293971639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293971635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8aef1d1368ecde45940adc884a0670e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogManager: {fileID: 228437246}
+  dialogList01:
+    dialogSection01: []
+  selectText01:
+    selection01: []
+  randomEvent01:
+    randomEvent01: []
+  randomEncounterManager: {fileID: 799388880}
+  objText: {fileID: 491095638}
+  currentDialogIndex: 0
+  isTyping: 0
+  typingSpeed: 0.1
+  currentEventPath: 0
+  eventNumber: 0
+  selectEvent: 0
+  selectText1: {fileID: 2141375135}
+  selectText2: {fileID: 1532006255}
+  selectText3: {fileID: 184311567}
+  objSelectText1: {fileID: 512129342}
+  objSelectText2: {fileID: 391052110}
+  objSelectText3: {fileID: 84711742}
+  hasSelectedText: 0
+  selectJumpToValue: 0
+  objEventImage: {fileID: 1779881659}
+  animEventImage: {fileID: 1779881661}
+  objSettingUI: {fileID: 1911270289}
+  randomNumber: 0
+  eventID: 0
+  eventPath: 
+  statManagement: {fileID: 1293971638}
+  itemUIParent: {fileID: 505226427}
+  itemObject: {fileID: 4458152381178308769, guid: ab3ea7834cdb41e46a701adb5ba1265e, type: 3}
+  scrollviewController: {fileID: 1925593277}
 --- !u!1 &1325399814
 GameObject:
   m_ObjectHideFlags: 0
