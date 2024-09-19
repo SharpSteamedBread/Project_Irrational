@@ -142,6 +142,7 @@ public class ShowTextJson : MonoBehaviour
 
     private IEnumerator CheckSelectEvent()
     {
+
         eventNumber = selectText01.selection01[currentEventPath].selectEventNumber;
         selectEvent = dialogList01.dialogSection01[currentDialogIndex].hasSelectEvent;
 
