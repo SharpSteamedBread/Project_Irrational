@@ -11,6 +11,16 @@ public class ShowTextJson : MonoBehaviour
     public DialogList dialogList01;             // JSON에서 불러온 Dialog 데이터 리스트
     public Selection01List selectText01;        // JSON에서 불러온 Selection 데이터 리스트
     public RandomEvent01List randomEvent01;     // JSON에서 불러온 RandomEvent 데이터 리스트
+
+    /*
+     json list 사용법
+
+    dialogList01.dialogSection01[currentDialogIndex]
+    selectText01.selection01[eventNumber]
+    randomEvent01.randomEvent01[어쩌구]
+
+     */
+
     public GameObject randomEncounterManager;
 
     [Header("텍스트 타이핑")]
@@ -68,6 +78,7 @@ public class ShowTextJson : MonoBehaviour
 
     private void Awake()
     {
+
         objEventImage.GetComponent<Image>();
         animEventImage.GetComponent<Animator>();
 
@@ -85,7 +96,6 @@ public class ShowTextJson : MonoBehaviour
         randomEvent01 = dialogManager.randomEvent01;
 
         currentDialogIndex = dialogList01.dialogSection01[0].number;
-
     }
 
     private void Update()
@@ -189,10 +199,12 @@ public class ShowTextJson : MonoBehaviour
                     break;
             }
         }
+
         else if (selectEvent == 4)   // 아이템 획득
         {
             Instantiate(itemObject, transform.position, Quaternion.identity, itemUIParent);
         }
+
         else if (selectEvent == 5)   // 선택지 이벤트 점프
         {
             selectJumpToValue = dialogList01.dialogSection01[currentDialogIndex].selectEventJumpTo;
@@ -220,7 +232,14 @@ public class ShowTextJson : MonoBehaviour
     {
         hasSelectedText = 1;
         eventPath = selectText01.selection01[eventNumber].triggerEvent1;
-        ProcessRandomEvent();
+
+        ChooseRandomNumber();
+        StartCoroutine(ReadEvent());
+
+        objSelectText1.SetActive(false);
+        objSelectText2.SetActive(false);
+        objSelectText3.SetActive(false);
+
         currentEventPath++;
     }
 
@@ -228,7 +247,14 @@ public class ShowTextJson : MonoBehaviour
     {
         hasSelectedText = 2;
         eventPath = selectText01.selection01[eventNumber].triggerEvent2;
-        ProcessRandomEvent();
+
+        ChooseRandomNumber();
+        StartCoroutine(ReadEvent());
+
+        objSelectText1.SetActive(false);
+        objSelectText2.SetActive(false);
+        objSelectText3.SetActive(false);
+
         currentEventPath++;
     }
 
@@ -236,11 +262,18 @@ public class ShowTextJson : MonoBehaviour
     {
         hasSelectedText = 3;
         eventPath = selectText01.selection01[eventNumber].triggerEvent3;
-        ProcessRandomEvent();
+
+        ChooseRandomNumber();
+        StartCoroutine(ReadEvent());
+
+        objSelectText1.SetActive(false);
+        objSelectText2.SetActive(false);
+        objSelectText3.SetActive(false);
+
         currentEventPath++;
     }
 
-    public void ProcessRandomEvent()
+    public void ChooseRandomNumber()
     {
         randomNumber = 0;
 
@@ -340,30 +373,21 @@ public class ShowTextJson : MonoBehaviour
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest25;
                 break;
         }
-
-        // 랜덤 이벤트 처리
-        RandomEvent01 randomEvent = randomEvent01.randomEvent01[eventID];
-
-        if (!string.IsNullOrEmpty(randomEvent.printEventImageResult) && randomEvent.printEventImageResult != "null")
-        {
-            animEventImage.Play("ImageFadeUI", -1, 0f);
-            objEventImage.sprite = Resources.Load<Sprite>($"{randomEvent.printEventImageResult}");
-        }
-
-        StartCoroutine(ReadEvent(randomEvent));
     }
 
-    public IEnumerator ReadEvent(RandomEvent01 randomEvent)
+    public IEnumerator ReadEvent()
     {
-        Debug.Log($"Random Event Result: {randomEvent.printResult}");
+        Debug.Log($"CurrentEventPath: {currentEventPath}, eventPath: {eventPath}, EventID: {eventID}, " +
+            $"{randomEvent01.randomEvent01[eventID].printResult}, 다이얼로그 번호: {randomEvent01.randomEvent01[eventID].mainDialogJumpTo}");
+
         yield return new WaitForSeconds(typingSpeed);
 
         isTyping = false;
         hasSelectedText = 0;
 
-        if (randomEvent.mainDialogJumpTo != 0)
+        if (randomEvent01.randomEvent01[eventID].mainDialogJumpTo != 0)
         {
-            currentDialogIndex = randomEvent.mainDialogJumpTo;
+            currentDialogIndex = randomEvent01.randomEvent01[eventID].mainDialogJumpTo;
         }
 
         typingSpeed = 0.1f;
