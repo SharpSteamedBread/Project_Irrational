@@ -10,7 +10,11 @@ public class ButtonManager : MonoBehaviour
     public GameObject objUISetting;
 
     public Animator animUIInventory;
+    public Animator animUImap;
     public bool isInventoryOpened;
+    public bool isMapOpened;
+
+
 
     public TextMeshProUGUI objPlayerNameText;
 
@@ -40,6 +44,20 @@ public class ButtonManager : MonoBehaviour
         else if(isInventoryOpened == false)
         {
             animUIInventory.SetBool("isInventoryOpened", false);
+        }
+    }
+
+    public void ToggMapUI()
+    {
+        isMapOpened = !isMapOpened;
+
+        if (isMapOpened == true)
+        {
+            animUImap.SetBool("isMapOpened", true);
+        }
+        else if (isMapOpened == false)
+        {
+            animUImap.SetBool("isMapOpened", false);
         }
     }
 

@@ -8,7 +8,7 @@ public class StatManagement : MonoBehaviour
     public GameObject objTextController;
 
     public int getCurrDialogIndex;
-
+    
     [Header("스텟 오브젝트")]
     [SerializeField] private GameObject parentHeart;
     [SerializeField] private GameObject prefabHeart;
@@ -21,15 +21,15 @@ public class StatManagement : MonoBehaviour
     [SerializeField] private GameObject parentMental;
     [SerializeField] private GameObject prefabMental;
     public int valueMental;
-
+    
     public void Awake()
     {
-        getCurrDialogIndex = objTextController.GetComponent<ShowTextJson>().currentDialogIndex;
+        getCurrDialogIndex = objTextController.GetComponent<ShowText>().currentDialogIndex;
     }
 
     public void CalculateHeart()
     {
-        getCurrDialogIndex = objTextController.GetComponent<ShowTextJson>().currentDialogIndex;
+        getCurrDialogIndex = objTextController.GetComponent<ShowText>().currentDialogIndex;
 
         if(mainText.DialogText[getCurrDialogIndex].statValue > 0)
         {
@@ -56,7 +56,7 @@ public class StatManagement : MonoBehaviour
 
     public void CalculateCoin()
     {
-        getCurrDialogIndex = objTextController.GetComponent<ShowTextJson>().currentDialogIndex;
+        getCurrDialogIndex = objTextController.GetComponent<ShowText>().currentDialogIndex;
 
         if (mainText.DialogText[getCurrDialogIndex].statValue > 0)
         {
@@ -83,7 +83,7 @@ public class StatManagement : MonoBehaviour
 
     public void CalculateMental()
     {
-        getCurrDialogIndex = objTextController.GetComponent<ShowTextJson>().currentDialogIndex;
+        getCurrDialogIndex = objTextController.GetComponent<ShowText>().currentDialogIndex;
 
         if (mainText.DialogText[getCurrDialogIndex].statValue > 0)
         {
