@@ -4,107 +4,90 @@ using UnityEngine;
 
 public class StatManagement : MonoBehaviour
 {
-    public MainText mainText;
+    public DialogManager dialogManager;
+
+    public DialogList dialogList01;             // JSON에서 불러온 Dialog 데이터 리스트
+    public Selection01List selectText01;        // JSON에서 불러온 Selection 데이터 리스트
+    public RandomEvent01List randomEvent01;     // JSON에서 불러온 RandomEvent 데이터 리스트
+
     public GameObject objTextController;
 
     public int getCurrDialogIndex;
     
     [Header("스텟 오브젝트")]
-    [SerializeField] private GameObject parentHeart;
-    [SerializeField] private GameObject prefabHeart;
     public int valueHeart;
 
-    [SerializeField] private GameObject parentCoin;
-    [SerializeField] private GameObject prefabCoin;
     public int valueCoin;
 
-    [SerializeField] private GameObject parentMental;
-    [SerializeField] private GameObject prefabMental;
     public int valueMental;
     
     public void Awake()
     {
-        getCurrDialogIndex = objTextController.GetComponent<ShowText>().currentDialogIndex;
+        getCurrDialogIndex = objTextController.GetComponent<ShowTextJson>().currentDialogIndex;
+    }
+
+    private void Start()
+    {
+        dialogList01 = dialogManager.dialogList01;
+        selectText01 = dialogManager.selectText01;
+        randomEvent01 = dialogManager.randomEvent01;
     }
 
     public void CalculateHeart()
     {
-        getCurrDialogIndex = objTextController.GetComponent<ShowText>().currentDialogIndex;
-
-        if(mainText.DialogText[getCurrDialogIndex].statValue > 0)
+        getCurrDialogIndex = objTextController.GetComponent<ShowTextJson>().currentDialogIndex;
+        if (dialogList01.dialogSection01[getCurrDialogIndex].statValue > 0)
         {
-            for (int i = 0; i < mainText.DialogText[getCurrDialogIndex].statValue; ++i)
+            for (int i = 0; i < dialogList01.dialogSection01[getCurrDialogIndex].statValue; ++i)
             {
                 valueHeart++;
-                Instantiate(prefabHeart, parentHeart.transform);
             }
         }
-        else if (mainText.DialogText[getCurrDialogIndex].statValue < 0)
+        else if (dialogList01.dialogSection01[getCurrDialogIndex].statValue < 0)
         {
-            for (int i = 0; i < Mathf.Abs(mainText.DialogText[getCurrDialogIndex].statValue); ++i)
+            for (int i = 0; i < Mathf.Abs(dialogList01.dialogSection01[getCurrDialogIndex].statValue); ++i)
             {
                 valueHeart--;
-
-                if (parentHeart.transform.childCount > 0)
-                {
-                    Transform toDestroyLastPrefab = parentHeart.transform.GetChild(parentHeart.transform.childCount - 1);
-                    Destroy(toDestroyLastPrefab.gameObject);
-                }
             }
         }
     }
 
     public void CalculateCoin()
     {
-        getCurrDialogIndex = objTextController.GetComponent<ShowText>().currentDialogIndex;
+        getCurrDialogIndex = objTextController.GetComponent<ShowTextJson>().currentDialogIndex;
 
-        if (mainText.DialogText[getCurrDialogIndex].statValue > 0)
+        if (dialogList01.dialogSection01[getCurrDialogIndex].statValue > 0)
         {
-            for (int i = 0; i < mainText.DialogText[getCurrDialogIndex].statValue; ++i)
+            for (int i = 0; i < dialogList01.dialogSection01[getCurrDialogIndex].statValue; ++i)
             {
                 valueCoin++;
-                Instantiate(prefabCoin, parentCoin.transform);
             }
         }
-        else if (mainText.DialogText[getCurrDialogIndex].statValue < 0)
+        else if (dialogList01.dialogSection01[getCurrDialogIndex].statValue < 0)
         {
-            for (int i = 0; i < Mathf.Abs(mainText.DialogText[getCurrDialogIndex].statValue); ++i)
+            for (int i = 0; i < Mathf.Abs(dialogList01.dialogSection01[getCurrDialogIndex].statValue); ++i)
             {
                 valueCoin--;
-
-                if (parentCoin.transform.childCount > 0)
-                {
-                    Transform toDestroyLastPrefab = parentCoin.transform.GetChild(parentCoin.transform.childCount - 1);
-                    Destroy(toDestroyLastPrefab.gameObject);
-                }
             }
         }
     }
 
     public void CalculateMental()
     {
-        getCurrDialogIndex = objTextController.GetComponent<ShowText>().currentDialogIndex;
+        getCurrDialogIndex = objTextController.GetComponent<ShowTextJson>().currentDialogIndex;
 
-        if (mainText.DialogText[getCurrDialogIndex].statValue > 0)
+        if (dialogList01.dialogSection01[getCurrDialogIndex].statValue > 0)
         {
-            for (int i = 0; i < mainText.DialogText[getCurrDialogIndex].statValue; ++i)
+            for (int i = 0; i < dialogList01.dialogSection01[getCurrDialogIndex].statValue; ++i)
             {
                 valueMental++;
-                Instantiate(prefabMental, parentMental.transform);
             }
         }
-        else if (mainText.DialogText[getCurrDialogIndex].statValue < 0)
+        else if (dialogList01.dialogSection01[getCurrDialogIndex].statValue < 0)
         {
-            for (int i = 0; i < Mathf.Abs(mainText.DialogText[getCurrDialogIndex].statValue); ++i)
+            for (int i = 0; i < Mathf.Abs(dialogList01.dialogSection01[getCurrDialogIndex].statValue); ++i)
             {
                 valueMental--;
-
-                if(parentMental.transform.childCount > 0)
-                {
-                    Transform toDestroyLastPrefab = parentMental.transform.GetChild(parentMental.transform.childCount - 1);
-                    Destroy(toDestroyLastPrefab.gameObject);
-
-                }
             }
         }
     }

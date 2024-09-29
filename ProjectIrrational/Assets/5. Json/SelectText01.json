@@ -4,322 +4,309 @@
     "eventImage": "10101_A_1",
     "selectText1": "고개를 들어 주위를 살핀다.",
     "triggerEvent1": "eventID0",
-    "eventCondition_type1": "statCoin",
-    "eventCondition_value1": 2,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 1,
     "eventImage": "null",
     "selectText1": "문 밖을 나선다",
     "triggerEvent1": "eventID1",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 2,
     "eventImage": "null",
     "selectText1": "기억이 나지 않았다.",
     "triggerEvent1": "eventID3",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 3,
     "eventImage": "null",
     "selectText1": "호의를 받아들였다.",
     "triggerEvent1": "eventID4",
-    "eventCondition_value1": 0,
     "selectText2": "호의를 거절했다.",
     "triggerEvent2": "eventID7",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 4,
     "eventImage": "null",
     "selectText1": "일단 가만히 지켜본다.",
     "triggerEvent1": "eventID5",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 5,
     "eventImage": "null",
     "selectText1": "이 곳은 어디죠?",
     "triggerEvent1": "eventID6",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 6,
     "eventImage": "null",
     "selectText1": "도망친다",
     "triggerEvent1": "eventID8",
-    "eventCondition_value1": 0,
     "selectText2": "대화를 이어간다",
     "triggerEvent2": "eventID11",
-    "eventCondition_value2": 0,
     "selectText3": "싸운다",
-    "triggerEvent3": "eventID15",
-    "eventCondition_value3": 0
+    "triggerEvent3": "eventID15"
   },
   {
     "selectEventNumber": 7,
     "eventImage": "null",
     "selectText1": "달리기를 서서히 멈춘다.",
     "triggerEvent1": "eventID9",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 8,
     "eventImage": "null",
     "selectText1": "나의 맥박을 짚어본다.",
     "triggerEvent1": "eventID10",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 9,
     "eventImage": "null",
     "selectText1": "숲을 떠난다",
     "triggerEvent1": "eventID17",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 10,
     "eventImage": "null",
     "selectText1": "돈을 준다",
     "triggerEvent1": "eventID12",
-    "eventCondition_value1": 0,
     "selectText2": "도망친다.",
     "triggerEvent2": "eventID8",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 11,
     "eventImage": "null",
     "selectText1": "그게 내 돈의 전부다.",
     "triggerEvent1": "eventID13",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 12,
     "eventImage": "null",
     "selectText1": "처음 온 이란 말에 의문을 지었다.",
     "triggerEvent1": "eventID14",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 13,
     "eventImage": "null",
     "selectText1": "숲을 떠난다",
     "triggerEvent1": "eventID17",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 14,
     "eventImage": "null",
     "selectText1": "항복한다.",
     "triggerEvent1": "eventID11",
-    "eventCondition_value1": 0,
     "selectText2": "…싸운다.",
     "triggerEvent2": "eventID16",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 15,
     "eventImage": "null",
     "selectText1": "조심스레 다가가서 문을 두드린다.",
     "triggerEvent1": "eventID18",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 16,
     "eventImage": "null",
     "selectText1": "할머니 안녕하세요?",
     "triggerEvent1": "eventID19",
-    "eventCondition_value1": 0,
     "selectText2": "할머니가 먼저 말 걸어주시기를 기다린다.",
     "triggerEvent2": "eventID22",
-    "eventCondition_value2": 0,
     "selectText3": "할머니, 무당이군요?",
-    "triggerEvent3": "eventID24",
-    "eventCondition_value3": 0
+    "triggerEvent3": "eventID24"
   },
   {
     "selectEventNumber": 17,
     "eventImage": "null",
     "selectText1": "할머니는 누구신가요?",
     "triggerEvent1": "eventID20",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 18,
     "eventImage": "null",
     "selectText1": "나라…요?",
     "triggerEvent1": "eventID21",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 19,
     "eventImage": "null",
     "selectText1": "이곳은 어디죠?",
     "triggerEvent1": "eventID26",
-    "eventCondition_value1": 0,
     "selectText2": "원래 세상으로 돌아가려면 어떻게 해야 하나요?",
     "triggerEvent2": "eventID29",
-    "eventCondition_value2": 0,
     "selectText3": "정말…1000년을 사신 건가요?",
-    "triggerEvent3": "eventID32",
-    "eventCondition_value3": 0
+    "triggerEvent3": "eventID32"
   },
   {
     "selectEventNumber": 20,
     "eventImage": "null",
     "selectText1": "다른 사람들은 이렇지 않던가요?",
     "triggerEvent1": "eventID23",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 21,
     "eventImage": "null",
     "selectText1": "그게 무슨 뜻이죠?",
     "triggerEvent1": "eventID25",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 22,
     "eventImage": "null",
     "selectText1": "집을 떠난다",
     "triggerEvent1": "eventID34",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 23,
     "eventImage": "null",
     "selectText1": "저는 그런 숲을 들어본 적이 없는데요…?",
     "triggerEvent1": "eventID27",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 24,
     "eventImage": "null",
     "selectText1": "이럴 수가…",
     "triggerEvent1": "eventID28",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 25,
     "eventImage": "null",
     "selectText1": "숲을 떠나며",
     "triggerEvent1": "eventID34",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 26,
     "eventImage": "null",
     "selectText1": "그게 무슨 소리세요?",
     "triggerEvent1": "eventID30",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 27,
     "eventImage": "null",
     "selectText1": "그렇다면 저는 어떻게 해야하죠?",
     "triggerEvent1": "eventID31",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 28,
     "eventImage": "null",
     "selectText1": "정말…1000년을 사신 건가요?",
     "triggerEvent1": "eventID32",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 29,
     "eventImage": "null",
     "selectText1": "...그렇군요.",
     "triggerEvent1": "eventID33",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   },
   {
     "selectEventNumber": 30,
     "eventImage": "null",
     "selectText1": "무슨 일이세요?",
     "triggerEvent1": "eventID35",
-    "eventCondition_value1": 0,
     "selectText2": "-",
-    "eventCondition_value2": 0,
-    "eventCondition_value3": 0
+    "triggerEvent2": "-",
+    "selectText3": "-",
+    "triggerEvent3": "-"
   }
 ]

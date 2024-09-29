@@ -15,12 +15,12 @@ public class ItemInformation
 public class OptimizeItemInformation : MonoBehaviour
 {
     public MainText mainText;
-    public ShowText showText;
+    public ShowTextJson showText;
     public ItemInformation itemInfo;
 
     public void Awake()
     {
-        showText = GameObject.FindObjectOfType<ShowText>();
+        showText = GameObject.FindObjectOfType<ShowTextJson>();
         GetItemInfo();
     }
 
