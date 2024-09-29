@@ -231,7 +231,10 @@ public class ShowTextJson : MonoBehaviour
     public void SelectAndJump1()
     {
         hasSelectedText = 1;
-        eventPath = selectText01.selection01[eventNumber].triggerEvent1;
+        if(selectText01.selection01[eventNumber].triggerEvent1 != "-")
+        {
+            eventPath = selectText01.selection01[eventNumber].triggerEvent1;
+        }
 
         ChooseRandomNumber();
         StartCoroutine(ReadEvent());
@@ -246,7 +249,10 @@ public class ShowTextJson : MonoBehaviour
     public void SelectAndJump2()
     {
         hasSelectedText = 2;
-        eventPath = selectText01.selection01[eventNumber].triggerEvent2;
+        if (selectText01.selection01[eventNumber].triggerEvent2 != "-")
+        {
+            eventPath = selectText01.selection01[eventNumber].triggerEvent2;
+        }
 
         ChooseRandomNumber();
         StartCoroutine(ReadEvent());
@@ -261,7 +267,10 @@ public class ShowTextJson : MonoBehaviour
     public void SelectAndJump3()
     {
         hasSelectedText = 3;
-        eventPath = selectText01.selection01[eventNumber].triggerEvent3;
+        if (selectText01.selection01[eventNumber].triggerEvent3 != "-")
+        {
+            eventPath = selectText01.selection01[eventNumber].triggerEvent3;
+        }
 
         ChooseRandomNumber();
         StartCoroutine(ReadEvent());
