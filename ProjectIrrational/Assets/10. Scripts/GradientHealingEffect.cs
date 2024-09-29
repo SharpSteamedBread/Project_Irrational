@@ -9,6 +9,8 @@ public class GradientHealingEffect : MonoBehaviour
     public float flashDuration = 0.2f; // 이펙트 지속 시간
     public float fadeDuration = 0.5f; // 페이드 아웃 지속 시간
     public Button damageButton; // 버튼 참조
+    public AudioSource damageSound; // 소리 재생을 위한 AudioSource
+
 
     private void Start()
     {
@@ -21,6 +23,15 @@ public class GradientHealingEffect : MonoBehaviour
 
     public void TakeDamage()
     {
+        // 핸드폰 진동 발생
+        Handheld.Vibrate();
+
+        // 소리 재생
+        if (damageSound != null)
+        {
+            damageSound.Play();
+        }
+
         StartCoroutine(FlashDamageEffect());
     }
 
