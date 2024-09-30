@@ -10,7 +10,10 @@ public class GradientDamageEffect : MonoBehaviour
     public float fadeDuration = 0.5f; // 페이드 아웃 지속 시간
     public Button damageButton; // 버튼 참조
     public AudioSource damageSound; // 소리 재생을 위한 AudioSource
-    
+    public Canvas mainCanvas; // 캔버스 참조
+    public float shakeDuration = 0.5f; // 흔들림 지속 시간
+    public float shakeMagnitude = 10f; // 흔들림 강도
+
     private void Start()
     {
         // 패널을 처음에는 보이지 않도록 설정
@@ -31,7 +34,29 @@ public class GradientDamageEffect : MonoBehaviour
             damageSound.Play();
         }
 
+        // 캔버스 흔들림 효과
+        StartCoroutine(ShakeCanvas());
+
         StartCoroutine(FlashDamageEffect());
+    }
+
+    private IEnumerator ShakeCanvas()
+    {
+        RectTransform canvasRectTransform = mainCanvas.GetComponent<RectTransform>();
+        Vector3 originalPosition = canvasRectTransform.localPosition;
+
+        float elapsed = 0f;
+
+        while (elapsed < shakeDuration)
+        {
+            float x = Random.Range(-shakeMagnitude, shakeMagnitude);
+            canvasRectTransform.localPosition = new Vector3(originalPosition.x + x, originalPosition.y, originalPosition.z);
+
+            elapsed += Time.deltaTime;
+            yield return null; // 다음 프레임까지 대기
+        }
+
+        canvasRectTransform.localPosition = originalPosition; // 원래 위치로 복귀
     }
 
     private IEnumerator FlashDamageEffect()
@@ -120,6 +145,7 @@ public class GradientDamageEffect : MonoBehaviour
     public float fadeDuration = 0.5f; // 페이드 아웃 지속 시간
     public Button damageButton; // 버튼 참조
     public AudioSource damageSound; // 소리 재생을 위한 AudioSource
+    public Image shakeImage; // 흔들림 효과를 적용할 UI 이미지
     public float shakeDuration = 0.5f; // 흔들림 지속 시간
     public float shakeMagnitude = 10f; // 흔들림 강도
 
@@ -143,29 +169,29 @@ public class GradientDamageEffect : MonoBehaviour
             damageSound.Play();
         }
 
-        // 캔버스 흔들림 효과
-        StartCoroutine(ShakeCanvas());
+        // UI 이미지 흔들림 효과
+        StartCoroutine(ShakeImage());
 
         StartCoroutine(FlashDamageEffect());
     }
 
-    private IEnumerator ShakeCanvas()
+    private IEnumerator ShakeImage()
     {
-        RectTransform rectTransform = damagePanel.GetComponent<RectTransform>();
-        Vector3 originalPosition = rectTransform.localPosition;
+        RectTransform imageRectTransform = shakeImage.GetComponent<RectTransform>();
+        Vector3 originalPosition = imageRectTransform.localPosition;
 
         float elapsed = 0f;
 
         while (elapsed < shakeDuration)
         {
             float x = Random.Range(-shakeMagnitude, shakeMagnitude);
-            rectTransform.localPosition = new Vector3(originalPosition.x + x, originalPosition.y, originalPosition.z);
+            imageRectTransform.localPosition = new Vector3(originalPosition.x + x, originalPosition.y, originalPosition.z);
 
             elapsed += Time.deltaTime;
             yield return null; // 다음 프레임까지 대기
         }
 
-        rectTransform.localPosition = originalPosition; // 원래 위치로 복귀
+        imageRectTransform.localPosition = originalPosition; // 원래 위치로 복귀
     }
 
     private IEnumerator FlashDamageEffect()
