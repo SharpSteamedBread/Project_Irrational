@@ -1,0 +1,105 @@
+﻿[
+  {
+    "selectEventNumber": 0,
+    "eventImage": "null",
+    "selectText1": "무시한다.",
+    "triggerEvent1": "eventID1",
+    "selectText2": "-",
+    "selectText3": "-"
+  },
+  {
+    "selectEventNumber": 1,
+    "eventImage": "null",
+    "selectText1": "한번 더 무시한다.",
+    "triggerEvent1": "eventID2",
+    "selectText2": "-",
+    "selectText3": "-"
+  },
+  {
+    "selectEventNumber": 2
+  },
+  {
+    "selectEventNumber": 3
+  },
+  {
+    "selectEventNumber": 4
+  },
+  {
+    "selectEventNumber": 5
+  },
+  {
+    "selectEventNumber": 6
+  },
+  {
+    "selectEventNumber": 7
+  },
+  {
+    "selectEventNumber": 8
+  },
+  {
+    "selectEventNumber": 9
+  },
+  {
+    "selectEventNumber": 10
+  },
+  {
+    "selectEventNumber": 11
+  },
+  {
+    "selectEventNumber": 12
+  },
+  {
+    "selectEventNumber": 13
+  },
+  {
+    "selectEventNumber": 14
+  },
+  {
+    "selectEventNumber": 15
+  },
+  {
+    "selectEventNumber": 16
+  },
+  {
+    "selectEventNumber": 17
+  },
+  {
+    "selectEventNumber": 18
+  },
+  {
+    "selectEventNumber": 19
+  },
+  {
+    "selectEventNumber": 20
+  },
+  {
+    "selectEventNumber": 21
+  },
+  {
+    "selectEventNumber": 22
+  },
+  {
+    "selectEventNumber": 23
+  },
+  {
+    "selectEventNumber": 24
+  },
+  {
+    "selectEventNumber": 25
+  },
+  {
+    "selectEventNumber": 26
+  },
+  {
+    "selectEventNumber": 27
+  },
+  {
+    "selectEventNumber": 28
+  },
+  {
+    "selectEventNumber": 29
+  },
+  {
+    "selectEventNumber": 30
+  }
+]
