@@ -33,7 +33,7 @@ public class ShowTextJson : MonoBehaviour
 
     public bool isTyping = true;
 
-    [SerializeField] float typingSpeed = 0.1f;
+    [SerializeField] float typingSpeed = 0.01f;
 
     [Header("선택지 출력")]
 
@@ -113,7 +113,7 @@ public class ShowTextJson : MonoBehaviour
             }
             else if (isTyping == false)
             {
-                typingSpeed = 0.1f;
+                typingSpeed = 0.01f;
 
                 if (objSelectText1.activeSelf == false)
                 {
@@ -146,7 +146,7 @@ public class ShowTextJson : MonoBehaviour
         isTyping = false;
         currentDialogIndex++;
 
-        typingSpeed = 0.1f;
+        typingSpeed = 0.01f;
     }
 
     private IEnumerator CheckSelectEvent()
@@ -398,6 +398,6 @@ public class ShowTextJson : MonoBehaviour
             currentDialogIndex = randomEvent01.randomEvent01[eventID].mainDialogJumpTo;
         }
 
-        typingSpeed = 0.1f;
+        typingSpeed = 0.01f;
     }
 }

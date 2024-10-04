@@ -13547,7 +13547,7 @@ MonoBehaviour:
   objText: {fileID: 491095638}
   currentDialogIndex: 0
   isTyping: 0
-  typingSpeed: 0.1
+  typingSpeed: 0.01
   currentEventPath: 0
   eventNumber: 0
   selectEvent: 0
