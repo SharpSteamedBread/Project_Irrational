@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StatManagement : MonoBehaviour
 {
@@ -23,7 +24,15 @@ public class StatManagement : MonoBehaviour
     
     public void Awake()
     {
-        getCurrDialogIndex = objTextController.GetComponent<ShowTextJson>().currentDialogIndex;
+        if(SceneManager.sceneCount == 1)
+        {
+            getCurrDialogIndex = objTextController.GetComponent<ShowTextJson>().currentDialogIndex;
+        }
+
+        else if(SceneManager.sceneCount == 2)
+        {
+            getCurrDialogIndex = objTextController.GetComponent<ShowTextZehupeJson>().currentDialogIndex;
+        }
     }
 
     private void Start()

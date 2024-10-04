@@ -614,7 +614,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1293971639}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ShowTextJson, Assembly-CSharp
         m_MethodName: SelectAndJump3
         m_Mode: 1
@@ -4138,7 +4138,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1293971639}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ShowTextJson, Assembly-CSharp
         m_MethodName: SelectAndJump2
         m_Mode: 1
@@ -5055,7 +5055,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8967006327453313395, guid: 91f220f2b7d47114fa9af9b31ea538b1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 750
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8967006327453313395, guid: 91f220f2b7d47114fa9af9b31ea538b1, type: 3}
       propertyPath: m_SizeDelta.y
@@ -5091,7 +5091,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8967006327453313395, guid: 91f220f2b7d47114fa9af9b31ea538b1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 375
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8967006327453313395, guid: 91f220f2b7d47114fa9af9b31ea538b1, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -5439,7 +5439,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1293971639}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ShowTextJson, Assembly-CSharp
         m_MethodName: SelectAndJump1
         m_Mode: 1
@@ -7389,7 +7389,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321889217}
+      - m_Target: {fileID: 1982468437}
         m_TargetAssemblyTypeName: MapSwitcher, Assembly-CSharp
         m_MethodName: GotoDefault
         m_Mode: 1
@@ -12673,7 +12673,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321889217}
+      - m_Target: {fileID: 1982468437}
         m_TargetAssemblyTypeName: MapSwitcher, Assembly-CSharp
         m_MethodName: GotoZehupe
         m_Mode: 1
@@ -13500,7 +13500,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1293971637}
-  - component: {fileID: 1293971639}
+  - component: {fileID: 1293971641}
   - component: {fileID: 1293971640}
   m_Layer: 0
   m_Name: TextController
@@ -13524,51 +13524,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1293971639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1293971635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8aef1d1368ecde45940adc884a0670e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogManager: {fileID: 228437246}
-  dialogList01:
-    dialogSection01: []
-  selectText01:
-    selection01: []
-  randomEvent01:
-    randomEvent01: []
-  randomEncounterManager: {fileID: 799388880}
-  objText: {fileID: 491095638}
-  currentDialogIndex: 0
-  isTyping: 0
-  typingSpeed: 0.1
-  currentEventPath: 0
-  eventNumber: 0
-  selectEvent: 0
-  selectText1: {fileID: 2141375135}
-  selectText2: {fileID: 1532006255}
-  selectText3: {fileID: 184311567}
-  objSelectText1: {fileID: 512129342}
-  objSelectText2: {fileID: 391052110}
-  objSelectText3: {fileID: 84711742}
-  hasSelectedText: 0
-  selectJumpToValue: 0
-  objEventImage: {fileID: 1779881659}
-  animEventImage: {fileID: 1779881661}
-  objSettingUI: {fileID: 1911270289}
-  randomNumber: 0
-  eventID: 0
-  eventPath: 
-  statManagement: {fileID: 1293971640}
-  itemUIParent: {fileID: 505226427}
-  itemObject: {fileID: 4458152381178308769, guid: ab3ea7834cdb41e46a701adb5ba1265e, type: 3}
-  scrollviewController: {fileID: 1925593277}
 --- !u!114 &1293971640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13593,6 +13548,51 @@ MonoBehaviour:
   valueHeart: 0
   valueCoin: 0
   valueMental: 0
+--- !u!114 &1293971641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293971635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bab2bc8df8e7054d965d19ef3e7bc0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogManager: {fileID: 228437246}
+  dialogList02:
+    dialogSection02: []
+  selectText02:
+    selection02: []
+  randomEvent02:
+    randomEvent02: []
+  randomEncounterManager: {fileID: 799388880}
+  objText: {fileID: 491095638}
+  currentDialogIndex: 0
+  isTyping: 1
+  typingSpeed: 0.1
+  currentEventPath: 0
+  eventNumber: 0
+  selectEvent: 0
+  selectText1: {fileID: 2141375135}
+  selectText2: {fileID: 1532006255}
+  selectText3: {fileID: 184311567}
+  objSelectText1: {fileID: 512129342}
+  objSelectText2: {fileID: 391052110}
+  objSelectText3: {fileID: 84711742}
+  hasSelectedText: 0
+  selectJumpToValue: 0
+  objEventImage: {fileID: 1779881659}
+  animEventImage: {fileID: 1779881661}
+  objSettingUI: {fileID: 1911270289}
+  randomNumber: 0
+  eventID: 0
+  eventPath: 
+  statManagement: {fileID: 1293971640}
+  itemUIParent: {fileID: 505226427}
+  itemObject: {fileID: 4458152381178308769, guid: ab3ea7834cdb41e46a701adb5ba1265e, type: 3}
+  scrollviewController: {fileID: 1925593277}
 --- !u!1 &1309725825
 GameObject:
   m_ObjectHideFlags: 0
@@ -13728,51 +13728,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1309725825}
   m_CullTransparentMesh: 1
---- !u!1 &1321889216
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1321889218}
-  - component: {fileID: 1321889217}
-  m_Layer: 0
-  m_Name: MapSwitcher
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1321889217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321889216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cc3cd6a48bedc54fa5c34a48e3ccb67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  showTextJson: {fileID: 1293971639}
---- !u!4 &1321889218
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321889216}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1324000081
 GameObject:
   m_ObjectHideFlags: 0
@@ -20874,6 +20829,51 @@ RectTransform:
   m_AnchoredPosition: {x: -80.00006, y: -150}
   m_SizeDelta: {x: 36, y: 36}
   m_Pivot: {x: 1, y: 1}
+--- !u!1 &1982468435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1982468436}
+  - component: {fileID: 1982468437}
+  m_Layer: 0
+  m_Name: MapSwitcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1982468436
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982468435}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1982468437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982468435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cc3cd6a48bedc54fa5c34a48e3ccb67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showTextJson: {fileID: 0}
 --- !u!1 &1988491154
 GameObject:
   m_ObjectHideFlags: 0

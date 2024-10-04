@@ -145,19 +145,19 @@ public class RandomEvent02
 [System.Serializable]
 public class DialogListZehupe
 {
-    public List<DialogSection02> dialogSection01;
+    public List<DialogSection02> dialogSection02;
 }
 
 [System.Serializable]
 public class Selection02List
 {
-    public List<Selection02> selection01;
+    public List<Selection02> selection02;
 }
 
 [System.Serializable]
 public class RandomEvent02List
 {
-    public List<RandomEvent02> randomEvent01;
+    public List<RandomEvent02> randomEvent02;
 }
 
 
