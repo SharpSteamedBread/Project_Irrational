@@ -1,0 +1,374 @@
+﻿[
+  {
+    "eventID": 0,
+    "printEventImageResult": "null",
+    "printResult": "#{10101_A_2} 고개를 들어 주위를 살핀다.",
+    "mainDialogJumpTo": 3
+  },
+  {
+    "eventID": 1,
+    "printEventImageResult": "null",
+    "printResult": "#{10101_A_3}문 밖을 나선다",
+    "mainDialogJumpTo": 6
+  },
+  {
+    "eventID": 2,
+    "printEventImageResult": "null",
+    "printResult": "#{10101_A_4} 기억이 나지 않았다.",
+    "mainDialogJumpTo": 10
+  },
+  {
+    "eventID": 3,
+    "printEventImageResult": "null",
+    "printResult": "#{10101_B_1} 호의를 받아들였다.",
+    "mainDialogJumpTo": 18
+  },
+  {
+    "eventID": 4,
+    "printEventImageResult": "null",
+    "printResult": "#{10101_C_1} 일단 가만히 지켜본다.",
+    "mainDialogJumpTo": 21
+  },
+  {
+    "eventID": 5,
+    "printEventImageResult": "null",
+    "printResult": "#{10101_C_2} 이 곳은 어디죠?",
+    "mainDialogJumpTo": 24
+  },
+  {
+    "eventID": 6,
+    "printEventImageResult": "null",
+    "printResult": "#{10101_B_2} 호의를 거절한다.",
+    "mainDialogJumpTo": 33
+  },
+  {
+    "eventID": 7,
+    "printEventImageResult": "null",
+    "printResult": "#{10101_C_3} 도망친다.",
+    "mainDialogJumpTo": 38
+  },
+  {
+    "eventID": 8,
+    "printEventImageResult": "null",
+    "printResult": "# {10101_D_1} 달리기를 서서히 멈춘다.",
+    "mainDialogJumpTo": 50
+  },
+  {
+    "eventID": 9,
+    "printEventImageResult": "null",
+    "printResult": "#{10101_E_1}나의 맥박을 짚어본다.",
+    "mainDialogJumpTo": 55
+  },
+  {
+    "eventID": 10,
+    "printEventImageResult": "null",
+    "printResult": "#{10101_C_4} 대화를 이어간다",
+    "mainDialogJumpTo": 59
+  },
+  {
+    "eventID": 11,
+    "printEventImageResult": "null",
+    "printResult": "#{10101_D_2}돈을 준다",
+    "mainDialogJumpTo": 67
+  },
+  {
+    "eventID": 12,
+    "printEventImageResult": "null",
+    "printResult": "#{10101_E_2}그게 내 돈의 전부다.",
+    "mainDialogJumpTo": 72
+  },
+  {
+    "eventID": 13,
+    "printEventImageResult": "null",
+    "printResult": "#{10101_F_1}처음 온 이란 말에 의문을 지었다.",
+    "mainDialogJumpTo": 77
+  },
+  {
+    "eventID": 14,
+    "printEventImageResult": "null",
+    "printResult": "#{10101_C_5} 싸운다",
+    "mainDialogJumpTo": 83
+  },
+  {
+    "eventID": 15,
+    "printEventImageResult": "null",
+    "printResult": "#{10101_D_3} …싸운다.",
+    "mainDialogJumpTo": 95
+  },
+  {
+    "eventID": 16,
+    "printEventImageResult": "null",
+    "printResult": "#{10102_A_0} 숲을 떠난다",
+    "mainDialogJumpTo": 115
+  },
+  {
+    "eventID": 17,
+    "printEventImageResult": "null",
+    "printResult": "#{10102_A_1} 조심스레 다가가서 문을 두드린다.",
+    "mainDialogJumpTo": 119
+  },
+  {
+    "eventID": 18,
+    "printEventImageResult": "null",
+    "printResult": "#{10102_B_1} 할머니 안녕하세요?",
+    "mainDialogJumpTo": 124
+  },
+  {
+    "eventID": 19,
+    "printEventImageResult": "null",
+    "printResult": "#{10102_C_1 할머니는 누구신가요?",
+    "mainDialogJumpTo": 127
+  },
+  {
+    "eventID": 20,
+    "printEventImageResult": "null",
+    "printResult": "#{10102_D_1} 나라…요?",
+    "mainDialogJumpTo": 131
+  },
+  {
+    "eventID": 21,
+    "printEventImageResult": "null",
+    "printResult": "#{10102_B_2} 할머니가 말 걸기를 기다린다.",
+    "mainDialogJumpTo": 137
+  },
+  {
+    "eventID": 22,
+    "printEventImageResult": "null",
+    "printResult": "#{10102_C_2} 다른 사람들은 이렇지 않던가요?",
+    "mainDialogJumpTo": 141
+  },
+  {
+    "eventID": 23,
+    "printEventImageResult": "null",
+    "printResult": "＃{10102_B_3} 할머니…무당이시군요?",
+    "mainDialogJumpTo": 146
+  },
+  {
+    "eventID": 24,
+    "printEventImageResult": "null",
+    "printResult": "#{10102_C_3} 그게 무슨 뜻이죠?",
+    "mainDialogJumpTo": 151
+  },
+  {
+    "eventID": 25,
+    "printEventImageResult": "null",
+    "printResult": "#{10102_E_1} 이곳은 어디죠?",
+    "mainDialogJumpTo": 157
+  },
+  {
+    "eventID": 26,
+    "printEventImageResult": "null",
+    "printResult": "#{10102_F_1} 저는 그런 숲을 들어본 적이 없는데요…?",
+    "mainDialogJumpTo": 159
+  },
+  {
+    "eventID": 27,
+    "printEventImageResult": "null",
+    "printResult": "#{10102_G_1}이럴 수가…",
+    "mainDialogJumpTo": 164
+  },
+  {
+    "eventID": 28,
+    "printEventImageResult": "null",
+    "printResult": "#{10102_E_2} 원래 세상으로 돌아가려면 어떻게 해야 하나요?",
+    "mainDialogJumpTo": 172
+  },
+  {
+    "eventID": 29,
+    "printEventImageResult": "null",
+    "printResult": "#{10102_F_2} 그게 무슨 소리세요?",
+    "mainDialogJumpTo": 179
+  },
+  {
+    "eventID": 30,
+    "printEventImageResult": "null",
+    "printResult": "#{10102_G_2} 그렇다면 저는 어떻게 해야하죠?",
+    "mainDialogJumpTo": 183
+  },
+  {
+    "eventID": 31,
+    "printEventImageResult": "null",
+    "printResult": "#{10102_E_3} 정말…1000년을 사신 건가요?",
+    "mainDialogJumpTo": 188
+  },
+  {
+    "eventID": 32,
+    "printEventImageResult": "null",
+    "printResult": "#{10102_F_3}...그렇군요.",
+    "mainDialogJumpTo": 195
+  },
+  {
+    "eventID": 33,
+    "printEventImageResult": "null",
+    "printResult": "#{10102_G_3} 숲을 떠나며",
+    "mainDialogJumpTo": 199
+  },
+  {
+    "eventID": 34,
+    "printEventImageResult": "null",
+    "printResult": "#{10102_H_1}무슨 일이세요?",
+    "mainDialogJumpTo": 206
+  },
+  {
+    "eventID": 35,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_A_0} 퀘룰 숲의 사건",
+    "mainDialogJumpTo": 214
+  },
+  {
+    "eventID": 36,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_A_1 }주변을 살핀다.",
+    "mainDialogJumpTo": 222
+  },
+  {
+    "eventID": 37,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_B_1} 휴식을 취한다",
+    "mainDialogJumpTo": 229
+  },
+  {
+    "eventID": 38,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_B_2}  주변의 상황에 집중한다",
+    "mainDialogJumpTo": 237
+  },
+  {
+    "eventID": 39,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_C_1}  무엇인가의 미세한 발소리를 들었다.",
+    "mainDialogJumpTo": 243
+  },
+  {
+    "eventID": 40,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_C_2} 아무 소리도 들리지 않았다.",
+    "mainDialogJumpTo": 255
+  },
+  {
+    "eventID": 41,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_A_2} 일단 계속 걷는다",
+    "mainDialogJumpTo": 257
+  },
+  {
+    "eventID": 42,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_B_3 } 뒤를 돌아본다",
+    "mainDialogJumpTo": 265
+  },
+  {
+    "eventID": 43,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_C-3  }그 부엉이를 경계하면서 멈춰서서 밤을 새운다.",
+    "mainDialogJumpTo": 274
+  },
+  {
+    "eventID": 44,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_C-4  }무시하고 계속 가던 길을 간다.",
+    "mainDialogJumpTo": 277
+  },
+  {
+    "eventID": 45,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_D-1} 붕대로 지혈한다.(붕대 소유)",
+    "mainDialogJumpTo": 286
+  },
+  {
+    "eventID": 46,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_D-2} 입고 있던 옷가지를 뜯어서 상처를 막는다",
+    "mainDialogJumpTo": 291
+  },
+  {
+    "eventID": 47,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_D-3} 통증을 애써 참고 나아간다.",
+    "mainDialogJumpTo": 296
+  },
+  {
+    "eventID": 48,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_D-4} 그냥 포기한다",
+    "mainDialogJumpTo": 304
+  },
+  {
+    "eventID": 49,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_A_3} 자리에 멈춰서 불을 켠다.(라이터 보유시)",
+    "mainDialogJumpTo": 314
+  },
+  {
+    "eventID": 50,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_B-4} 모닥불을 만든다",
+    "mainDialogJumpTo": 317
+  },
+  {
+    "eventID": 51,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_B-5} 계속 걷는다.",
+    "mainDialogJumpTo": 322
+  },
+  {
+    "eventID": 52,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_B-6} 나무에 불을 지른다.",
+    "mainDialogJumpTo": 328
+  },
+  {
+    "eventID": 53,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_A_4} 소리를 외쳐서 주변에 사람이 있는지 확인한다.",
+    "mainDialogJumpTo": 345
+  },
+  {
+    "eventID": 54,
+    "printEventImageResult": "null",
+    "printResult": "B-7 도망친다",
+    "mainDialogJumpTo": 356
+  },
+  {
+    "eventID": 55,
+    "printEventImageResult": "null",
+    "printResult": "B-8 맞서 싸운다.",
+    "mainDialogJumpTo": 363
+  },
+  {
+    "eventID": 56,
+    "printEventImageResult": "null",
+    "printResult": "B-9 가만히 서서 바라본다.",
+    "mainDialogJumpTo": 365
+  },
+  {
+    "eventID": 57,
+    "printEventImageResult": "null",
+    "printResult": "#{20103_C-5 }아무것도 없다.",
+    "mainDialogJumpTo": 370
+  },
+  {
+    "eventID": 58,
+    "printEventImageResult": "null",
+    "printResult": "D-5 발버둥친다",
+    "mainDialogJumpTo": 374
+  },
+  {
+    "eventID": 59,
+    "printEventImageResult": "null",
+    "printResult": "C-6 가지고 있던 나이프를 휘두른다.",
+    "mainDialogJumpTo": 387
+  },
+  {
+    "eventID": 60,
+    "printEventImageResult": "null",
+    "printResult": "B-10 몸을 웅크린다.",
+    "mainDialogJumpTo": 396
+  },
+  {
+    "eventID": 61,
+    "printEventImageResult": "null",
+    "printResult": "C-7 시간이 흐르고.",
+    "mainDialogJumpTo": 404
+  }
+]

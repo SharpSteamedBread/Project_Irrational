@@ -1917,10 +1917,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 932eb90a46b9fd34fa22a6bd623cbdcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialog01File: {fileID: 4900000, guid: 9abc877ed782cf64c94ba81f3e8d697e, type: 3}
-  selectText01File: {fileID: 4900000, guid: 2560bc61f72473647a8dabeb3a2203a4, type: 3}
-  randomEvent01File: {fileID: 4900000, guid: 4f78f9c5ea53c304eb2727e9351ec5d4, type: 3}
-  itemSheetFile: {fileID: 4900000, guid: 082e732f3860f9c46aa5d648322f84e4, type: 3}
+  dialog01File: {fileID: 4900000, guid: d6a5eedd0040c944198715065ebd41c1, type: 3}
+  selectText01File: {fileID: 4900000, guid: 7f83b753723b0c9459d40bbd7b3df9d2, type: 3}
+  randomEvent01File: {fileID: 4900000, guid: 0da156258f028e64193725223a761d64, type: 3}
+  itemSheetFile: {fileID: 4900000, guid: db8b021d6ba05d74abf1531ea5ba557b, type: 3}
   dialogList01:
     dialogSection01: []
   selectText01:
@@ -12007,7 +12007,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 200.00005, y: -110}
+  m_AnchoredPosition: {x: 200.00006, y: -110}
   m_SizeDelta: {x: 240, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1170574177
