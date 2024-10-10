@@ -14580,7 +14580,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scrollRect: {fileID: 1428957496}
   content: {fileID: 1335469144}
-  xLimit: 800
+  xLimit: 1600
+  yLimit: 800
 --- !u!1 &1340825539
 GameObject:
   m_ObjectHideFlags: 0
@@ -15331,7 +15332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Content: {fileID: 1335469144}
   m_Horizontal: 1
-  m_Vertical: 0
+  m_Vertical: 1
   m_MovementType: 0
   m_Elasticity: 15
   m_Inertia: 0
