@@ -8,7 +8,7 @@ public class GradientDamageEffect : MonoBehaviour
     public Image damagePanel; // 빨간색 패널 이미지
     public float flashDuration = 0.2f; // 이펙트 지속 시간
     public float fadeDuration = 0.5f; // 페이드 아웃 지속 시간
-    public Button damageButton; // 버튼 참조
+    //public Button damageButton; // 버튼 참조
     public AudioSource damageSound; // 소리 재생을 위한 AudioSource
     public Image shakeImage; // 흔들림 효과를 적용할 UI 이미지
     public float shakeDuration = 0.5f; // 흔들림 지속 시간
@@ -20,7 +20,7 @@ public class GradientDamageEffect : MonoBehaviour
         damagePanel.gameObject.SetActive(false);
 
         // 버튼 클릭 이벤트에 TakeDamage 추가
-        damageButton.onClick.AddListener(TakeDamage);
+        //damageButton.onClick.AddListener(TakeDamage);
     }
 
     public void TakeDamage()

@@ -6,6 +6,6 @@ public class GameoverCounter : MonoBehaviour
 {
     private void OnEnable()
     {
-        GameOverController.countGameover++;
+        //GameOverController.countGameover++;
     }
 }

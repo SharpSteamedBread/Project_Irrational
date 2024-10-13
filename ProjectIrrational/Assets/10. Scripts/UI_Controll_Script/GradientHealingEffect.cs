@@ -8,20 +8,19 @@ public class GradientHealingEffect : MonoBehaviour
     public Image damagePanel; // 빨간색 패널 이미지
     public float flashDuration = 0.2f; // 이펙트 지속 시간
     public float fadeDuration = 0.5f; // 페이드 아웃 지속 시간
-    public Button damageButton; // 버튼 참조
+    //public Button damageButton; // 버튼 참조
     public AudioSource damageSound; // 소리 재생을 위한 AudioSource
-
-
+    
     private void Start()
     {
         // 패널을 처음에는 보이지 않도록 설정
         damagePanel.gameObject.SetActive(false);
 
         // 버튼 클릭 이벤트에 TakeDamage 추가
-        damageButton.onClick.AddListener(TakeDamage);
+        //damageButton.onClick.AddListener(TakeHealing);
     }
 
-    public void TakeDamage()
+    public void TakeHealing()
     {
         // 핸드폰 진동 발생
         Handheld.Vibrate();

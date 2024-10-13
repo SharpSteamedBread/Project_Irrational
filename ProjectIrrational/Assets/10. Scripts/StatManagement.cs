@@ -1,35 +1,76 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI; // UI 요소를 위한 네임스페이스 추가
 using UnityEngine.SceneManagement;
 
 public class StatManagement : MonoBehaviour
 {
     public DialogManager dialogManager;
-
     public DialogList dialogList01;             // JSON에서 불러온 Dialog 데이터 리스트
     public Selection01List selectText01;        // JSON에서 불러온 Selection 데이터 리스트
     public RandomEvent01List randomEvent01;     // JSON에서 불러온 RandomEvent 데이터 리스트
-
     public GameObject objTextController;
-
     public int getCurrDialogIndex;
-    
+
+    public GradientDamageEffect gradientDamageEffect; // 피해 이펙트
+    public GradientHealingEffect gradientHealingEffect; // 힐링 이펙트
+
+
     [Header("스텟 오브젝트")]
-    public int valueHeart;
-
-    public int valueCoin;
-
-    public int valueMental;
+    [SerializeField] private int _valueHeart;
+    [SerializeField] private int _valueCoin;
+    [SerializeField] private int _valueMental;        
     
-    public void Awake()
+    // UI 요소를 위한 변수
+    [SerializeField] private Image heartImage;  // Heart UI 이미지
+    [SerializeField] private Image coinImage;   // Coin UI 이미지
+    [SerializeField] private Image mentalImage;  // Mental UI 이미지
+
+    // 프로퍼티를 통한 스탯 접근
+    public int valueHeart
     {
-        if(SceneManager.sceneCount == 1)
+        get { return _valueHeart; }
+        set
+        {
+            _valueHeart = Mathf.Clamp(value, 0, 4);          
+
+             UpdateUI(); // UI 업데이트 호출
+        }
+    }
+
+    public int valueCoin
+    {
+        get { return _valueCoin; }
+        set
+        {
+            _valueCoin = Mathf.Clamp(value, 0, 6);
+            UpdateUI(); // UI 업데이트 호출
+        }
+    }
+
+    public int valueMental
+    {
+        get { return _valueMental; }
+        set
+        {
+            _valueMental = Mathf.Clamp(value, 0, 4);
+            UpdateUI(); // UI 업데이트 호출
+        }
+    }
+    
+    private void Awake()
+    {
+        // 인스펙터에서 조정한 값으로 초기화
+        valueHeart = _valueHeart;
+        valueCoin = _valueCoin;
+        valueMental = _valueMental;
+
+        if (SceneManager.sceneCount == 1)
         {
             getCurrDialogIndex = objTextController.GetComponent<ShowTextJson>().currentDialogIndex;
         }
-
-        else if(SceneManager.sceneCount == 2)
+        else if (SceneManager.sceneCount == 2)
         {
             getCurrDialogIndex = objTextController.GetComponent<ShowTextZehupeJson>().currentDialogIndex;
         }
@@ -40,6 +81,19 @@ public class StatManagement : MonoBehaviour
         dialogList01 = dialogManager.dialogList01;
         selectText01 = dialogManager.selectText01;
         randomEvent01 = dialogManager.randomEvent01;
+
+        UpdateUI(); // 시작 시 UI 업데이트
+        gradientDamageEffect = FindObjectOfType<GradientDamageEffect>();
+        gradientHealingEffect = FindObjectOfType<GradientHealingEffect>();
+    }
+
+    private void UpdateUI()
+    //public  void UpdateUI()
+    {
+        // 각 스탯의 fill amount를 업데이트
+        heartImage.fillAmount = (float)valueHeart / 4; // 최대 4
+        coinImage.fillAmount = (float)valueCoin / 6; // 최대 6
+        mentalImage.fillAmount = (float)valueMental / 4; // 최대 4
     }
 
     public void CalculateHeart()
@@ -51,6 +105,8 @@ public class StatManagement : MonoBehaviour
             {
                 valueHeart++;
             }
+            
+            gradientHealingEffect.TakeHealing(); // 힐링 이펙트 호출
         }
         else if (dialogList01.dialogSection01[getCurrDialogIndex].statValue < 0)
         {
@@ -58,6 +114,7 @@ public class StatManagement : MonoBehaviour
             {
                 valueHeart--;
             }
+            gradientDamageEffect.TakeDamage(); // 피해 이펙트 호출
         }
     }
 
@@ -71,6 +128,7 @@ public class StatManagement : MonoBehaviour
             {
                 valueCoin++;
             }
+            gradientHealingEffect.TakeHealing(); // 힐링 이펙트 호출
         }
         else if (dialogList01.dialogSection01[getCurrDialogIndex].statValue < 0)
         {
@@ -78,6 +136,7 @@ public class StatManagement : MonoBehaviour
             {
                 valueCoin--;
             }
+            gradientDamageEffect.TakeDamage(); // 피해 이펙트 호출
         }
     }
 
@@ -91,6 +150,7 @@ public class StatManagement : MonoBehaviour
             {
                 valueMental++;
             }
+            gradientHealingEffect.TakeHealing(); // 힐링 이펙트 호출
         }
         else if (dialogList01.dialogSection01[getCurrDialogIndex].statValue < 0)
         {
@@ -99,5 +159,6 @@ public class StatManagement : MonoBehaviour
                 valueMental--;
             }
         }
+        gradientDamageEffect.TakeDamage(); // 피해 이펙트 호출
     }
 }

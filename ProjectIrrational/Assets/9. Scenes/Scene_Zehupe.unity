@@ -7882,6 +7882,7 @@ MonoBehaviour:
   statManagement: {fileID: 0}
   objGameOverUI: {fileID: 1480741687}
   objDeadUI: {fileID: 1325399814}
+  inspectorCountGameover: 0
 --- !u!1 &812699609
 GameObject:
   m_ObjectHideFlags: 0
@@ -13545,9 +13546,12 @@ MonoBehaviour:
     randomEvent01: []
   objTextController: {fileID: 1293971635}
   getCurrDialogIndex: 0
-  valueHeart: 0
-  valueCoin: 0
-  valueMental: 0
+  _valueHeart: 0
+  _valueCoin: 0
+  _valueMental: 0
+  heartImage: {fileID: 0}
+  coinImage: {fileID: 0}
+  mentalImage: {fileID: 0}
 --- !u!114 &1293971641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14150,6 +14154,7 @@ MonoBehaviour:
   scrollRect: {fileID: 1428957496}
   content: {fileID: 1335469144}
   xLimit: 800
+  yLimit: 800
 --- !u!1 &1340825539
 GameObject:
   m_ObjectHideFlags: 0

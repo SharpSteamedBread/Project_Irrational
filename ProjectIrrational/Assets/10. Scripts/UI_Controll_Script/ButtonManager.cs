@@ -13,7 +13,7 @@ public class ButtonManager : MonoBehaviour
     public Animator animUImap;
     public bool isInventoryOpened;
     public bool isMapOpened;
-
+    public GameObject objGameOverUI;
 
 
     public TextMeshProUGUI objPlayerNameText;
@@ -64,6 +64,7 @@ public class ButtonManager : MonoBehaviour
     public void RestartButton()
     {
         SceneManager.LoadScene("Scene_Main");
+        //objGameOverUI.SetActive(false);
     }
 
     public void DeadButton()
