@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI; // UI 요소를 위한 네임스페이스 추가
 using UnityEngine.SceneManagement;
 
+
 public class StatManagement : MonoBehaviour
 {
     public DialogManager dialogManager;
@@ -15,17 +16,19 @@ public class StatManagement : MonoBehaviour
 
     public GradientDamageEffect gradientDamageEffect; // 피해 이펙트
     public GradientHealingEffect gradientHealingEffect; // 힐링 이펙트
-
-
+    
     [Header("스텟 오브젝트")]
     [SerializeField] private int _valueHeart;
     [SerializeField] private int _valueCoin;
-    [SerializeField] private int _valueMental;        
+    [SerializeField] private int _valueMental;     
     
     // UI 요소를 위한 변수
     [SerializeField] private Image heartImage;  // Heart UI 이미지
     [SerializeField] private Image coinImage;   // Coin UI 이미지
     [SerializeField] private Image mentalImage;  // Mental UI 이미지
+
+    [SerializeField] private GameObject[] buttons; // 버튼 배열
+
 
     // 프로퍼티를 통한 스탯 접근
     public int valueHeart
@@ -49,6 +52,7 @@ public class StatManagement : MonoBehaviour
         }
     }
 
+    
     public int valueMental
     {
         get { return _valueMental; }
@@ -56,9 +60,10 @@ public class StatManagement : MonoBehaviour
         {
             _valueMental = Mathf.Clamp(value, 0, 4);
             UpdateUI(); // UI 업데이트 호출
+            UpdateButtons(); // 버튼 상태 업데이트
         }
-    }
-    
+    }      
+   
     private void Awake()
     {
         // 인스펙터에서 조정한 값으로 초기화
@@ -66,6 +71,7 @@ public class StatManagement : MonoBehaviour
         valueCoin = _valueCoin;
         valueMental = _valueMental;
 
+        
         if (SceneManager.sceneCount == 1)
         {
             getCurrDialogIndex = objTextController.GetComponent<ShowTextJson>().currentDialogIndex;
@@ -73,7 +79,7 @@ public class StatManagement : MonoBehaviour
         else if (SceneManager.sceneCount == 2)
         {
             getCurrDialogIndex = objTextController.GetComponent<ShowTextZehupeJson>().currentDialogIndex;
-        }
+        }       
     }
 
     private void Start()
@@ -85,7 +91,19 @@ public class StatManagement : MonoBehaviour
         UpdateUI(); // 시작 시 UI 업데이트
         gradientDamageEffect = FindObjectOfType<GradientDamageEffect>();
         gradientHealingEffect = FindObjectOfType<GradientHealingEffect>();
+
+        UpdateButtons(); // 시작 시 버튼 상태 업데이트
     }
+
+    private void UpdateButtons()
+    {
+        bool isMentalZero = (_valueMental == 0);
+        foreach (var button in buttons)
+        {
+            button.SetActive(isMentalZero); // _valueMental이 0일 때 버튼 활성화
+        }
+    }
+
 
     private void UpdateUI()
     //public  void UpdateUI()
@@ -93,7 +111,7 @@ public class StatManagement : MonoBehaviour
         // 각 스탯의 fill amount를 업데이트
         heartImage.fillAmount = (float)valueHeart / 4; // 최대 4
         coinImage.fillAmount = (float)valueCoin / 6; // 최대 6
-        mentalImage.fillAmount = (float)valueMental / 4; // 최대 4
+        mentalImage.fillAmount = (float)valueMental / 4; // 최대 4        
     }
 
     public void CalculateHeart()
@@ -151,7 +169,8 @@ public class StatManagement : MonoBehaviour
                 valueMental++;
             }
             gradientHealingEffect.TakeHealing(); // 힐링 이펙트 호출
-        }
+        }        
+
         else if (dialogList01.dialogSection01[getCurrDialogIndex].statValue < 0)
         {
             for (int i = 0; i < Mathf.Abs(dialogList01.dialogSection01[getCurrDialogIndex].statValue); ++i)
@@ -161,4 +180,5 @@ public class StatManagement : MonoBehaviour
         }
         gradientDamageEffect.TakeDamage(); // 피해 이펙트 호출
     }
+       
 }

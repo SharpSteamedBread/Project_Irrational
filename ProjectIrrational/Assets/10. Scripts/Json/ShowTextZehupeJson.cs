@@ -7,7 +7,6 @@ using TMPro;
 public class ShowTextZehupeJson : MonoBehaviour
 {
     public DialogManager dialogManager;
-
     public DialogListZehupe dialogList02;             // JSON에서 불러온 Dialog 데이터 리스트
     public Selection02List selectText02;        // JSON에서 불러온 Selection 데이터 리스트
     public RandomEvent02List randomEvent02;     // JSON에서 불러온 RandomEvent 데이터 리스트
@@ -44,10 +43,12 @@ public class ShowTextZehupeJson : MonoBehaviour
     public TextMeshProUGUI selectText1;
     public TextMeshProUGUI selectText2;
     public TextMeshProUGUI selectText3;
+  
 
     public GameObject objSelectText1;
     public GameObject objSelectText2;
     public GameObject objSelectText3;
+   
 
     public int hasSelectedText = 0;
 
@@ -160,10 +161,12 @@ public class ShowTextZehupeJson : MonoBehaviour
             selectText1.text = selectText02.selection02[eventNumber].selectText1;
             selectText2.text = selectText02.selection02[eventNumber].selectText2;
             selectText3.text = selectText02.selection02[eventNumber].selectText3;
+           
 
             objSelectText1.SetActive(selectText1.text != "-");
             objSelectText2.SetActive(selectText2.text != "-");
             objSelectText3.SetActive(selectText3.text != "-");
+        
 
             // 이미지 로드 (null이 아닌 경우에만)
             if (!string.IsNullOrEmpty(selectText02.selection02[eventNumber].eventImage) && selectText02.selection02[eventNumber].eventImage != "null")
@@ -212,10 +215,12 @@ public class ShowTextZehupeJson : MonoBehaviour
             objSelectText1.SetActive(true);
             objSelectText2.SetActive(true);
             objSelectText3.SetActive(true);
+         
 
             selectText1.text = selectText02.selection02[eventNumber].selectText1;
             selectText2.text = selectText02.selection02[eventNumber].selectText2;
             selectText3.text = selectText02.selection02[eventNumber].selectText3;
+           
 
             if (!string.IsNullOrEmpty(selectText02.selection02[eventNumber].eventImage) && selectText02.selection02[eventNumber].eventImage != "null")
             {
@@ -241,6 +246,7 @@ public class ShowTextZehupeJson : MonoBehaviour
         objSelectText1.SetActive(false);
         objSelectText2.SetActive(false);
         objSelectText3.SetActive(false);
+  
 
         currentEventPath++;
     }
@@ -259,6 +265,7 @@ public class ShowTextZehupeJson : MonoBehaviour
         objSelectText1.SetActive(false);
         objSelectText2.SetActive(false);
         objSelectText3.SetActive(false);
+       
 
         currentEventPath++;
     }
@@ -277,6 +284,8 @@ public class ShowTextZehupeJson : MonoBehaviour
         objSelectText1.SetActive(false);
         objSelectText2.SetActive(false);
         objSelectText3.SetActive(false);
+  
+
 
         currentEventPath++;
     }

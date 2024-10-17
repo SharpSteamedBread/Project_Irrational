@@ -44,10 +44,12 @@ public class ShowTextJson : MonoBehaviour
     public TextMeshProUGUI selectText1;
     public TextMeshProUGUI selectText2;
     public TextMeshProUGUI selectText3;
+    public TextMeshProUGUI selectText4;
 
     public GameObject objSelectText1;
     public GameObject objSelectText2;
     public GameObject objSelectText3;
+    public GameObject objSelectText4;
 
     public int hasSelectedText = 0;
 
@@ -160,10 +162,12 @@ public class ShowTextJson : MonoBehaviour
             selectText1.text = selectText01.selection01[eventNumber].selectText1;
             selectText2.text = selectText01.selection01[eventNumber].selectText2;
             selectText3.text = selectText01.selection01[eventNumber].selectText3;
+            //selectText4.text = selectText01.selection01[eventNumber].selectText4;
 
             objSelectText1.SetActive(selectText1.text != "-");
             objSelectText2.SetActive(selectText2.text != "-");
             objSelectText3.SetActive(selectText3.text != "-");
+            objSelectText4.SetActive(selectText4.text != "-");
 
             // 이미지 로드 (null이 아닌 경우에만)
             if (!string.IsNullOrEmpty(selectText01.selection01[eventNumber].eventImage) && selectText01.selection01[eventNumber].eventImage != "null")
@@ -212,10 +216,12 @@ public class ShowTextJson : MonoBehaviour
             objSelectText1.SetActive(true);
             objSelectText2.SetActive(true);
             objSelectText3.SetActive(true);
+            objSelectText4.SetActive(true);
 
             selectText1.text = selectText01.selection01[eventNumber].selectText1;
             selectText2.text = selectText01.selection01[eventNumber].selectText2;
             selectText3.text = selectText01.selection01[eventNumber].selectText3;
+            //selectText4.text = selectText01.selection01[eventNumber].selectText4;
 
             if (!string.IsNullOrEmpty(selectText01.selection01[eventNumber].eventImage) && selectText01.selection01[eventNumber].eventImage != "null")
             {
@@ -241,6 +247,7 @@ public class ShowTextJson : MonoBehaviour
         objSelectText1.SetActive(false);
         objSelectText2.SetActive(false);
         objSelectText3.SetActive(false);
+        objSelectText4.SetActive(false);
 
         currentEventPath++;
     }
@@ -259,7 +266,8 @@ public class ShowTextJson : MonoBehaviour
         objSelectText1.SetActive(false);
         objSelectText2.SetActive(false);
         objSelectText3.SetActive(false);
-
+        objSelectText4.SetActive(false);
+        
         currentEventPath++;
     }
 
@@ -277,6 +285,7 @@ public class ShowTextJson : MonoBehaviour
         objSelectText1.SetActive(false);
         objSelectText2.SetActive(false);
         objSelectText3.SetActive(false);
+        objSelectText4.SetActive(false);
 
         currentEventPath++;
     }
