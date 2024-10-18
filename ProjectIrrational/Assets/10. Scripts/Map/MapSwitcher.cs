@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class MapSwitcher : MonoBehaviour
 {
-    //[Header("이야기 진행도 초기화")]
-    //[SerializeField] private ShowTextJson showTextJson;
+    [Header("이야기 진행도 초기화")]
+    [SerializeField] private ShowTextJson showTextJson;
 
     void Start()
     {
@@ -34,8 +34,8 @@ public class MapSwitcher : MonoBehaviour
 
     public void InitValue()
     {
-        //showTextJson.currentDialogIndex = 0;
-        //showTextJson.currentEventPath = 0;
-        //showTextJson.hasSelectedText = 0;
+        showTextJson.currentDialogIndex = 0;
+        showTextJson.currentEventPath = 0;
+        showTextJson.hasSelectedText = 0;
     }
 }

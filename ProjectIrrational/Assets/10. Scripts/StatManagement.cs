@@ -71,7 +71,7 @@ public class StatManagement : MonoBehaviour
         valueCoin = _valueCoin;
         valueMental = _valueMental;
 
-        
+        /*
         if (SceneManager.sceneCount == 1)
         {
             getCurrDialogIndex = objTextController.GetComponent<ShowTextJson>().currentDialogIndex;
@@ -80,6 +80,19 @@ public class StatManagement : MonoBehaviour
         {
             getCurrDialogIndex = objTextController.GetComponent<ShowTextZehupeJson>().currentDialogIndex;
         }       
+        */
+
+        // 현재 활성화된 씬의 이름을 가져옴
+        string sceneName = SceneManager.GetActiveScene().name;
+
+        if (sceneName == "Scene_Main")
+        {
+            getCurrDialogIndex = objTextController.GetComponent<ShowTextJson>().currentDialogIndex;
+        }
+        else if (sceneName == "Scene_Zehupe")
+        {
+            getCurrDialogIndex = objTextController.GetComponent<ShowTextZehupeJson>().currentDialogIndex;
+        }
     }
 
     private void Start()
