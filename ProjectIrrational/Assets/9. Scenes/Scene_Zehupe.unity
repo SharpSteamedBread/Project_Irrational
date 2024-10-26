@@ -615,8 +615,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ShowTextJson, Assembly-CSharp
+      - m_Target: {fileID: 1293971641}
+        m_TargetAssemblyTypeName: ShowTextZehupeJson, Assembly-CSharp
         m_MethodName: SelectAndJump3
         m_Mode: 1
         m_Arguments:
@@ -3768,8 +3768,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ShowTextJson, Assembly-CSharp
+      - m_Target: {fileID: 1293971641}
+        m_TargetAssemblyTypeName: ShowTextZehupeJson, Assembly-CSharp
         m_MethodName: SelectAndJump2
         m_Mode: 1
         m_Arguments:
@@ -4820,7 +4820,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8967006327453313395, guid: 91f220f2b7d47114fa9af9b31ea538b1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 750
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8967006327453313395, guid: 91f220f2b7d47114fa9af9b31ea538b1, type: 3}
       propertyPath: m_SizeDelta.y
@@ -4856,7 +4856,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8967006327453313395, guid: 91f220f2b7d47114fa9af9b31ea538b1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 375
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8967006327453313395, guid: 91f220f2b7d47114fa9af9b31ea538b1, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -5205,8 +5205,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ShowTextJson, Assembly-CSharp
+      - m_Target: {fileID: 1293971641}
+        m_TargetAssemblyTypeName: ShowTextZehupeJson, Assembly-CSharp
         m_MethodName: SelectAndJump1
         m_Mode: 1
         m_Arguments:
@@ -13726,9 +13726,9 @@ MonoBehaviour:
   currentDialogIndex: 0
   isTyping: 0
   typingSpeed: 0.01
+  selectEvent: 0
   currentEventPath: 0
   eventNumber: 0
-  selectEvent: 0
   selectText1: {fileID: 2141375135}
   selectText2: {fileID: 1532006255}
   selectText3: {fileID: 184311567}

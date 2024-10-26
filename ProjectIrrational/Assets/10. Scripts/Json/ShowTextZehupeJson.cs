@@ -34,11 +34,22 @@ public class ShowTextZehupeJson : MonoBehaviour
 
     [SerializeField] float typingSpeed = 0.01f;
 
+    [Header("이벤트 분기")]
+    public int selectEvent;             // 액셀 파일의 hasSelectEvent 변수
+    /*
+     CheckSelectEvent() 참고해주세요!
+        1: 선택지 출력
+        2: 이미지 출력
+        3: 스텟 가감
+        4: 아이템 얻기
+        5: 선택지 이벤트 점프
+     */
+
+
     [Header("선택지 출력")]
 
     public int currentEventPath = 0;
     public int eventNumber;             // 액셀 파일의 selectEventNumber 변수
-    public int selectEvent;             // 액셀 파일의 hasSelectEvent 변수
 
     public TextMeshProUGUI selectText1;
     public TextMeshProUGUI selectText2;
@@ -158,10 +169,15 @@ public class ShowTextZehupeJson : MonoBehaviour
 
         if (selectEvent == 1)   // 선택지 출력
         {
+
             selectText1.text = selectText02.selection02[eventNumber].selectText1;
             selectText2.text = selectText02.selection02[eventNumber].selectText2;
             selectText3.text = selectText02.selection02[eventNumber].selectText3;
-           
+
+            Debug.Log($"{selectText1.text}");
+            Debug.Log($"{selectText2.text}");
+            Debug.Log($"{selectText3.text}");
+
 
             objSelectText1.SetActive(selectText1.text != "-");
             objSelectText2.SetActive(selectText2.text != "-");
