@@ -72,4 +72,14 @@ public class ButtonManager : MonoBehaviour
         SceneManager.LoadScene("Scene_Start");
     }
 
+    // 게임 종료 메서드 추가
+    public void QuitGame()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false; // 에디터에서 실행 중지
+#else
+            Application.Quit(); // 빌드된 애플리케이션 종료
+#endif
+    }
+
 }

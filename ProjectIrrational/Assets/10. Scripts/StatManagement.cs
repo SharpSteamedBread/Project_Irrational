@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.UI; // UI 요소를 위한 네임스페이스 추가
 using UnityEngine.SceneManagement;
 
-
 public class StatManagement : MonoBehaviour
 {
     public DialogManager dialogManager;
@@ -69,19 +68,8 @@ public class StatManagement : MonoBehaviour
         // 인스펙터에서 조정한 값으로 초기화
         valueHeart = _valueHeart;
         valueCoin = _valueCoin;
-        valueMental = _valueMental;
-
-        /*
-        if (SceneManager.sceneCount == 1)
-        {
-            getCurrDialogIndex = objTextController.GetComponent<ShowTextJson>().currentDialogIndex;
-        }
-        else if (SceneManager.sceneCount == 2)
-        {
-            getCurrDialogIndex = objTextController.GetComponent<ShowTextZehupeJson>().currentDialogIndex;
-        }       
-        */
-
+        valueMental = _valueMental;  
+        
         // 현재 활성화된 씬의 이름을 가져옴
         string sceneName = SceneManager.GetActiveScene().name;
 

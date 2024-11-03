@@ -36,6 +36,7 @@ public class ShowTextZehupeJson : MonoBehaviour
 
     [Header("이벤트 분기")]
     public int selectEvent;             // 액셀 파일의 hasSelectEvent 변수
+
     /*
      CheckSelectEvent() 참고해주세요!
         1: 선택지 출력
@@ -44,8 +45,7 @@ public class ShowTextZehupeJson : MonoBehaviour
         4: 아이템 얻기
         5: 선택지 이벤트 점프
      */
-
-
+     
     [Header("선택지 출력")]
 
     public int currentEventPath = 0;
@@ -85,18 +85,7 @@ public class ShowTextZehupeJson : MonoBehaviour
     public GameObject itemObject;
 
     [Header("스크롤 제어")]
-    [SerializeField] private ScrollViewController scrollviewController;
-
-    private void Awake()
-    {
-
-        objEventImage.GetComponent<Image>();
-        animEventImage.GetComponent<Animator>();
-
-        objText.text = prevText + " ";
-
-        StartCoroutine(OnTypingText());
-    }
+    [SerializeField] private ScrollViewController scrollviewController;      
 
     private void Start()
     {
@@ -107,6 +96,17 @@ public class ShowTextZehupeJson : MonoBehaviour
         randomEvent02 = dialogManager.randomEvent02;
 
         currentDialogIndex = dialogList02.dialogSection02[0].number;
+    }
+
+    private void Awake()
+    {
+
+        objEventImage.GetComponent<Image>();
+        animEventImage.GetComponent<Animator>();
+
+        objText.text = prevText + " ";
+
+        StartCoroutine(OnTypingText());
     }
 
     private void Update()
@@ -185,19 +185,26 @@ public class ShowTextZehupeJson : MonoBehaviour
         
 
             // 이미지 로드 (null이 아닌 경우에만)
+            
             if (!string.IsNullOrEmpty(selectText02.selection02[eventNumber].eventImage) && selectText02.selection02[eventNumber].eventImage != "null")
             {
                 animEventImage.Play("ImageFadeUI", -1, 0f);
                 objEventImage.sprite = Resources.Load<Sprite>($"{selectText02.selection02[eventNumber].eventImage}");
             }
+            
         }
+        
         else if (selectEvent == 2)   // 이미지 출력
         {
+            //이 if문 때문에 제휴페 씬으로 이동시 오류 발생함. 점검 바람.
+            /*
             if (!string.IsNullOrEmpty(dialogList02.dialogSection02[currentDialogIndex].mainImage) && dialogList02.dialogSection02[currentDialogIndex].mainImage != "null")
             {
                 animEventImage.Play("ImageFadeUI", -1, 0f);
-                objEventImage.sprite = Resources.Load<Sprite>($"{dialogList02.dialogSection02[currentDialogIndex].mainImage}");
+                objEventImage.sprite = Resources.Load<Sprite>($"{dialogList02.dialogSection02[currentDialogIndex].mainImage}");               
             }
+            */
+            
         }
         else if (selectEvent == 3)   // 스텟 가감
         {

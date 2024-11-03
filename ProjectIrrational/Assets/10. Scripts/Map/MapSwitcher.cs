@@ -9,6 +9,9 @@ public class MapSwitcher : MonoBehaviour
     [Header("이야기 진행도 초기화")]
     [SerializeField] private ShowTextJson showTextJson;
 
+    private bool click = false;
+
+
     void Start()
     {
         
@@ -28,8 +31,17 @@ public class MapSwitcher : MonoBehaviour
 
     public void GotoZehupe()
     {
+        if(click == true)
+        {
+            return;
+        
+        }
+
         //InitValue();
+        click = true;
         SceneManager.LoadScene("Scene_Zehupe");
+
+
     }
 
     public void InitValue()
