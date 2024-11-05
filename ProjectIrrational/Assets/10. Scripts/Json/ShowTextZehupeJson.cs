@@ -85,18 +85,7 @@ public class ShowTextZehupeJson : MonoBehaviour
     public GameObject itemObject;
 
     [Header("스크롤 제어")]
-    [SerializeField] private ScrollViewController scrollviewController;      
-
-    private void Start()
-    {
-        Canvas.ForceUpdateCanvases();
-
-        dialogList02 = dialogManager.dialogList02;
-        selectText02 = dialogManager.selectText02;
-        randomEvent02 = dialogManager.randomEvent02;
-
-        currentDialogIndex = dialogList02.dialogSection02[0].number;
-    }
+    [SerializeField] private ScrollViewController scrollviewController;
 
     private void Awake()
     {
@@ -108,6 +97,17 @@ public class ShowTextZehupeJson : MonoBehaviour
 
         StartCoroutine(OnTypingText());
     }
+
+    private void Start()
+    {
+        Canvas.ForceUpdateCanvases();
+
+        dialogList02 = dialogManager.dialogList02;
+        selectText02 = dialogManager.selectText02;
+        randomEvent02 = dialogManager.randomEvent02;
+
+        currentDialogIndex = dialogList02.dialogSection02[0].number;
+    }       
 
     private void Update()
     {
