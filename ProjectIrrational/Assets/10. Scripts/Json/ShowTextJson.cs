@@ -389,6 +389,42 @@ public class ShowTextJson : MonoBehaviour
             case "eventID24":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest25;
                 break;
+            case "eventID25":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest26;
+                break;
+            case "eventID26":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest27;
+                break;
+            case "eventID27":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest28;
+                break;
+            case "eventID28":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest29;
+                break;
+            case "eventID29":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest30;
+                break;
+            case "eventID30":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest31;
+                break;
+            case "eventID31":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest32;
+                break;
+            case "eventID32":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest33;
+                break;
+            case "eventID33":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest34;
+                break;
+            case "eventID34":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest35;
+                break;
+            case "eventID35":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest36;
+                break;
+            case "eventID36":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest37;
+                break;
         }
     }
 

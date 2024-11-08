@@ -39,6 +39,11 @@ public class RandomEvent : MonoBehaviour
     public int eventTest31 = 30;
     public int eventTest32 = 31;
     public int eventTest33 = 32;
+    public int eventTest34 = 33;
+    public int eventTest35 = 34;
+    public int eventTest36 = 35;
+    public int eventTest37 = 36;
+
 
 
 
