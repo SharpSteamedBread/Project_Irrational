@@ -197,13 +197,13 @@ public class ShowTextZehupeJson : MonoBehaviour
         else if (selectEvent == 2)   // 이미지 출력
         {
             //이 if문 때문에 제휴페 씬으로 이동시 오류 발생함. 점검 바람.
-            /*
+            
             if (!string.IsNullOrEmpty(dialogList02.dialogSection02[currentDialogIndex].mainImage) && dialogList02.dialogSection02[currentDialogIndex].mainImage != "null")
             {
-                animEventImage.Play("ImageFadeUI", -1, 0f);
+                //animEventImage.Play("ImageFadeUI", -1, 0f);
                 objEventImage.sprite = Resources.Load<Sprite>($"{dialogList02.dialogSection02[currentDialogIndex].mainImage}");               
             }
-            */
+            
             
         }
         else if (selectEvent == 3)   // 스텟 가감
