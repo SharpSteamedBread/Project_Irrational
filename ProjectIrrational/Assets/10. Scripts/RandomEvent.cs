@@ -44,6 +44,34 @@ public class RandomEvent : MonoBehaviour
     public int eventTest36 = 35;
     public int eventTest37 = 36;
 
+    public int eventTest38 = 37;
+    public int eventTest39 = 38;
+    public int eventTest40 = 39;
+    public int eventTest41 = 40;
+    public int eventTest42 = 41;
+    public int eventTest43 = 42;
+    public int eventTest44 = 43;
+    public int eventTest45 = 44;
+    public int eventTest46 = 45;
+    public int eventTest47 = 46;
+    public int eventTest48 = 47;
+    public int eventTest49 = 48;
+    public int eventTest50 = 49;
+    public int eventTest51 = 50;
+    public int eventTest52 = 51;
+    public int eventTest53 = 52;
+    public int eventTest54 = 53;
+    public int eventTest55 = 54;
+    public int eventTest56 = 55;
+    public int eventTest57 = 56;
+    public int eventTest58 = 57;
+    public int eventTest59 = 58;
+    public int eventTest60 = 59;
+    public int eventTest61 = 60;
+    public int eventTest62 = 61;
+    public int eventTest63 = 62;
+    public int eventTest64 = 63;
+    public int eventTest65 = 64;
 
 
 

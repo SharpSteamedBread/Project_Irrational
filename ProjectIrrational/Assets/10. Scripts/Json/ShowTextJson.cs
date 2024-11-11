@@ -168,10 +168,12 @@ public class ShowTextJson : MonoBehaviour
             selectText3.text = selectText01.selection01[eventNumber].selectText3;
             //selectText4.text = selectText01.selection01[eventNumber].selectText4;
 
+
             objSelectText1.SetActive(selectText1.text != "-");
             objSelectText2.SetActive(selectText2.text != "-");
             objSelectText3.SetActive(selectText3.text != "-");
             objSelectText4.SetActive(selectText4.text != "-");
+
 
             // 이미지 로드 (null이 아닌 경우에만)
             if (!string.IsNullOrEmpty(selectText01.selection01[eventNumber].eventImage) && selectText01.selection01[eventNumber].eventImage != "null")
@@ -428,6 +430,90 @@ public class ShowTextJson : MonoBehaviour
                 break;
             case "eventID36":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest37;
+                break;
+            case "eventID37":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest38;
+                break;
+            case "eventID38":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest39;
+                break;
+            case "eventID39":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest40;
+                break;
+            case "eventID40":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest41;
+                break;
+            case "eventID41":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest42;
+                break;
+            case "eventID42":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest43;
+                break;
+            case "eventID43":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest44;
+                break;
+            case "eventID44":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest45;
+                break;
+            case "eventID45":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest46;
+                break;
+            case "eventID46":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest47;
+                break;
+            case "eventID47":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest48;
+                break;
+            case "eventID48":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest49;
+                break;
+            case "eventID49":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest50;
+                break;
+            case "eventID50":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest51;
+                break;
+            case "eventID51":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest52;
+                break;
+            case "eventID52":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest53;
+                break;
+            case "eventID53":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest54;
+                break;
+            case "eventID54":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest55;
+                break;
+            case "eventID55":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest56;
+                break;
+            case "eventID56":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest57;
+                break;
+            case "eventID57":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest58;
+                break;
+            case "eventID58":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest59;
+                break;
+            case "eventID59":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest60;
+                break;
+            case "eventID60":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest61;
+                break;
+            case "eventID61":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest62;
+                break;
+            case "eventID62":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest63;
+                break;
+            case "eventID63":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest64;
+                break;
+            case "eventID64":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest65;
                 break;
         }
     }

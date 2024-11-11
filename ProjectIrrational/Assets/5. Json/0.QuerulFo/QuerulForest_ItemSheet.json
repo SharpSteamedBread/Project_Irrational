@@ -1,138 +1,107 @@
 ﻿[
   {
-    "itemCode": 1,
+    "itemCode": 201031,
     "itemSort": "잡동사니",
-    "itemName": "잡지",
-    "itemInfo": "설명",
-    "itemFunc": "효과",
-    "itemEvent": "이벤트"
-  },
-  {
-    "itemCode": 2,
-    "itemSort": "회복아이템",
-    "itemName": "붕대",
-    "itemInfo": "설명",
-    "itemFunc": "효과",
-    "itemEvent": "이벤트"
-  },
-  {
-    "itemCode": 3,
-    "itemSort": "스토리",
-    "itemName": "룬 문자가 적힌 돌 (룬 돌)",
-    "itemInfo": "설명",
-    "itemFunc": "효과",
-    "itemEvent": "이벤트"
-  },
-  {
-    "itemCode": 4,
-    "itemSort": "스토리",
-    "itemName": "심장",
-    "itemInfo": "설명",
-    "itemFunc": "효과",
-    "itemEvent": "이벤트"
-  },
-  {
-    "itemCode": 5,
-    "itemSort": "도구",
-    "itemName": "끈",
-    "itemInfo": "설명",
-    "itemFunc": "효과",
-    "itemEvent": "이벤트"
-  },
-  {
-    "itemCode": 6,
-    "itemSort": "도구",
-    "itemName": "짐승의 가죽",
-    "itemInfo": "설명",
-    "itemFunc": "효과",
-    "itemEvent": "이벤트"
-  },
-  {
-    "itemCode": 7,
-    "itemSort": "도구",
-    "itemName": "나이프",
-    "itemInfo": "설명",
-    "itemFunc": "효과",
-    "itemEvent": "이벤트"
-  },
-  {
-    "itemCode": 8,
-    "itemSort": "도구",
     "itemName": "라이터",
     "itemInfo": "설명",
     "itemFunc": "효과",
     "itemEvent": "이벤트"
   },
   {
-    "itemCode": 9,
-    "itemSort": "회복아이템",
-    "itemName": "생고기",
+    "itemCode": 201032,
+    "itemSort": "각인",
+    "itemName": "호기심",
     "itemInfo": "설명",
     "itemFunc": "효과",
     "itemEvent": "이벤트"
   },
   {
-    "itemCode": 10,
-    "itemSort": "잡동사니"
+    "itemCode": 201033,
+    "itemSort": "잡동사니",
+    "itemName": "붕대",
+    "itemInfo": "설명",
+    "itemFunc": "효과",
+    "itemEvent": "이벤트"
   },
   {
-    "itemCode": 11,
-    "itemSort": "잡동사니"
+    "itemCode": 201034,
+    "itemSort": "잡동사니",
+    "itemName": "짐승의 가죽",
+    "itemInfo": "설명",
+    "itemFunc": "효과",
+    "itemEvent": "이벤트"
   },
   {
-    "itemCode": 12,
-    "itemSort": "잡동사니"
+    "itemCode": 201035,
+    "itemSort": "잡동사니",
+    "itemName": "나이프",
+    "itemInfo": "설명",
+    "itemFunc": "효과",
+    "itemEvent": "이벤트"
   },
   {
-    "itemCode": 13,
-    "itemSort": "잡동사니"
+    "itemCode": 201036,
+    "itemSort": "잡동사니",
+    "itemName": "끈",
+    "itemInfo": "설명",
+    "itemFunc": "효과",
+    "itemEvent": "이벤트"
   },
   {
-    "itemCode": 14,
-    "itemSort": "잡동사니"
+    "itemCode": 7
   },
   {
-    "itemCode": 15,
-    "itemSort": "잡동사니"
+    "itemCode": 8
   },
   {
-    "itemCode": 16,
-    "itemSort": "잡동사니"
+    "itemCode": 9
   },
   {
-    "itemCode": 17,
-    "itemSort": "잡동사니"
+    "itemCode": 10
   },
   {
-    "itemCode": 18,
-    "itemSort": "잡동사니"
+    "itemCode": 11
   },
   {
-    "itemCode": 19,
-    "itemSort": "잡동사니"
+    "itemCode": 12
   },
   {
-    "itemCode": 20,
-    "itemSort": "잡동사니"
+    "itemCode": 13
   },
   {
-    "itemCode": 21,
-    "itemSort": "잡동사니"
+    "itemCode": 14
   },
   {
-    "itemCode": 22,
-    "itemSort": "잡동사니"
+    "itemCode": 15
   },
   {
-    "itemCode": 23,
-    "itemSort": "잡동사니"
+    "itemCode": 16
   },
   {
-    "itemCode": 24,
-    "itemSort": "잡동사니"
+    "itemCode": 17
   },
   {
-    "itemCode": 25,
-    "itemSort": "잡동사니"
+    "itemCode": 18
+  },
+  {
+    "itemCode": 19
+  },
+  {
+    "itemCode": 20
+  },
+  {
+    "itemCode": 21
+  },
+  {
+    "itemCode": 22
+  },
+  {
+    "itemCode": 23
+  },
+  {
+    "itemCode": 24
+  },
+  {
+    "itemCode": 25
   }
 ]

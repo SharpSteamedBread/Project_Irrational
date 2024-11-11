@@ -1,0 +1,467 @@
+﻿[
+  {
+    "selectEventNumber": 0,
+    "eventImage": "null",
+    "selectText1": "고개를 들어 주위를 살핀다",
+    "triggerEvent1": "eventID1",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 1,
+    "eventImage": "null",
+    "selectText1": "문 밖을 나선다",
+    "triggerEvent1": "eventID2",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 2,
+    "eventImage": "null",
+    "selectText1": "기억이 나지 않았다",
+    "triggerEvent1": "eventID3",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 3,
+    "eventImage": "null",
+    "selectText1": "호의를 받아들였다",
+    "triggerEvent1": "eventID4",
+    "selectText2": "호의를 거절했다",
+    "triggerEvent2": "eventID7",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 4,
+    "eventImage": "null",
+    "selectText1": "일단 가만히 지켜본다",
+    "triggerEvent1": "eventID5",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 5,
+    "eventImage": "null",
+    "selectText1": "이 곳은 어디죠?",
+    "triggerEvent1": "eventID6",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 6,
+    "eventImage": "null",
+    "selectText1": "숲으로 이동한다",
+    "triggerEvent1": "eventID17",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 7,
+    "eventImage": "null",
+    "selectText1": "도망친다",
+    "triggerEvent1": "eventID8",
+    "selectText2": "대화를 이어간다",
+    "triggerEvent2": "eventID11",
+    "selectText3": "싸운다 ",
+    "triggerEvent3": "eventID15",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 8,
+    "eventImage": "null",
+    "selectText1": "달리기를 서서히 멈춘다",
+    "triggerEvent1": "eventID9",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 9,
+    "eventImage": "null",
+    "selectText1": "나의 맥박을 짚어본다",
+    "triggerEvent1": "eventID10",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 10,
+    "eventImage": "null",
+    "selectText1": "숲을 떠난다",
+    "triggerEvent1": "eventID17",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 11,
+    "eventImage": "null",
+    "selectText1": "돈을 준다",
+    "triggerEvent1": "eventID12",
+    "eventCondition_type1": "statCoin",
+    "eventCondition_value1": 1,
+    "selectText2": "도망친다",
+    "triggerEvent2": "eventID8",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 12,
+    "eventImage": "null",
+    "selectText1": "그게 내 돈의 전부다",
+    "triggerEvent1": "eventID13",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 13,
+    "eventImage": "null",
+    "selectText1": "처음 온 이란 말에 의문을 지었다",
+    "triggerEvent1": "eventID14",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 14,
+    "eventImage": "null",
+    "selectText1": "숲을 떠난다",
+    "triggerEvent1": "eventID17",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 15,
+    "eventImage": "null",
+    "selectText1": "항복한다",
+    "triggerEvent1": "eventID11",
+    "selectText2": "…싸운다",
+    "triggerEvent2": "eventID16",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 16,
+    "selectText1": "조심스레 다가가서 문을 두드린다",
+    "triggerEvent1": "eventID18",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 17,
+    "selectText1": "할머니 안녕하세요?",
+    "triggerEvent1": "eventID19",
+    "selectText2": "할머니가 먼저 말 걸어주시기를 기다린다",
+    "triggerEvent2": "eventID22",
+    "selectText3": "할머니, 무당이군요?",
+    "triggerEvent3": "eventID24",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 18,
+    "selectText1": "할머니는 누구신가요?",
+    "triggerEvent1": "eventID20",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 19,
+    "selectText1": "나라…요?",
+    "triggerEvent1": "eventID21",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 20,
+    "selectText1": "이곳은 어디죠? ",
+    "triggerEvent1": "eventID26",
+    "selectText2": "원래 세상으로 돌아가려면 어떻게 해야 하나요?",
+    "triggerEvent2": "eventID29",
+    "selectText3": "정말…1000년을 사신 건가요? ",
+    "triggerEvent3": "eventID32",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 21,
+    "selectText1": "다른 사람들은 이렇지 않던가요?",
+    "triggerEvent1": "eventID23",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 22,
+    "selectText1": "이곳은 어디죠?",
+    "triggerEvent1": "eventID26",
+    "selectText2": "원래 세상으로 돌아가려면 어떻게 해야 하나요?",
+    "triggerEvent2": "eventID29",
+    "selectText3": "정말…1000년을 사신 건가요?",
+    "triggerEvent3": "eventID32",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 23,
+    "selectText1": "그게 무슨 뜻이죠?",
+    "triggerEvent1": "eventID25",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 24,
+    "selectText1": "집을 떠난다",
+    "triggerEvent1": "eventID34",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 25,
+    "selectText1": "저는 그런 숲을 들어본 적이 없는데요…?",
+    "triggerEvent1": "eventID27",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 26,
+    "selectText1": "이럴 수가…",
+    "triggerEvent1": "eventID28",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 27,
+    "selectText1": "숲을 떠나며",
+    "triggerEvent1": "eventID34",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 28,
+    "selectText1": "그게 무슨 소리세요?",
+    "triggerEvent1": "eventID30",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 29,
+    "selectText1": "그렇다면 저는 어떻게 해야하죠?",
+    "triggerEvent1": "eventID31",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 30,
+    "selectText1": "...그렇군요",
+    "triggerEvent1": "eventID33",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 31,
+    "selectText1": "무슨 일이세요?",
+    "triggerEvent1": "eventID35",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 32,
+    "selectText1": "이동한다.",
+    "triggerEvent1": "eventID36",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 33,
+    "selectText1": "주변을 살핀다.",
+    "triggerEvent1": "eventID37",
+    "selectText2": "일단 계속 걷는다.",
+    "triggerEvent2": "eventID42",
+    "selectText3": "자리에 멈춰서 불을 켠다.",
+    "triggerEvent3": "eventID50",
+    "eventCondition_type3": "getItem",
+    "eventCondition_value3": 201031,
+    "selectText4": "소리를 외쳐서 주변에 사람이 있는지 확인한다.",
+    "triggerEvent4": "eventID54",
+    "eventCondition_type4": "getItem",
+    "eventCondition_value4": 201032
+  },
+  {
+    "selectEventNumber": 34,
+    "selectText1": "휴식을 취한다",
+    "triggerEvent1": "eventID38",
+    "selectText2": "주변의 상황에 집중해 본다.",
+    "triggerEvent2": "eventID39",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 35,
+    "selectText1": "다른 곳으로 이동한다.",
+    "triggerEvent1": "eventID63",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 36,
+    "selectText1": "무엇인가의 미세한 발소리를 들었다.",
+    "triggerEvent1": "eventID40",
+    "selectText2": "아무 소리도 들리지 않았다.",
+    "triggerEvent2": "eventID41",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 37,
+    "selectText1": "길을 떠난다.",
+    "triggerEvent1": "eventID63",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 38,
+    "selectText1": "뒤를 돌아본다.",
+    "triggerEvent1": "eventID43",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 39,
+    "selectText1": "그 부엉이를 경계하면서 멈춰서서 밤을 새운다.",
+    "triggerEvent1": "eventID44",
+    "selectText2": "무시하고 계속 가던 길을 간다.",
+    "triggerEvent2": "eventID45",
+    "selectText3": "부엉이를 향해 손에 닿은 돌을 던진다",
+    "triggerEvent3": "eventID58",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 40,
+    "selectText1": "붕대로 지혈한다.(붕대 소유)",
+    "triggerEvent1": "eventID46",
+    "eventCondition_type1": "getItem",
+    "eventCondition_value1": 201033,
+    "selectText2": "입고 있던 옷가지를 뜯어서 상처를 막는다. D-2",
+    "triggerEvent2": "eventID47",
+    "selectText3": "통증을 애써 참고 나아간다.",
+    "triggerEvent3": "eventID48",
+    "selectText4": "그냥 포기한다. ",
+    "triggerEvent4": "eventID49",
+    "eventCondition_type4": "statMental",
+    "eventCondition_value4": 2
+  },
+  {
+    "selectEventNumber": 41,
+    "selectText1": "모닥불을 만든다.",
+    "triggerEvent1": "eventID51",
+    "selectText2": "계속 걷는다.",
+    "triggerEvent2": "eventID52",
+    "selectText3": "나무에 불을 지른다.",
+    "triggerEvent3": "eventID53",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 42,
+    "selectText1": "주변을 살핀다.",
+    "triggerEvent1": "eventID37",
+    "selectText2": "일단 계속 걷는다.",
+    "triggerEvent2": "eventID42",
+    "selectText3": "소리를 외쳐서 주변에 사람이 있는지 확인한다.",
+    "triggerEvent3": "eventID54",
+    "eventCondition_type3": "getItem",
+    "eventCondition_value3": 201032,
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 43,
+    "selectText1": "도망친다",
+    "triggerEvent1": "eventID55",
+    "selectText2": "맞서 싸운다",
+    "triggerEvent2": "eventID56",
+    "selectText3": "가만히 서서 바라본다.",
+    "triggerEvent3": "eventID57",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 44,
+    "selectText1": "맞서 싸운다",
+    "triggerEvent1": "eventID56",
+    "selectText2": "몸을 웅크린다.",
+    "triggerEvent2": "eventID61",
+    "selectText3": "포기한다. ",
+    "triggerEvent3": "eventID49",
+    "eventCondition_type3": "getItem",
+    "eventCondition_value3": 201036,
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 45,
+    "selectText1": "아무것도 없다",
+    "triggerEvent1": "eventID58",
+    "selectText2": "가지고 있던 나이프를 휘두른다.",
+    "triggerEvent2": "eventID60",
+    "eventCondition_type2": "getItem",
+    "eventCondition_value2": 201035,
+    "selectText3": "가지고 있던 끈을 손에 쥔다.",
+    "triggerEvent3": "eventID62",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 46,
+    "selectText1": "맞서 싸운다",
+    "triggerEvent1": "eventID56",
+    "selectText2": "몸을 웅크린다.",
+    "triggerEvent2": "eventID61",
+    "selectText3": "포기한다. ",
+    "triggerEvent3": "eventID49",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 47,
+    "selectText1": "발버둥 친다.",
+    "triggerEvent1": "eventID59",
+    "selectText2": "포기한다.",
+    "triggerEvent2": "eventID49",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 48,
+    "selectText1": "원스토어에서 데모판을 다운받아주세요",
+    "triggerEvent1": "eventID0",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 49,
+    "selectText1": "-",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  }
+]
