@@ -50,6 +50,7 @@ public class RandomEvent01
     public string printEventImageResult;
     public string printResult;
     public int mainDialogJumpTo;
+    public int eventEndChecker;
 }
 
 [System.Serializable]

@@ -77,9 +77,12 @@ public class ShowTextJson : MonoBehaviour
     [Header("胶农费 力绢")]
     [SerializeField] private ScrollViewController scrollviewController;
 
+    [Header("柳青档 眉农")]
+    [SerializeField] private MapClearPercent mapClearPercent;
+    public int currentMapPercent = 0;
+
     private void Awake()
     {
-
         objEventImage.GetComponent<Image>();
         animEventImage.GetComponent<Animator>();
 
@@ -147,6 +150,7 @@ public class ShowTextJson : MonoBehaviour
 
         isTyping = false;
         currentDialogIndex++;
+        //currentMapPercent = currentMapPercent + randomEvent01.randomEvent01[currentDialogIndex].eventEndChecker;
 
         typingSpeed = 0.01f;
     }

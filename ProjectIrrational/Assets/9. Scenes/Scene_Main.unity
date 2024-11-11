@@ -14241,6 +14241,8 @@ MonoBehaviour:
   itemUIParent: {fileID: 505226427}
   itemObject: {fileID: 4458152381178308769, guid: ab3ea7834cdb41e46a701adb5ba1265e, type: 3}
   scrollviewController: {fileID: 1925593277}
+  mapClearPercent: {fileID: 0}
+  currentMapPercent: 0
 --- !u!114 &1293971640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14647,6 +14649,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1321889218}
   - component: {fileID: 1321889217}
+  - component: {fileID: 1321889219}
   m_Layer: 0
   m_Name: MapSwitcher
   m_TagString: Untagged
@@ -14682,6 +14685,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1321889219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321889216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d01ac2124b6f39848959ae449fd0faa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showTextMapPercent: {fileID: 1293971639}
+  currQuerulforestPercentCount: 0
+  querulForestPercent: 0
 --- !u!1 &1324000081
 GameObject:
   m_ObjectHideFlags: 0
