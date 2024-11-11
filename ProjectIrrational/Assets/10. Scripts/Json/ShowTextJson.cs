@@ -150,7 +150,7 @@ public class ShowTextJson : MonoBehaviour
 
         isTyping = false;
         currentDialogIndex++;
-        //currentMapPercent = currentMapPercent + randomEvent01.randomEvent01[currentDialogIndex].eventEndChecker;
+        currentMapPercent = currentMapPercent + randomEvent01.randomEvent01[currentDialogIndex].eventEndChecker;
 
         typingSpeed = 0.01f;
     }
