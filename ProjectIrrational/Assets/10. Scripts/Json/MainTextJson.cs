@@ -19,6 +19,7 @@ public class DialogSection01
     public int getItemCode;
     public int fontValue;
     public int selectEventJumpTo;
+    public int dialogJumpTo;
 }
 
 [System.Serializable]

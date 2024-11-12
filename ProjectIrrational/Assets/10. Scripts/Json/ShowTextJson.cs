@@ -150,7 +150,7 @@ public class ShowTextJson : MonoBehaviour
 
         isTyping = false;
         currentDialogIndex++;
-        currentMapPercent = currentMapPercent + randomEvent01.randomEvent01[currentDialogIndex].eventEndChecker;
+        currentMapPercent = currentMapPercent + randomEvent01.randomEvent01[eventID].eventEndChecker;
 
         typingSpeed = 0.01f;
     }
@@ -218,6 +218,9 @@ public class ShowTextJson : MonoBehaviour
         {
             selectJumpToValue = dialogList01.dialogSection01[currentDialogIndex].selectEventJumpTo;
             eventNumber = selectText01.selection01[selectJumpToValue].selectEventNumber;
+
+            //1번 5번 합친 기능(본문 이동 기능)
+            currentDialogIndex = dialogList01.dialogSection01[currentDialogIndex].dialogJumpTo;
 
             selectText1.text = selectText01.selection01[eventNumber].selectText1;
             selectText2.text = selectText01.selection01[eventNumber].selectText2;
@@ -542,9 +545,6 @@ public class ShowTextJson : MonoBehaviour
 
     public IEnumerator ReadEvent()
     {
-        Debug.Log($"CurrentEventPath: {currentEventPath}, eventPath: {eventPath}, EventID: {eventID}, " +
-            $"{randomEvent01.randomEvent01[eventID].printResult}, 다이얼로그 번호: {randomEvent01.randomEvent01[eventID].mainDialogJumpTo}");
-
         yield return new WaitForSeconds(typingSpeed);
 
         isTyping = false;
@@ -556,6 +556,9 @@ public class ShowTextJson : MonoBehaviour
             Debug.Log("되냐?");
             currentDialogIndex = randomEvent01.randomEvent01[eventID].mainDialogJumpTo;
         }
+
+        Debug.Log($"CurrentEventPath: {currentEventPath}, eventPath: {eventPath}, EventID: {eventID}, " +
+    $"{randomEvent01.randomEvent01[eventID].printResult}, 다이얼로그 번호: {randomEvent01.randomEvent01[eventID].mainDialogJumpTo}");
 
         typingSpeed = 0.01f;
     }
