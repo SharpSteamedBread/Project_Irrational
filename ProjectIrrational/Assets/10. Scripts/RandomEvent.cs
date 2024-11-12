@@ -72,7 +72,7 @@ public class RandomEvent : MonoBehaviour
     public int eventTest63 = 62;
     public int eventTest64 = 63;
     public int eventTest65 = 64;
-
+    public int eventTest66 = 65;
 
 
 

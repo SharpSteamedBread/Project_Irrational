@@ -219,15 +219,15 @@ public class ShowTextJson : MonoBehaviour
             selectJumpToValue = dialogList01.dialogSection01[currentDialogIndex].selectEventJumpTo;
             eventNumber = selectText01.selection01[selectJumpToValue].selectEventNumber;
 
-            objSelectText1.SetActive(true);
-            objSelectText2.SetActive(true);
-            objSelectText3.SetActive(true);
-            objSelectText4.SetActive(true);
-
             selectText1.text = selectText01.selection01[eventNumber].selectText1;
             selectText2.text = selectText01.selection01[eventNumber].selectText2;
             selectText3.text = selectText01.selection01[eventNumber].selectText3;
             //selectText4.text = selectText01.selection01[eventNumber].selectText4;
+
+            objSelectText1.SetActive(selectText1.text != "-");
+            objSelectText2.SetActive(selectText2.text != "-");
+            objSelectText3.SetActive(selectText3.text != "-");
+            objSelectText4.SetActive(selectText4.text != "-");
 
             if (!string.IsNullOrEmpty(selectText01.selection01[eventNumber].eventImage) && selectText01.selection01[eventNumber].eventImage != "null")
             {
@@ -515,6 +515,9 @@ public class ShowTextJson : MonoBehaviour
             case "eventID64":
                 eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest65;
                 break;
+            case "eventID65":
+                eventID = randomEncounterManager.GetComponent<RandomEvent>().eventTest66;
+                break;
         }
     }
 
@@ -528,8 +531,10 @@ public class ShowTextJson : MonoBehaviour
         isTyping = false;
         hasSelectedText = 0;
 
+        //mainDialogJumpTo 체크!!!!!!
         if (randomEvent01.randomEvent01[eventID].mainDialogJumpTo != 0)
         {
+            Debug.Log("되냐?");
             currentDialogIndex = randomEvent01.randomEvent01[eventID].mainDialogJumpTo;
         }
 
