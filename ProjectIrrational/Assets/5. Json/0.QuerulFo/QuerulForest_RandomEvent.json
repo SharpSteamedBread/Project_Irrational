@@ -3,384 +3,448 @@
     "eventID": 0,
     "printEventImageResult": "null",
     "printResult": "#{10101_A_1} 작은 침묵에 어두운 문틈 사이로 조그맣게 들어오는 어설픈 빛.",
-    "mainDialogJumpTo": 0
+    "mainDialogJumpTo": 0,
+    "eventEndChecker": 0
   },
   {
     "eventID": 1,
     "printEventImageResult": "null",
     "printResult": "#{10101_A_2} 나는 고개를 들어서 주위를 살폈다. ",
-    "mainDialogJumpTo": 2
+    "mainDialogJumpTo": 2,
+    "eventEndChecker": 0
   },
   {
     "eventID": 2,
     "printEventImageResult": "null",
     "printResult": "#{10101_A_3} 끼익--",
-    "mainDialogJumpTo": 5
+    "mainDialogJumpTo": 5,
+    "eventEndChecker": 0
   },
   {
     "eventID": 3,
     "printEventImageResult": "null",
     "printResult": "#{10101_A_4} 기억이 나지 않았다.",
-    "mainDialogJumpTo": 9
+    "mainDialogJumpTo": 9,
+    "eventEndChecker": 0
   },
   {
     "eventID": 4,
     "printEventImageResult": "null",
     "printResult": "#{10101_B_1} 그래그래 걱정하지 말게. ",
-    "mainDialogJumpTo": 17
+    "mainDialogJumpTo": 17,
+    "eventEndChecker": 0
   },
   {
     "eventID": 5,
     "printEventImageResult": "null",
     "printResult": "#{10101_C_1} 그냥 잠깐의 현기증 같군 그래.",
-    "mainDialogJumpTo": 20
+    "mainDialogJumpTo": 20,
+    "eventEndChecker": 0
   },
   {
     "eventID": 6,
     "printEventImageResult": "null",
     "printResult": "#{10101_C_2} 나는 조심스럽게 이곳이 어딘지 물어보았다.",
-    "mainDialogJumpTo": 23
+    "mainDialogJumpTo": 23,
+    "eventEndChecker": 0
   },
   {
     "eventID": 7,
     "printEventImageResult": "null",
     "printResult": "#{10101_B_2} 호의를 거절하자",
-    "mainDialogJumpTo": 32
+    "mainDialogJumpTo": 32,
+    "eventEndChecker": 0
   },
   {
     "eventID": 8,
     "printEventImageResult": "null",
     "printResult": "#{10101_C_3}  얼굴을 찌푸린 남자가",
-    "mainDialogJumpTo": 37
+    "mainDialogJumpTo": 37,
+    "eventEndChecker": 0
   },
   {
     "eventID": 9,
     "printEventImageResult": "null",
     "printResult": "# {10101_D_1} 나는 달리기를 서서히 멈추며 ",
-    "mainDialogJumpTo": 49
+    "mainDialogJumpTo": 49,
+    "eventEndChecker": 0
   },
   {
     "eventID": 10,
     "printEventImageResult": "null",
     "printResult": "#{10101_E_1} 떨리는 손으로 나는",
-    "mainDialogJumpTo": 54
+    "mainDialogJumpTo": 54,
+    "eventEndChecker": 0
   },
   {
     "eventID": 11,
     "printEventImageResult": "null",
     "printResult": "#{10101_C_4} 우리의 태도가 바뀌니 겁이 들었나?",
-    "mainDialogJumpTo": 57
+    "mainDialogJumpTo": 57,
+    "eventEndChecker": 0
   },
   {
     "eventID": 12,
     "printEventImageResult": "null",
     "printResult": "#{10101_D_2}나는 주머니 속에 있는",
-    "mainDialogJumpTo": 65
+    "mainDialogJumpTo": 65,
+    "eventEndChecker": 0
   },
   {
     "eventID": 13,
     "printEventImageResult": "null",
     "printResult": "#{10101_E_2} 나는 그 탐욕의 눈에 ",
-    "mainDialogJumpTo": 70
+    "mainDialogJumpTo": 70,
+    "eventEndChecker": 0
   },
   {
     "eventID": 14,
     "printEventImageResult": "null",
     "printResult": "#{10101_F_1} “음…. 아니네.",
-    "mainDialogJumpTo": 75
+    "mainDialogJumpTo": 75,
+    "eventEndChecker": 0
   },
   {
     "eventID": 15,
     "printEventImageResult": "null",
     "printResult": "#{10101_C_5} 정체를 모르는 무리의 기세에서 ",
-    "mainDialogJumpTo": 81
+    "mainDialogJumpTo": 81,
+    "eventEndChecker": 0
   },
   {
     "eventID": 16,
     "printEventImageResult": "null",
     "printResult": "#{10101_D_3} 나는 태도를 굽히지 않았다.",
-    "mainDialogJumpTo": 93
+    "mainDialogJumpTo": 93,
+    "eventEndChecker": 1
   },
   {
     "eventID": 17,
     "printEventImageResult": "null",
     "printResult": "#{10102_A_0}나는 그다지 험난하지는",
-    "mainDialogJumpTo": 113
+    "mainDialogJumpTo": 113,
+    "eventEndChecker": 0
   },
   {
     "eventID": 18,
     "printEventImageResult": "null",
     "printResult": "#{10102_A_1}똑똑-",
-    "mainDialogJumpTo": 117
+    "mainDialogJumpTo": 117,
+    "eventEndChecker": 0
   },
   {
     "eventID": 19,
     "printEventImageResult": "null",
     "printResult": "#{10102_B_1} 할머니 안녕하세요?",
-    "mainDialogJumpTo": 122
+    "mainDialogJumpTo": 122,
+    "eventEndChecker": 0
   },
   {
     "eventID": 20,
     "printEventImageResult": "null",
     "printResult": "#{10102_C_1} 할머니는 누구신가요?",
-    "mainDialogJumpTo": 125
+    "mainDialogJumpTo": 125,
+    "eventEndChecker": 0
   },
   {
     "eventID": 21,
     "printEventImageResult": "null",
     "printResult": "#{10102_D_1} 나라…요?",
-    "mainDialogJumpTo": 129
+    "mainDialogJumpTo": 129,
+    "eventEndChecker": 0
   },
   {
     "eventID": 22,
     "printEventImageResult": "null",
     "printResult": "#{10102_B_2}, 할머니가 말 걸기를 기다린다.",
-    "mainDialogJumpTo": 135
+    "mainDialogJumpTo": 135,
+    "eventEndChecker": 0
   },
   {
     "eventID": 23,
     "printEventImageResult": "null",
     "printResult": "#{10102_C_2} 다른 사람들은 이렇지 않던가요?",
-    "mainDialogJumpTo": 139
+    "mainDialogJumpTo": 139,
+    "eventEndChecker": 0
   },
   {
     "eventID": 24,
     "printEventImageResult": "null",
     "printResult": "#{10102_B_3} 할머니…무당이시군요?",
-    "mainDialogJumpTo": 144
+    "mainDialogJumpTo": 144,
+    "eventEndChecker": 0
   },
   {
     "eventID": 25,
     "printEventImageResult": "null",
     "printResult": "#{10102_C_3}  그게 무슨 뜻이죠?",
-    "mainDialogJumpTo": 149
+    "mainDialogJumpTo": 149,
+    "eventEndChecker": 0
   },
   {
     "eventID": 26,
     "printEventImageResult": "null",
     "printResult": "#{10102_E_1} 이곳은 어디죠? ",
-    "mainDialogJumpTo": 155
+    "mainDialogJumpTo": 155,
+    "eventEndChecker": 0
   },
   {
     "eventID": 27,
     "printEventImageResult": "null",
     "printResult": "#{10102_F_1} 저는 그런 숲을 들어본 적이 없는데요…?",
-    "mainDialogJumpTo": 157
+    "mainDialogJumpTo": 157,
+    "eventEndChecker": 0
   },
   {
     "eventID": 28,
     "printEventImageResult": "null",
     "printResult": "#{10102_G_1}이럴 수가…",
-    "mainDialogJumpTo": 162
+    "mainDialogJumpTo": 162,
+    "eventEndChecker": 0
   },
   {
     "eventID": 29,
     "printEventImageResult": "null",
     "printResult": "#{10102_E_2} 원래 세상으로 돌아가려면 어떻게 해야 하나요?",
-    "mainDialogJumpTo": 170
+    "mainDialogJumpTo": 170,
+    "eventEndChecker": 0
   },
   {
     "eventID": 30,
     "printEventImageResult": "null",
     "printResult": "#{10102_F_2} 그게 무슨 소리세요?",
-    "mainDialogJumpTo": 177
+    "mainDialogJumpTo": 177,
+    "eventEndChecker": 0
   },
   {
     "eventID": 31,
     "printEventImageResult": "null",
     "printResult": "#{10102_G_2} 그렇다면 저는 어떻게 해야하죠?",
-    "mainDialogJumpTo": 181
+    "mainDialogJumpTo": 181,
+    "eventEndChecker": 0
   },
   {
     "eventID": 32,
     "printEventImageResult": "null",
     "printResult": "#{10102_E_3} 정말…1000년을 사신 건가요?",
-    "mainDialogJumpTo": 185
+    "mainDialogJumpTo": 185,
+    "eventEndChecker": 0
   },
   {
     "eventID": 33,
     "printEventImageResult": "null",
     "printResult": "#{10102_F_3}...그렇군요.",
-    "mainDialogJumpTo": 192
+    "mainDialogJumpTo": 192,
+    "eventEndChecker": 0
   },
   {
     "eventID": 34,
     "printEventImageResult": "null",
     "printResult": "#{10102_G_3} 숲을 떠나며",
-    "mainDialogJumpTo": 196
+    "mainDialogJumpTo": 196,
+    "eventEndChecker": 0
   },
   {
     "eventID": 35,
     "printEventImageResult": "null",
     "printResult": "#{10102_H_1}무슨 일이세요?",
-    "mainDialogJumpTo": 203
+    "mainDialogJumpTo": 203,
+    "eventEndChecker": 1
   },
   {
     "eventID": 36,
     "printEventImageResult": "null",
     "printResult": "#{20103_A_0} 퀘룰 숲의 사건",
-    "mainDialogJumpTo": 211
+    "mainDialogJumpTo": 211,
+    "eventEndChecker": 0
   },
   {
     "eventID": 37,
     "printEventImageResult": "null",
     "printResult": "#{20103_A_1} 일단 상황을 알아야 했다. ",
-    "mainDialogJumpTo": 219
+    "mainDialogJumpTo": 219,
+    "eventEndChecker": 0
   },
   {
     "eventID": 38,
     "printEventImageResult": "null",
     "printResult": "#{20103_B_1} 나는 간신히 맞닿은 ",
-    "mainDialogJumpTo": 226
+    "mainDialogJumpTo": 226,
+    "eventEndChecker": 0
   },
   {
     "eventID": 39,
     "printEventImageResult": "null",
     "printResult": "#{20103_B_2}주변의 상황에 집중한다 ",
-    "mainDialogJumpTo": 235
+    "mainDialogJumpTo": 235,
+    "eventEndChecker": 0
   },
   {
     "eventID": 40,
     "printEventImageResult": "null",
     "printResult": "#{20103_C_1}바스락.",
-    "mainDialogJumpTo": 241
+    "mainDialogJumpTo": 241,
+    "eventEndChecker": 0
   },
   {
     "eventID": 41,
     "printEventImageResult": "null",
     "printResult": "#{20103_C_2}긴장해서 그런 것인지",
-    "mainDialogJumpTo": 255
+    "mainDialogJumpTo": 255,
+    "eventEndChecker": 0
   },
   {
     "eventID": 42,
     "printEventImageResult": "null",
     "printResult": "#{20103_A_2}나는 내 감각을 믿어보기로 했다.",
-    "mainDialogJumpTo": 257
+    "mainDialogJumpTo": 257,
+    "eventEndChecker": 0
   },
   {
     "eventID": 43,
     "printEventImageResult": "null",
     "printResult": "#{20103_B_3}그 작은 소리에 나는 식은땀을 흘렸다. ",
-    "mainDialogJumpTo": 265
+    "mainDialogJumpTo": 265,
+    "eventEndChecker": 0
   },
   {
     "eventID": 44,
     "printEventImageResult": "null",
     "printResult": "#{20103_C_3}이 상태로는 더",
-    "mainDialogJumpTo": 274
+    "mainDialogJumpTo": 274,
+    "eventEndChecker": 0
   },
   {
     "eventID": 45,
     "printEventImageResult": "null",
     "printResult": "#{20103_C_4}나는 애써 무시하고",
-    "mainDialogJumpTo": 278
+    "mainDialogJumpTo": 278,
+    "eventEndChecker": 0
   },
   {
     "eventID": 46,
     "printEventImageResult": "null",
     "printResult": "#{20103_D_1}나는 가지고 있던",
-    "mainDialogJumpTo": 287
+    "mainDialogJumpTo": 287,
+    "eventEndChecker": 0
   },
   {
     "eventID": 47,
     "printEventImageResult": "null",
     "printResult": "#{20103_D_2}나는 얼추 기억으로",
-    "mainDialogJumpTo": 294
+    "mainDialogJumpTo": 294,
+    "eventEndChecker": 0
   },
   {
     "eventID": 48,
     "printEventImageResult": "null",
     "printResult": "#{20103_D_3}아무것도 보이지 않아서일까",
-    "mainDialogJumpTo": 300
+    "mainDialogJumpTo": 300,
+    "eventEndChecker": 0
   },
   {
     "eventID": 49,
     "printEventImageResult": "null",
     "printResult": "#{20103_D_4}강하게 느껴지는 통증이",
-    "mainDialogJumpTo": 309
+    "mainDialogJumpTo": 309,
+    "eventEndChecker": 0
   },
   {
     "eventID": 50,
     "printEventImageResult": "null",
     "printResult": "#{20103_A_3}갑자기 찾아온 어둠에",
-    "mainDialogJumpTo": 321
+    "mainDialogJumpTo": 321,
+    "eventEndChecker": 0
   },
   {
     "eventID": 51,
     "printEventImageResult": "null",
     "printResult": "#{20103_B_4}하지만 라이터로 이렇게",
-    "mainDialogJumpTo": 325
+    "mainDialogJumpTo": 325,
+    "eventEndChecker": 0
   },
   {
     "eventID": 52,
     "printEventImageResult": "null",
     "printResult": "#{20103_B_5}시야가 있다는 자신감이",
-    "mainDialogJumpTo": 331
+    "mainDialogJumpTo": 331,
+    "eventEndChecker": 0
   },
   {
     "eventID": 53,
     "printEventImageResult": "null",
     "printResult": "#{20103_B_6}자세히 보니 라이터에",
-    "mainDialogJumpTo": 337
+    "mainDialogJumpTo": 337,
+    "eventEndChecker": 0
   },
   {
     "eventID": 54,
     "printEventImageResult": "null",
     "printResult": "#{20103_A_4}갑작스런 어둠에 다가온",
-    "mainDialogJumpTo": 355
+    "mainDialogJumpTo": 355,
+    "eventEndChecker": 0
   },
   {
     "eventID": 55,
     "printEventImageResult": "null",
     "printResult": "#{20103_B_7}나는 즉시 고개를 돌려",
-    "mainDialogJumpTo": 366
+    "mainDialogJumpTo": 366,
+    "eventEndChecker": 0
   },
   {
     "eventID": 56,
     "printEventImageResult": "null",
     "printResult": "#{20103_B_8}역시 글러 먹었다고",
-    "mainDialogJumpTo": 373
+    "mainDialogJumpTo": 373,
+    "eventEndChecker": 0
   },
   {
     "eventID": 57,
     "printEventImageResult": "null",
     "printResult": "#{20103_B_9}당황도 잠시",
-    "mainDialogJumpTo": 375
+    "mainDialogJumpTo": 375,
+    "eventEndChecker": 0
   },
   {
     "eventID": 58,
     "printEventImageResult": "null",
     "printResult": "#{20103_C_5}휘두를 것은 개뿔",
-    "mainDialogJumpTo": 380
+    "mainDialogJumpTo": 380,
+    "eventEndChecker": 0
   },
   {
     "eventID": 59,
     "printEventImageResult": "null",
     "printResult": "#{20103_D_5}온몸을 뒤덮는 고통에 ",
-    "mainDialogJumpTo": 384
+    "mainDialogJumpTo": 384,
+    "eventEndChecker": 0
   },
   {
     "eventID": 60,
     "printEventImageResult": "null",
     "printResult": "#{20103_C_6}나는 소지하고 있던",
-    "mainDialogJumpTo": 398
+    "mainDialogJumpTo": 398,
+    "eventEndChecker": 0
   },
   {
     "eventID": 61,
     "printEventImageResult": "null",
     "printResult": "#{20103_B_10}한껏 몸을 최대한",
-    "mainDialogJumpTo": 410
+    "mainDialogJumpTo": 410,
+    "eventEndChecker": 0
   },
   {
     "eventID": 62,
     "printEventImageResult": "null",
     "printResult": "#{20103_C_7}시간이 얼마나 지났을까",
-    "mainDialogJumpTo": 420
+    "mainDialogJumpTo": 420,
+    "eventEndChecker": 1
   },
   {
     "eventID": 63,
     "printEventImageResult": "null",
-    "printResult": "#데모 버전을 플레이 해주셔서 감사합니다! 본편을 기대해 주세요!",
-    "mainDialogJumpTo": 425
+    "printResult": "데모 버전을 플레이 해주셔서 감사합니다! 본편을 기대해 주세요!",
+    "mainDialogJumpTo": 425,
+    "eventEndChecker": 0
   }
 ]

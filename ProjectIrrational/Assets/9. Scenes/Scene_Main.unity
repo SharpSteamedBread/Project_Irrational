@@ -5053,7 +5053,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8967006327453313395, guid: 91f220f2b7d47114fa9af9b31ea538b1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 750
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8967006327453313395, guid: 91f220f2b7d47114fa9af9b31ea538b1, type: 3}
       propertyPath: m_SizeDelta.y
@@ -5089,7 +5089,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8967006327453313395, guid: 91f220f2b7d47114fa9af9b31ea538b1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 375
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8967006327453313395, guid: 91f220f2b7d47114fa9af9b31ea538b1, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -8330,6 +8330,7 @@ MonoBehaviour:
   eventTest63: 62
   eventTest64: 63
   eventTest65: 64
+  eventTest66: 65
   eventBuyFood: 020000000300000005000000
   eventEarphone: 070000000800000009000000
 --- !u!4 &799388882
@@ -17761,7 +17762,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1661933026}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1293971639}
+        m_TargetAssemblyTypeName: ShowTextJson, Assembly-CSharp
+        m_MethodName: SelectAndJump4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1661933026
 MonoBehaviour:
   m_ObjectHideFlags: 0

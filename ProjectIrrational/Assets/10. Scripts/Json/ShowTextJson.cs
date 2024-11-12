@@ -222,7 +222,7 @@ public class ShowTextJson : MonoBehaviour
             selectText1.text = selectText01.selection01[eventNumber].selectText1;
             selectText2.text = selectText01.selection01[eventNumber].selectText2;
             selectText3.text = selectText01.selection01[eventNumber].selectText3;
-            //selectText4.text = selectText01.selection01[eventNumber].selectText4;
+            selectText4.text = selectText01.selection01[eventNumber].selectText4;
 
             objSelectText1.SetActive(selectText1.text != "-");
             objSelectText2.SetActive(selectText2.text != "-");
@@ -283,6 +283,25 @@ public class ShowTextJson : MonoBehaviour
         if (selectText01.selection01[eventNumber].triggerEvent3 != "-")
         {
             eventPath = selectText01.selection01[eventNumber].triggerEvent3;
+        }
+
+        ChooseRandomNumber();
+        StartCoroutine(ReadEvent());
+
+        objSelectText1.SetActive(false);
+        objSelectText2.SetActive(false);
+        objSelectText3.SetActive(false);
+        objSelectText4.SetActive(false);
+
+        currentEventPath++;
+    }
+
+    public void SelectAndJump4()
+    {
+        hasSelectedText = 4;
+        if (selectText01.selection01[eventNumber].triggerEvent4 != "-")
+        {
+            eventPath = selectText01.selection01[eventNumber].triggerEvent4;
         }
 
         ChooseRandomNumber();

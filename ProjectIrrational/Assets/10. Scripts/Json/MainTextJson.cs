@@ -41,6 +41,12 @@ public class Selection01
     public string triggerEvent3;
     public string eventCondition_type3;
     public int eventCondition_value3;
+
+    public string selectText4;
+    public string triggerEvent4;
+    public string eventCondition_type4;
+    public int eventCondition_value4;
+
 }
 
 [System.Serializable]
