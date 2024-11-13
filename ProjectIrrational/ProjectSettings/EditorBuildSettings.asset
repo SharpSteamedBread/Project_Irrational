@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/9. Scenes/Scene_Zehupe.unity
     guid: 5b040be755260e9458a1d0bbb986d2c1
+  - enabled: 1
+    path: Assets/9. Scenes/Scene Reaserch area1.unity
+    guid: 883177d088380fa42a5f4bd5447e50e0
   m_configObjects: {}

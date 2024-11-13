@@ -40,8 +40,19 @@ public class MapSwitcher : MonoBehaviour
         //InitValue();
         click = true;
         SceneManager.LoadScene("Scene_Zehupe");
+    }
 
+    public void GotoReasercharea1()
+    {
+        if (click == true)
+        {
+            return;
 
+        }
+
+        //InitValue();
+        click = true;
+        SceneManager.LoadScene("Scene Reaserch area1");
     }
 
     public void InitValue()
