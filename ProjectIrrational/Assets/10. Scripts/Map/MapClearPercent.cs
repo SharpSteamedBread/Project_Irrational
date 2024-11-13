@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI; // UI 요소를 사용하기 위한 네임스페이스 추가
 using TMPro; // TextMeshPro를 사용하기 위한 네임스페이스 추가
 
+
 public class MapClearPercent : MonoBehaviour
 {
     public static int querulforest100 = 7;
@@ -15,7 +16,8 @@ public class MapClearPercent : MonoBehaviour
     public float querulForestPercent;
 
     [SerializeField] private GameObject uiImageToDisable; // 비활성화할 UI 이미지
-    [SerializeField] private TMP_SubMeshUI progressText; // 진행률을 표시할 TMP_SubMeshUI
+    [SerializeField] private TMP_Text progressText; // 진행률을 표시할 TMP Text
+
 
     void Start()
     {
@@ -37,13 +39,8 @@ public class MapClearPercent : MonoBehaviour
             uiImageToDisable.SetActive(false);
         }
 
-        // 진행률 텍스트 업데이트
-        // TMP_SubMeshUI의 text 속성은 없으므로, TMP_Text로 변환하여 접근
-        /*
-        if (progressText is TMP_Text textComponent)
-        {
-            textComponent.text = $"진행률 : {querulForestPercent}%";
-        }
-        */
+        // TMP Text에 진행률 표시
+        progressText.text = $"진행률 : {querulForestPercent}%";
+
     }
 }

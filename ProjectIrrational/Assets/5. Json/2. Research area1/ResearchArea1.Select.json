@@ -1,0 +1,208 @@
+﻿[
+  {
+    "selectEventNumber": 0,
+    "eventImage": "null",
+    "selectText1": "뭐야, 누구세요",
+    "triggerEvent1": "eventID1",
+    "selectText2": "놀라서 반사적으로 상대의 뺨을 때린다.",
+    "triggerEvent2": "eventID24",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 1,
+    "eventImage": "null",
+    "selectText1": "어떤 연구죠?",
+    "triggerEvent1": "eventID2",
+    "selectText2": "뭘 주실 수 있는데요?",
+    "triggerEvent2": "eventID11",
+    "selectText3": "싫어요",
+    "triggerEvent3": "eventID17",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 2,
+    "eventImage": "null",
+    "selectText1": "도와준다고 한다.",
+    "triggerEvent1": "eventID3",
+    "selectText2": "호기심은 독이다. 거절한다.",
+    "triggerEvent2": "eventID7",
+    "selectText3": "그래서 대가는 무엇인지 물어본다.",
+    "triggerEvent3": "eventID11",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 3,
+    "eventImage": "null",
+    "selectText1": "…뭐? ",
+    "triggerEvent1": "eventID4",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 4,
+    "eventImage": "null",
+    "selectText1": "…일단 알았어 ",
+    "triggerEvent1": "eventID5",
+    "selectText2": "다시 생각해볼게. ",
+    "triggerEvent2": "eventID6",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 5,
+    "eventImage": "null",
+    "selectText1": "다음에 만나요!",
+    "triggerEvent1": "eventID0",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 6,
+    "eventImage": "null",
+    "selectText1": "‘알케의 연구실’로 이동",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 7,
+    "eventImage": "null",
+    "selectText1": "더 이상하다. 거절한다. ",
+    "triggerEvent1": "eventID8",
+    "selectText2": "오…흥미가 생겼다. 더 얘기 해보라고 한다. ",
+    "triggerEvent2": "eventID9",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 8,
+    "eventImage": "null",
+    "selectText1": "일단 알겠어요.",
+    "triggerEvent1": "eventID21",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 9,
+    "eventImage": "null",
+    "selectText1": "진작 그럴 것이지. 수락한다. ",
+    "triggerEvent1": "eventID12",
+    "selectText2": "거절한다. ",
+    "triggerEvent2": "eventID16",
+    "selectText3": "일단 뭘하면 되는지 물어본다. ",
+    "triggerEvent3": "eventID15",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 10,
+    "eventImage": "null",
+    "selectText1": "출발하시죠",
+    "triggerEvent1": "eventID13",
+    "selectText2": "돈을 받았으니 이제 모른척 한다.",
+    "triggerEvent2": "eventID14",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 11,
+    "eventImage": "null",
+    "selectText1": "다른 곳으로 간다.",
+    "triggerEvent1": "eventID15",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 12,
+    "eventImage": "null",
+    "selectText1": "알겠습니다.",
+    "triggerEvent1": "eventID3",
+    "selectText2": "그래도 싫어요.",
+    "triggerEvent2": "eventID18",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 13,
+    "eventImage": "null",
+    "selectText1": "그런게 중요한가요?",
+    "triggerEvent1": " eventID19",
+    "selectText2": "21세기인데요…",
+    "triggerEvent2": " eventID20",
+    "selectText3": "무시한다. ",
+    "triggerEvent3": "eventID23",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 14,
+    "eventImage": "null",
+    "selectText1": "저는 21세기에서 왔어요. ",
+    "triggerEvent1": "eventID20",
+    "selectText2": "아무튼 전 가볼게요. ",
+    "triggerEvent2": "eventID23",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 15,
+    "eventImage": "null",
+    "selectText1": "괜찮아요?",
+    "triggerEvent1": " eventID21",
+    "selectText2": "왜 우는 거지?",
+    "triggerEvent2": " eventID22",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 16,
+    "eventImage": "null",
+    "selectText1": "갑자기 튀어나와서 놀랐잖아요.",
+    "triggerEvent1": " eventID25",
+    "selectText2": "괜찮으세요? ",
+    "triggerEvent2": "eventID15",
+    "selectText3": "일단 도망친다. ",
+    "triggerEvent3": "eventID15",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 17,
+    "eventImage": "null",
+    "selectText1": "됐고, 무슨 일이에요?",
+    "triggerEvent1": " eventID26",
+    "selectText2": "빠르게 자리를 피한다.",
+    "triggerEvent2": "eventID15",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 18,
+    "eventImage": "null",
+    "selectText1": "어떤 연구죠?",
+    "triggerEvent1": " eventID2",
+    "selectText2": "뭘 주실 수 있는데요? ",
+    "triggerEvent2": "eventID11",
+    "selectText3": "싫어요. ",
+    "triggerEvent3": "eventID17",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 19,
+    "eventImage": "null",
+    "selectText1": "-",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  },
+  {
+    "selectEventNumber": 20,
+    "eventImage": "null",
+    "selectText1": "-",
+    "selectText2": "-",
+    "selectText3": "-",
+    "selectText4": "-"
+  }
+]
