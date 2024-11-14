@@ -220,7 +220,7 @@ public class ShowTextJson : MonoBehaviour
             eventNumber = selectText01.selection01[selectJumpToValue].selectEventNumber;
 
             //1번 5번 합친 기능(본문 이동 기능)
-            currentDialogIndex = dialogList01.dialogSection01[currentDialogIndex].dialogJumpTo;
+            //currentDialogIndex = dialogList01.dialogSection01[currentDialogIndex].dialogJumpTo;
 
             selectText1.text = selectText01.selection01[eventNumber].selectText1;
             selectText2.text = selectText01.selection01[eventNumber].selectText2;
